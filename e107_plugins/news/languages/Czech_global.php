@@ -4,10 +4,16 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/10/10 09:39:07
+|        Last Modified: 2026/09/15 11:11:56
 |
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: admin $
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_NEWS_NAME", "Novinky");
+
+
+return [
+    'LAN_PLUGIN_NEWS_NAME' => "Novinky",
+];

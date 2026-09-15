@@ -4,14 +4,17 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:57:41
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
-
-define("FOR_SCH_LAN_2", "Vyberte fórum");
-define("FOR_SCH_LAN_4", "Celý příspěvek");
-define("FOR_SCH_LAN_5", "Jako součást vlákna");
+return [
+// 'FOR_SCH_LAN_1' => "Forum",
+    'FOR_SCH_LAN_2' => "Vyberte fórum",
+// 'FOR_SCH_LAN_3' => "All Forums",
+    'FOR_SCH_LAN_4' => "Celý příspěvek",
+    'FOR_SCH_LAN_5' => "Jako součást vlákna",
+];

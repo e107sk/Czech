@@ -4,14 +4,19 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:50:31
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN__BLANK_NAME", "Prázdný modul");
-define("LAN_PLUGIN__BLANK_DIZ", "Prázdný doplněk, který vám pomůže s vývojem nového doplňku.");
-define("LAN_PLUGIN__BLANK_LINK", "Prázdný odkaz");
+// Always use the format LAN_PLUGIN_{FOLDER}_{TYPE} to prevent conflicts. In this case "_BLANK" is the folder. 
+// This should contain the LANs used in the plugin.xml file. 
+
+return [
+    'LAN_PLUGIN__BLANK_NAME' => "Prázdný modul",
+    'LAN_PLUGIN__BLANK_DIZ' => "Prázdný doplněk, který vám pomůže s vývojem nového doplňku.",
+    'LAN_PLUGIN__BLANK_LINK' => "Prázdný odkaz",
+];

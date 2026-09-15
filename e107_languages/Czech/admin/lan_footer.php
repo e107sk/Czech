@@ -4,31 +4,34 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:39:39
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("FOOTLAN_1", "Web");
-define("FOOTLAN_2", "Hlavní Admin");
-define("FOOTLAN_3", "Verze");
-define("FOOTLAN_4", "sestavení");
-define("FOOTLAN_5", "Vzhled administrace");
-define("FOOTLAN_6", "od");
-define("FOOTLAN_7", "Infoormace");
-define("FOOTLAN_8", "Datum instalace");
-define("FOOTLAN_9", "Server");
-define("FOOTLAN_10", "host");
-define("FOOTLAN_11", "PHP Verze");
-define("FOOTLAN_12", "MySQL");
-define("FOOTLAN_13", "Info webu");
-define("FOOTLAN_14", "Ukaž dokumentaci");
-define("FOOTLAN_15", "Dokumentace");
-define("FOOTLAN_16", "Databáze");
-define("FOOTLAN_17", "Znaková sada");
-define("FOOTLAN_18", "Téma webu");
-define("FOOTLAN_19", "Aktuální čas serveru");
-define("FOOTLAN_20", "Stupeň zabezpečení");
+
+return [
+    'FOOTLAN_1' => "Web",
+    'FOOTLAN_2' => "Hlavní Admin",
+    'FOOTLAN_3' => "Verze",
+    'FOOTLAN_4' => "sestavení",
+    'FOOTLAN_5' => "Vzhled administrace",
+    'FOOTLAN_6' => "od",
+    'FOOTLAN_7' => "Infoormace",
+    'FOOTLAN_8' => "Datum instalace",
+    'FOOTLAN_9' => "Server",
+    'FOOTLAN_10' => "host",
+    'FOOTLAN_11' => "PHP Verze",
+    'FOOTLAN_12' => "MySQL",
+    'FOOTLAN_13' => "Info webu",
+    'FOOTLAN_14' => "Ukaž dokumentaci",
+    'FOOTLAN_15' => "Dokumentace",
+    'FOOTLAN_16' => "Databáze",
+    'FOOTLAN_17' => "Znaková sada",
+    'FOOTLAN_18' => "Téma webu",
+    'FOOTLAN_19' => "Aktuální čas serveru",
+    'FOOTLAN_20' => "Stupeň zabezpečení",
+];

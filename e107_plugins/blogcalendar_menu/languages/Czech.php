@@ -4,18 +4,21 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:35:25
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("BLOGCAL_L1", "Novinky podle měsíce");
-define("BLOGCAL_L2", "Archiv");
-define("BLOGCAL_1", "Novinky");
-define("BLOGCAL_CONF1", "Měsíce/řada");
-define("BLOGCAL_CONF2", "Vnitřní okraj");
-define("BLOGCAL_CONF4", "Nastavení BlogCal Menu");
-define("BLOGCAL_ARCHIV1", "Vybrat archiv");
+
+return [
+    'BLOGCAL_L1' => "Novinky podle měsíce",
+    'BLOGCAL_L2' => "Archiv",
+    'BLOGCAL_1' => "Novinky",
+    'BLOGCAL_CONF1' => "Měsíce/řada",
+    'BLOGCAL_CONF2' => "Vnitřní okraj",
+    'BLOGCAL_CONF4' => "Nastavení BlogCal Menu",
+    'BLOGCAL_ARCHIV1' => "Vybrat archiv",
+];

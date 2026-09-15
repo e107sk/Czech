@@ -4,102 +4,107 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:31:39
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("RL_LAN_002", "Nepřetržitý protokol");
-define("RL_LAN_005", "Konfigurace / Zobrazení systémových záznamů");
-define("RL_LAN_008", "Nepřetržitý protokol je aktivní:");
-define("RL_LAN_009", "Nepřetržitá historie protokolu ve dnech");
-define("RL_LAN_012", "Filtrovat záznamy");
-define("RL_LAN_013", "Datum zahájení / čas");
-define("RL_LAN_014", "Datum ukončení / čas");
-define("RL_LAN_015", "Filtr ID uživatele");
-define("RL_LAN_016", "Prazdný pro žádný, nula pro hosta");
-define("RL_LAN_017", "Žádné záznamy protokolu, nebo žádná shoda pro výběr");
-define("RL_LAN_018", "Obnovit protokol");
-define("RL_LAN_019", "rr-mm-dd hh:mm:ss");
-define("RL_LAN_020", "IP");
-define("RL_LAN_023", "Typ události");
-define("RL_LAN_024", "Od");
-define("RL_LAN_025", "Název události");
-define("RL_LAN_026", "Třída, pro kterou byly zaznamenány protokoly");
-define("RL_LAN_028", "Aktualizovat filtr");
-define("RL_LAN_029", "Filtr typu události");
-define("RL_LAN_030", "Administrátorské");
-define("RL_LAN_031", "Akce podle protokolu");
-define("RL_LAN_032", "Pri");
-define("RL_LAN_033", "Další informace");
-define("RL_LAN_044", "Počet zobrazených událostí na jednu stránku.");
-define("RL_LAN_045", "Odstranit administrátorské záznamy starší než");
-define("RL_LAN_046", "dnů");
-define("RL_LAN_047", "Potvrdit odstranění událostí admin. záznamů starší než");
-define("RL_LAN_049", "Odstranění starších záznamů");
-define("RL_LAN_050", "Chyba parametrů - nic není smazáno");
-define("RL_LAN_052", "Administrátorské záznamy");
-define("RL_LAN_053", "Kontrolní uživatelské záznamy");
-define("RL_LAN_054", "Nic nesmazáno, nebo chyba databáze");
-define("RL_LAN_057", "- události starší než [x] ([y] záznamú) smazáno");
-define("RL_LAN_058", "Přednostní filtr:");
-define("RL_LAN_059", "Volající filtr:");
-define("RL_LAN_060", "Filtr IP adres:");
-define("RL_LAN_061", "Hvezdička (*) na konci je přijatelná");
-define("RL_LAN_062", "Uživatelské");
-define("RL_LAN_064", "Platí pro všechny záznamy");
-define("RL_LAN_065", "Potvrďte odstranění záznamů v protokolu uživatelů starších než");
-define("RL_LAN_066", "Odstranit záznamy v protokolu uživatelů starších než");
-define("RL_LAN_067", "Historie stažení");
-define("RL_LAN_068", "D/L ID");
-define("RL_LAN_069", "Název souboru");
-define("RL_LAN_071", "Registrace uživatele (ignoruje nastavení výše)");
-define("RL_LAN_072", "Potvrzení ověřovacího emailu (ignoruje nastavení výše)");
-define("RL_LAN_073", "Přihlášení / Odhlášení");
-define("RL_LAN_075", "Změna uživatelského jména");
-define("RL_LAN_076", "Změna hesla");
-define("RL_LAN_077", "Změna emailové adresy");
-define("RL_LAN_078", "Obnovení hesla");
-define("RL_LAN_079", "Změna jiných uživatelských nastavení");
-define("RL_LAN_080", "Rychlé vložení uživatele správcem");
-define("RL_LAN_081", "Odražený emaily");
-define("RL_LAN_082", "Blokování uživatele");
-define("RL_LAN_083", "Odražený emaily resetovány");
-define("RL_LAN_084", "Dočasné účty");
-define("RL_LAN_087", "Detaily");
-define("RL_LAN_090", "Soubor ke stažení ID");
-define("RL_LAN_091", "Detailní časování");
-define("RL_LAN_092", "Časové období");
-define("RL_LAN_093", "(minuty)");
-define("RL_LAN_094", "Detailní analýza");
-define("RL_LAN_096", "Diff (s)");
-define("RL_LAN_100", "CID");
-define("RL_LAN_101", "PID");
-define("RL_LAN_103", "Předmět");
-define("RL_LAN_104", "UID");
-define("RL_LAN_106", "Typ");
-define("RL_LAN_107", "Komentář");
-define("RL_LAN_108", "BK");
-define("RL_LAN_109", "LK");
-define("RL_LAN_110", "Del");
-define("RL_LAN_111", "Smazat označené položky");
-define("RL_LAN_112", "Smazat --NUMBER-- kometářů");
-define("RL_LAN_113", "Chyba komentáře nesmazány!");
-define("RL_LAN_114", "Smazat filtr");
-define("RL_LAN_115", "Administrace uživatelů");
-define("RL_LAN_116", "Umístění");
-define("RL_LAN_117", "PgCnt");
-define("RL_LAN_118", "Vlajka");
-define("RL_LAN_120", "Uživatelů online");
-define("RL_LAN_122", "Nastavení systémových záznamů");
-define("RL_LAN_123", "Třída uživatelského auditu");
-define("RL_LAN_124", "Akce auditního záznamu uživatele");
-define("RL_LAN_125", "Akce uživatelského auditu");
-define("RL_LAN_126", "Celkem [x] záznamů splnující podmínku vyhledávání");
-define("RL_LAN_132", "Informativní");
-define("RL_LAN_133", "Oznámení");
-define("RL_LAN_134", "Varování");
-define("RL_LAN_135", "Kritické");
+//define("RL_LAN_001", "System Logs");
+
+return [
+    'RL_LAN_002' => "Nepřetržitý protokol",
+    'RL_LAN_005' => "Konfigurace / Zobrazení systémových záznamů",
+    'RL_LAN_008' => "Nepřetržitý protokol je aktivní:",
+    'RL_LAN_009' => "Nepřetržitá historie protokolu ve dnech",
+    'RL_LAN_012' => "Filtrovat záznamy",
+    'RL_LAN_013' => "Datum zahájení / čas",
+    'RL_LAN_014' => "Datum ukončení / čas",
+    'RL_LAN_015' => "Filtr ID uživatele",
+    'RL_LAN_016' => "Prazdný pro žádný, nula pro hosta",
+    'RL_LAN_017' => "Žádné záznamy protokolu, nebo žádná shoda pro výběr",
+    'RL_LAN_018' => "Obnovit protokol",
+    'RL_LAN_019' => "rr-mm-dd hh:mm:ss",
+    'RL_LAN_020' => "IP",
+    'RL_LAN_023' => "Typ události",
+    'RL_LAN_024' => "Od",
+    'RL_LAN_025' => "Název události",
+    'RL_LAN_026' => "Třída, pro kterou byly zaznamenány protokoly",
+    'RL_LAN_028' => "Aktualizovat filtr",
+    'RL_LAN_029' => "Filtr typu události",
+    'RL_LAN_030' => "Administrátorské",
+    'RL_LAN_031' => "Akce podle protokolu",
+    'RL_LAN_032' => "Pri",
+    'RL_LAN_033' => "Další informace",
+    'RL_LAN_044' => "Počet zobrazených událostí na jednu stránku.",
+    'RL_LAN_045' => "Odstranit administrátorské záznamy starší než",
+    'RL_LAN_046' => "dnů",
+    'RL_LAN_047' => "Potvrdit odstranění událostí admin. záznamů starší než",
+    'RL_LAN_049' => "Odstranění starších záznamů",
+    'RL_LAN_050' => "Chyba parametrů - nic není smazáno",
+    'RL_LAN_052' => "Administrátorské záznamy",
+    'RL_LAN_053' => "Kontrolní uživatelské záznamy",
+    'RL_LAN_054' => "Nic nesmazáno, nebo chyba databáze",
+    'RL_LAN_057' => "- události starší než [x] ([y] záznamú) smazáno",
+    'RL_LAN_058' => "Přednostní filtr:",
+    'RL_LAN_059' => "Volající filtr:",
+    'RL_LAN_060' => "Filtr IP adres:",
+    'RL_LAN_061' => "Hvezdička (*) na konci je přijatelná",
+    'RL_LAN_062' => "Uživatelské",
+    'RL_LAN_064' => "Platí pro všechny záznamy",
+    'RL_LAN_065' => "Potvrďte odstranění záznamů v protokolu uživatelů starších než",
+    'RL_LAN_066' => "Odstranit záznamy v protokolu uživatelů starších než",
+    'RL_LAN_067' => "Historie stažení",
+    'RL_LAN_068' => "D/L ID",
+    'RL_LAN_069' => "Název souboru",
+    'RL_LAN_071' => "Registrace uživatele (ignoruje nastavení výše)",
+    'RL_LAN_072' => "Potvrzení ověřovacího emailu (ignoruje nastavení výše)",
+    'RL_LAN_073' => "Přihlášení / Odhlášení",
+    'RL_LAN_075' => "Změna uživatelského jména",
+    'RL_LAN_076' => "Změna hesla",
+    'RL_LAN_077' => "Změna emailové adresy",
+    'RL_LAN_078' => "Obnovení hesla",
+    'RL_LAN_079' => "Změna jiných uživatelských nastavení",
+    'RL_LAN_080' => "Rychlé vložení uživatele správcem",
+    'RL_LAN_081' => "Odražený emaily",
+    'RL_LAN_082' => "Blokování uživatele",
+    'RL_LAN_083' => "Odražený emaily resetovány",
+    'RL_LAN_084' => "Dočasné účty",
+    'RL_LAN_087' => "Detaily",
+    'RL_LAN_090' => "Soubor ke stažení ID",
+    'RL_LAN_091' => "Detailní časování",
+    'RL_LAN_092' => "Časové období",
+    'RL_LAN_093' => "(minuty)",
+    'RL_LAN_094' => "Detailní analýza",
+    'RL_LAN_096' => "Diff (s)",
+    'RL_LAN_100' => "CID",
+    'RL_LAN_101' => "PID",
+    'RL_LAN_103' => "Předmět",
+    'RL_LAN_104' => "UID",
+    'RL_LAN_106' => "Typ",
+    'RL_LAN_107' => "Komentář",
+    'RL_LAN_108' => "BK",
+    'RL_LAN_109' => "LK",
+    'RL_LAN_110' => "Del",
+    'RL_LAN_111' => "Smazat označené položky",
+    'RL_LAN_112' => "Smazat --NUMBER-- kometářů",
+    'RL_LAN_113' => "Chyba komentáře nesmazány!",
+    'RL_LAN_114' => "Smazat filtr",
+    'RL_LAN_115' => "Administrace uživatelů",
+    'RL_LAN_116' => "Umístění",
+    'RL_LAN_117' => "PgCnt",
+    'RL_LAN_118' => "Vlajka",
+    'RL_LAN_120' => "Uživatelů online",
+    'RL_LAN_122' => "Nastavení systémových záznamů",
+    'RL_LAN_123' => "Třída uživatelského auditu",
+    'RL_LAN_124' => "Akce auditního záznamu uživatele",
+    'RL_LAN_125' => "Akce uživatelského auditu",
+    'RL_LAN_126' => "Celkem [x] záznamů splnující podmínku vyhledávání",
+    'RL_LAN_132' => "Informativní",
+    'RL_LAN_133' => "Oznámení",
+    'RL_LAN_134' => "Varování",
+    'RL_LAN_135' => "Kritické",
+    'RL_LAN_136' => "User navigation trail",
+];

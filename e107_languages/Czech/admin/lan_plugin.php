@@ -4,267 +4,274 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:47:24
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("EPL_ADLAN_0", "Instalovat");
-define("EPL_ADLAN_1", "Odinstalovat");
-define("EPL_ADLAN_2", "Zkutečně chcete tento doplněk odinstalovat?");
-define("EPL_ADLAN_3", "Potvrdit odinstalaci");
-define("EPL_ADLAN_4", "Odinstalace doplňku zrušena.");
-define("EPL_ADLAN_5", "Instalace vytvoří nové položky v hlavním nastavení.");
-define("EPL_ADLAN_6", "... kliknutím zde spustíte instalaci doplňku");
-define("EPL_ADLAN_7", "Tabulky databáze byly úspěšně upraveny.");
-define("EPL_ADLAN_8", "Přednastavení bylo úspěšně provedeno.");
-define("EPL_ADLAN_9", "Příkaz SQL selhal. Ujistěte se, že veškeré provedené změny jsou v pořádku.");
-define("EPL_ADLAN_10", "Název");
-define("EPL_ADLAN_11", "Verze");
-define("EPL_ADLAN_13", "Kompatibilita");
-define("EPL_ADLAN_14", "Popis");
-define("EPL_ADLAN_15", "Přečtěte si soubor README, kde naleznete další informace");
-define("EPL_ADLAN_16", "Informace o doplňcích");
-define("EPL_ADLAN_17", "Více informací...");
-define("EPL_ADLAN_18", "Pro tento doplněk není možné vytvořit v databázi tabulky.");
-define("EPL_ADLAN_19", "Tabulky v databázi byly úspěšně vytvořeny.");
-define("EPL_ADLAN_21", "Tento doplněk je již nainstalován.");
-define("EPL_ADLAN_22", "Instalováno");
-define("EPL_ADLAN_23", "Nenainstalováno");
-define("EPL_ADLAN_24", "Byla nalezena nová verze");
-define("EPL_ADLAN_25", "Nevyžaduje instalaci");
-define("EPL_ADLAN_26", "... kliknutím zde spustíte odinstalaci doplňku");
-define("EPL_ADLAN_27", "Není možné úspěšně smazat");
-define("EPL_ADLAN_28", "Tabulky v databázi byly úspěšně smazány.");
-define("EPL_ADLAN_29", "Nastavení doplňku bylo smazáno.");
-define("EPL_ADLAN_30", "Smažte prosím ručně.");
-define("EPL_ADLAN_31", "Pokud víte, že nebudete v budoucnu mít zájem doplněk opět využívat, můžete smazat složku");
-define("EPL_ADLAN_32", "i se všemi soubory uvnitř. Tím dokončíte kompletní odinstalaci doplňku.");
-define("EPL_ADLAN_33", "Doplněk byl úspěšně nainstalován.");
-define("EPL_ADLAN_34", "Doplněk byl úspěšně upraven.");
-define("EPL_ADLAN_35", "Nastavení syntaktického analyzátoru bylo úspěšně přidáno.");
-define("EPL_ADLAN_36", "Kód pro syntaktický analyzátor byl nesprávně zformátován a proto jej nelze vložit.");
-define("EPL_ADLAN_37", "Nahrát nový doplněk (.zip formát)");
-define("EPL_ADLAN_38", "Nahrát doplněk");
-define("EPL_ADLAN_39", "Soubor doplňku ".e_PLUGIN." není možné nahrát. Složka e107_plugin nemá nastavena potřebná práva - nastavte prosím CHMOD složky na 777 a opakujte nahrání.");
-define("EPL_ADLAN_40", "Administrátorská zpráva");
-define("EPL_ADLAN_41", "Soubor není platným .zip nebo .tar archivem.");
-define("EPL_ADLAN_42", "Chyba! Soubor archivu se nepovedlo otevřít");
-define("EPL_ADLAN_43", "Doplněk byl nahrán a rozbalen. Nyní je vám níže v seznamu doplňků k dispozici.");
-define("EPL_ADLAN_44", "Funkce nahrání a rozbalení je vypnuta, protože složka pro ukládání doplňků  e107_doplněks nemá nastavena potřebná práva - nastavte prosím CHMOD složky na 777.");
-define("EPL_ADLAN_45", "Položka menu je nahrána a automaticky rozbalena. Aktivovat ji můžete <a href='".e_ADMIN."menus.php'>na stránce s hlavní nabídkou</a>.");
-define("EPL_ADLAN_46", "Chyba při rozbalování PCLZIP:");
-define("EPL_ADLAN_47", "Chyba při rozbalování PCLTAR:");
-define("EPL_ADLAN_48", "kód:");
-define("EPL_ADLAN_49", "Tabulky v databázi nebyly při odinstalaci odstraněny");
-define("EPL_WEBSITE", "Stránky");
-define("EPL_NOINSTALL", "Nevyžaduje instalaci, pouze aktivaci na obrazovce s menu. Smazáním složky");
-define("EPL_DIRECTORY", "odeberete ze seznamu.");
-define("EPL_NOINSTALL_1", "Nevyžaduje instalaci, pouze aktivaci na stránce s hlavní nabídkou. Pro odebrání smažte");
-define("EPL_UPGRADE", "Aktualizovat");
-define("EPL_ADLAN_50", "Komentáře byly úspěšně smazány");
-define("EPL_ADLAN_53", "Do složky není možné zapisovat");
-define("EPL_ADLAN_54", "Vyberte si prosím možnosti nastavení odinstalace:");
-define("EPL_ADLAN_55", "Odinstalovat doplněk");
-define("EPL_ADLAN_57", "Smazat tabulky doplňku");
-define("EPL_ADLAN_58", "Pokud neodstraníte tabulky, lze doplněk znovu nainstalovat bez ztráty dosavadních dat doplňku. Vytváření tabulek během nové instalace selže. Tabulky bude nutné smazat ručně, pokud je budete chtít odstranit.");
-define("EPL_ADLAN_59", "Smazat soubry doplňku");
-define("EPL_ADLAN_60", "e107 se pokusí smazat všechny soubory daného doplňku.");
-define("EPL_ADLAN_62", "Zrušit odinstalaci");
-define("EPL_ADLAN_63", "Odinstalace:");
-define("EPL_ADLAN_64", "Složka");
-define("EPL_ADLAN_70", "Požadovaný doplněk není nainstalován:");
-define("EPL_ADLAN_71", "Je požadován doplněk novější verze:");
-define("EPL_ADLAN_72", "Verze:");
-define("EPL_ADLAN_73", "Požadované rozšíření PHP není načteno:");
-define("EPL_ADLAN_74", "Je požadována novější verze PHP:");
-define("EPL_ADLAN_75", "Je požadována novější verze MySQL:");
-define("EPL_ADLAN_76", "Chyba v plugin.xml");
-define("EPL_ADLAN_77", "Soubor plugin.xml nenalezen");
-define("EPL_ADLAN_78", "Smazat uživatelské třídy vytvořené doplňkem:");
-define("EPL_ADLAN_79", "Smažte je, pouze pokud jste je nepoužili k jiným účelům.");
-define("EPL_ADLAN_80", "Odstranit rozšířené uživatelské pole vytvořené doplňkem:");
-define("EPL_ADLAN_81", "Xhtml");
-define("EPL_ADLAN_82", "Ikona");
-define("EPL_ADLAN_83", "Poznámky");
-define("EPL_ADLAN_84", "Instalovat vybrané");
-define("EPL_ADLAN_85", "Odinstalovat vybrané");
-define("EPL_ADLAN_86", "Všechny soubory odstraněny z");
-define("EPL_ADLAN_87", "Smazání souboru selhalo");
-define("EPL_ADLAN_88", "Vytvořeno pro v2");
-define("EPL_ADLAN_89", "Vyhledávat online");
-define("EPL_ADLAN_90", "Pro tuto možnost je nutné povolení funkce cURL. V současné době není toto rozšíření dostupné. Obraťte se na poskytovatele webhosting pro povolení cURL.");
-define("EPL_ADLAN_91", "Doporučené");
-define("EPL_ADLAN_92", "Koupit");
-define("EPL_ADLAN_93", "Zdarma");
-define("EPL_ADLAN_94", "Připojování...");
-define("EPL_ADLAN_95", "Nelze pokračovat");
-define("EPL_ADLAN_96", "např. http://vasestranky.com/nejaky-doplnek.zip");
-define("EPL_ADLAN_97", "Vyskytl se problém při rozbalování zip archívu doplňku do adresáře doplňků.");
-define("EPL_ADLAN_98", "Neznámý soubor:");
-define("EPL_ADLAN_99", "Chybová zpráva pro tento řádek");
-define("EPL_ADLAN_100", "klikněte jsem pro instalaci někteých");
-define("EPL_ADLAN_101", "Nejsou nainstalovány žádné doplňky - [x].");
-define("EPL_ADLAN_102", "Tento průvodce vytvoří administrátorské rozhraní pro plugin a vytvoří soubor metadat plugin.xml. Než začnete:");
-define("EPL_ADLAN_103", "Vytvořte novou zapisovatelnou složku v adresáři [x], např. [b]mujdoplnek[/b]");
-define("EPL_ADLAN_105", "Pokud rozšíření potřebuje tabulky SQL, vytvořte v tomto adresáři nový soubor a pojmenujte jej jako název adresáře, tedy: [b]myplugin_sql php[/b]");
-define("EPL_ADLAN_106", "Vyberte složku pro vytvoření vašeho doplňku.");
-define("EPL_ADLAN_107", "Vytvořit oblast administrátora a soubor XML pro:");
-define("EPL_ADLAN_108", "Kontrola jazykových souborů");
-define("EPL_ADLAN_109", "Základní info");
-define("EPL_ADLAN_112", "Zkontrolujte všechna pole a upravte je v případě potřeby.");
-define("EPL_ADLAN_113", "Před klepnutím na tlačítko 'Vytvořit' přezkoumejte všechny karty.");
-define("EPL_ADLAN_114", "Tvůrce doplňků");
-define("EPL_ADLAN_115", "Krok 2");
-define("EPL_ADLAN_116", "Textová kolonka");
-define("EPL_ADLAN_117", "Textová kolonka (číslo)");
-define("EPL_ADLAN_118", "Textová kolonka (url adresa)");
-define("EPL_ADLAN_119", "Textová oblast");
-define("EPL_ADLAN_120", "Bohatá textová oblast");
-define("EPL_ADLAN_121", "Pravda/Nepravda");
-define("EPL_ADLAN_122", "Vlastní funkce");
-define("EPL_ADLAN_123", "Obrázek");
-define("EPL_ADLAN_124", "Rozbalovací menu");
-define("EPL_ADLAN_125", "Rozbalovací menu (uživatelské třídy)");
-define("EPL_ADLAN_126", "Rozbalovací menu (jazyky)");
-define("EPL_ADLAN_127", "Ikona");
-define("EPL_ADLAN_128", "Soubor");
-define("EPL_ADLAN_129", "Název předvolby");
-define("EPL_ADLAN_130", "Výchozí hodnota");
-define("EPL_ADLAN_131", "Typ pole...");
-define("EPL_ADLAN_132", "[x] byl vytvořen");
-define("EPL_ADLAN_133", "[x] chybí!");
-define("EPL_ADLAN_134", "Prosím vytvořte [b][x][/b] ve vašem adresáři s doplňkem s následujícím obsahem: [y]");
-define("EPL_ADLAN_135", "Název vašeho doplňku. (Musí být napsán v angličtině)");
-define("EPL_ADLAN_136", "Jestliže máte jazykový soubor, zadejte hodnotu LAN_XXX pro název vašeho doplňku");
-define("EPL_ADLAN_137", "Datum vytvoření vašeho doplňku");
-define("EPL_ADLAN_138", "Verze vašeho doplňku. Ve formátu: x.x nebo x.x.x");
-define("EPL_ADLAN_139", "Kompatibilní s  verzí e107");
-define("EPL_ADLAN_140", "Jméno autora");
-define("EPL_ADLAN_141", "Odkaz na stránky autora");
-define("EPL_ADLAN_142", "Krátky, jednoořádkový popis doplňku");
-define("EPL_ADLAN_143", "(Musí být napsán v angličtině)");
-define("EPL_ADLAN_144", "Klíčové slovo / Štítek pro tento doplňěk");
-define("EPL_ADLAN_145", "Plný popis k tomuto doplňku");
-define("EPL_ADLAN_146", "Vyberte kategorii pro tento doplněk!");
-define("EPL_ADLAN_147", "Nastavení");
-define("EPL_ADLAN_148", "Uživatelé");
-define("EPL_ADLAN_149", "Obsah");
-define("EPL_ADLAN_150", "Nástroje");
-define("EPL_ADLAN_151", "Správa");
-define("EPL_ADLAN_152", "Různé");
-define("EPL_ADLAN_153", "Menu");
-define("EPL_ADLAN_154", "O nás");
-define("EPL_ADLAN_155", "Uloženo:");
-define("EPL_ADLAN_156", "Nelze uložit:");
-define("EPL_ADLAN_157", "Hlavní oblast");
-define("EPL_ADLAN_158", "Kategorie");
-define("EPL_ADLAN_159", "Ostatní 1");
-define("EPL_ADLAN_160", "Ostatní 2");
-define("EPL_ADLAN_161", "Ostatní 3");
-define("EPL_ADLAN_162", "Ostatní 4");
-define("EPL_ADLAN_163", "Vyloučit tuto tabulku");
-define("EPL_ADLAN_164", "Pole");
-define("EPL_ADLAN_165", "Titulek");
-define("EPL_ADLAN_166", "Typ");
-define("EPL_ADLAN_167", "Datum");
-define("EPL_ADLAN_168", "Šířka");
-define("EPL_ADLAN_169", "Dávkové");
-define("EPL_ADLAN_170", "Filtr");
-define("EPL_ADLAN_171", "Editovatelný");
-define("EPL_ADLAN_172", "Validní");
-define("EPL_ADLAN_173", "Zobrazit");
-define("EPL_ADLAN_174", "Nápověda");
-define("EPL_ADLAN_175", "ReadParms");
-define("EPL_ADLAN_176", "WriteParms");
-define("EPL_ADLAN_177", "Pole musí být vyplněno");
-define("EPL_ADLAN_178", "Zobrazuje se ve výchozím nastavení");
-define("EPL_ADLAN_179", "Textová klonka");
-define("EPL_ADLAN_180", "Skryté");
-define("EPL_ADLAN_181", "Pravda/Nepravda");
-define("EPL_ADLAN_182", "Textové pole (číselné)");
-define("EPL_ADLAN_183", "Rozbalovací menu");
-define("EPL_ADLAN_184", "Rozbalovací menu (uživatelské třídy)");
-define("EPL_ADLAN_186", "Vlastní funkce");
-define("EPL_ADLAN_187", "Skrytý");
-define("EPL_ADLAN_188", "Uživatel");
-define("EPL_ADLAN_189", "Textová kolonka");
-define("EPL_ADLAN_190", "Rozbalovací menu");
-define("EPL_ADLAN_191", "Vlastní funkce");
-define("EPL_ADLAN_192", "Skrytý");
-define("EPL_ADLAN_193", "Textová kolonka");
-define("EPL_ADLAN_194", "Textová kolonka (url adresa)");
-define("EPL_ADLAN_195", "Textová kolonka (email)");
-define("EPL_ADLAN_196", "Textová kolonka (ip adresa)");
-define("EPL_ADLAN_197", "Textová kolonka (číslo)");
-define("EPL_ADLAN_198", "Textová kolonka (heslo)");
-define("EPL_ADLAN_199", "Textová kolonka (klíčová slova)");
-define("EPL_ADLAN_200", "Rozbalovací menu");
-define("EPL_ADLAN_201", "Rozbalovací menu (uživatelské třídy)");
-define("EPL_ADLAN_202", "Rozbalovací menu (jazyky)");
-define("EPL_ADLAN_203", "Ikona");
-define("EPL_ADLAN_204", "Obrázek");
-define("EPL_ADLAN_205", "Soubor");
-define("EPL_ADLAN_206", "Vlastní funkce");
-define("EPL_ADLAN_207", "Skrytý");
-define("EPL_ADLAN_208", "Textová oblast");
-define("EPL_ADLAN_209", "Plná textová oblast");
-define("EPL_ADLAN_210", "Textová kolonka");
-define("EPL_ADLAN_211", "Textová kolonka (klíčové slova)");
-define("EPL_ADLAN_212", "Vlastní funkce");
-define("EPL_ADLAN_213", "Obrázek (string)");
-define("EPL_ADLAN_214", "Obrázky (array)");
-define("EPL_ADLAN_215", "Skrytý");
-define("EPL_ADLAN_216", "Klikněte zde");
-define("EPL_ADLAN_217", "[x] a přejděte na vytvořenou administrační stránku doplňku.");
-define("EPL_ADLAN_218", "Nelze zapisovat [x]");
-define("EPL_ADLAN_219", "Soubory nebyly vytvořeny! Zkopírujte a vložte kód do níže uvedených souborů.");
-define("EPL_ADLAN_220", "Vyhledat doplňky");
-define("EPL_ADLAN_221", "Kontrola jazykových souborů");
-define("EPL_ADLAN_222", "Soubory doplňku");
-define("EPL_ADLAN_223", "Použitý");
-define("EPL_ADLAN_224", "Nepoužitý");
-define("EPL_ADLAN_225", "Nejistý");
-define("EPL_ADLAN_226", "Kontrola jazykových souborů doplňku");
-define("EPL_ADLAN_227", "Vyhledání změn");
-define("EPL_ADLAN_228", "Kontrola adresáře doplňku [x].  Klikněte na tlačítko Aktualizovat pro okamžité ověření.");
-define("EPL_ADLAN_229", "Obnovit");
-define("EPL_ADLAN_230", "Stažení a instalace:");
-define("EPL_ADLAN_231", "Smazat ikony z aplikace Správce médií");
-define("EPL_ADLAN_232", "Vytvořit soubory");
-define("EPL_ADLAN_233", "Přidaný odkaz:");
-define("EPL_ADLAN_234", "Odstraněný odkaz:");
-define("EPL_ADLAN_235", "Automatické stahování není možné.");
-define("EPL_ADLAN_236", "Prosím, stáhněte ručně");
-define("EPL_ADLAN_237", "Stáhnout");
-define("EPL_ADLAN_238", "Instalace kompletní!");
-define("EPL_ADLAN_239", "Přidaná tabulka:");
-define("EPL_ADLAN_240", "Odstraněná tabulka:");
-define("EPL_ADLAN_241", "Přidaná předvolba:");
-define("EPL_ADLAN_242", "Odstraněná předvolba:");
-define("EPL_ADLAN_243", "Aktualizovaná předvolba:");
-define("EPL_ADLAN_244", "Během instalace je povoleno pouze 5 kategorií médií.");
-define("EPL_ADLAN_245", "Přidání kategorie médií: [x]");
-define("EPL_ADLAN_246", "Smazání všech kategorií médií ve vlastnictví: [x]");
-define("EPL_ADLAN_247", "Aktualizace, které mají být nainstalovány");
-define("EPL_ADLAN_249", "Přidání rozšířeného pole:");
-define("EPL_ADLAN_250", "Odebrání rozšířeného pole:");
-define("EPL_ADLAN_251", "Rozšířené pole ponecháno:");
-define("EPL_ADLAN_252", "Perm:");
-define("EPL_ADLAN_253", "Dokončeno");
-define("LAN_RELEASED", "Vydáno");
-define("LAN_REPAIR_PLUGIN_SETTINGS", "Opravit nastavení doplňku");
-define("LAN_SYNC_WITH_GIT_REPO", "Synchronizace s Git Repo");
-define("LAN_ADDONS", "Příslušenství");
-define("LAN_UPGRADE_SUCCESSFUL", "Aktualizace proběhla úspěšně");
-define("LAN_INSTALL_SUCCESSFUL", "Instalace proběhla úspěšně");
-define("LAN_INSTALL_FAIL", "Instalace selhala");
-define("LAN_UNINSTALL_FAIL", "Nelze odinstalovat!");
-define("LAN_PLUGIN_IS_USED", "[x] doplněk je používán:");
-define("EPL_ADLAN_254", "Takto se zkontroluje jazykové soubory doplňky pro chyby a běžné nebo duplicitní definice souborů LAN.");
-define("EPL_ADLAN_255", "Přepsat soubory");
-define("EPL_ADLAN_256", "Přeskočeno [x] (již existuje)");
-define("EPL_ADLAN_257", "Pouze pro čtení");
+// TODO LAN CLEANUP
+
+
+return [
+    'EPL_ADLAN_0' => "Instalovat",
+    'EPL_ADLAN_1' => "Odinstalovat",
+    'EPL_ADLAN_2' => "Zkutečně chcete tento doplněk odinstalovat?",
+    'EPL_ADLAN_3' => "Potvrdit odinstalaci",
+    'EPL_ADLAN_4' => "Odinstalace doplňku zrušena.",
+    'EPL_ADLAN_5' => "Instalace vytvoří nové položky v hlavním nastavení.",
+    'EPL_ADLAN_6' => "... kliknutím zde spustíte instalaci doplňku",
+    'EPL_ADLAN_7' => "Tabulky databáze byly úspěšně upraveny.",
+    'EPL_ADLAN_8' => "Přednastavení bylo úspěšně provedeno.",
+    'EPL_ADLAN_9' => "Příkaz SQL selhal. Ujistěte se, že veškeré provedené změny jsou v pořádku.",
+    'EPL_ADLAN_10' => "Název",
+    'EPL_ADLAN_11' => "Verze",
+    'EPL_ADLAN_13' => "Kompatibilita",
+    'EPL_ADLAN_14' => "Popis",
+    'EPL_ADLAN_15' => "Přečtěte si soubor README, kde naleznete další informace",
+    'EPL_ADLAN_16' => "Informace o doplňcích",
+    'EPL_ADLAN_17' => "Více informací...",
+    'EPL_ADLAN_18' => "Pro tento doplněk není možné vytvořit v databázi tabulky.",
+    'EPL_ADLAN_19' => "Tabulky v databázi byly úspěšně vytvořeny.",
+    'EPL_ADLAN_21' => "Tento doplněk je již nainstalován.",
+    'EPL_ADLAN_22' => "Instalováno",
+    'EPL_ADLAN_23' => "Nenainstalováno",
+    'EPL_ADLAN_24' => "Byla nalezena nová verze",
+    'EPL_ADLAN_25' => "Nevyžaduje instalaci",
+    'EPL_ADLAN_26' => "... kliknutím zde spustíte odinstalaci doplňku",
+    'EPL_ADLAN_27' => "Není možné úspěšně smazat",
+    'EPL_ADLAN_28' => "Tabulky v databázi byly úspěšně smazány.",
+    'EPL_ADLAN_29' => "Nastavení doplňku bylo smazáno.",
+    'EPL_ADLAN_30' => "Smažte prosím ručně.",
+    'EPL_ADLAN_31' => "Pokud víte, že nebudete v budoucnu mít zájem doplněk opět využívat, můžete smazat složku",
+    'EPL_ADLAN_32' => "i se všemi soubory uvnitř. Tím dokončíte kompletní odinstalaci doplňku.",
+    'EPL_ADLAN_33' => "Doplněk byl úspěšně nainstalován.",
+    'EPL_ADLAN_34' => "Doplněk byl úspěšně upraven.",
+    'EPL_ADLAN_35' => "Nastavení syntaktického analyzátoru bylo úspěšně přidáno.",
+    'EPL_ADLAN_36' => "Kód pro syntaktický analyzátor byl nesprávně zformátován a proto jej nelze vložit.",
+    'EPL_ADLAN_37' => "Nahrát nový doplněk (.zip formát)",
+    'EPL_ADLAN_38' => "Nahrát doplněk",
+    'EPL_ADLAN_39' => "Soubor doplňku \".e_PLUGIN.\" není možné nahrát. Složka e107_plugin nemá nastavena potřebná práva - nastavte prosím CHMOD složky na 777 a opakujte nahrání.",
+    'EPL_ADLAN_40' => "Administrátorská zpráva",
+    'EPL_ADLAN_41' => "Soubor není platným .zip nebo .tar archivem.",
+    'EPL_ADLAN_42' => "Chyba! Soubor archivu se nepovedlo otevřít",
+    'EPL_ADLAN_43' => "Doplněk byl nahrán a rozbalen. Nyní je vám níže v seznamu doplňků k dispozici.",
+    'EPL_ADLAN_44' => "Funkce nahrání a rozbalení je vypnuta, protože složka pro ukládání doplňků  e107_doplněks nemá nastavena potřebná práva - nastavte prosím CHMOD složky na 777.",
+    'EPL_ADLAN_45' => "Položka menu je nahrána a automaticky rozbalena. Aktivovat ji můžete <a href='\".e_ADMIN.\"menus.php'>na stránce s hlavní nabídkou</a>.",
+    'EPL_ADLAN_46' => "Chyba při rozbalování PCLZIP:",
+    'EPL_ADLAN_47' => "Chyba při rozbalování PCLTAR:",
+    'EPL_ADLAN_48' => "kód:",
+    'EPL_ADLAN_49' => "Tabulky v databázi nebyly při odinstalaci odstraněny",
+    'EPL_WEBSITE' => "Stránky",
+    'EPL_NOINSTALL' => "Nevyžaduje instalaci, pouze aktivaci na obrazovce s menu. Smazáním složky",
+    'EPL_DIRECTORY' => "odeberete ze seznamu.",
+    'EPL_NOINSTALL_1' => "Nevyžaduje instalaci, pouze aktivaci na stránce s hlavní nabídkou. Pro odebrání smažte",
+    'EPL_UPGRADE' => "Aktualizovat",
+    'EPL_ADLAN_50' => "Komentáře byly úspěšně smazány",
+    'EPL_ADLAN_53' => "Do složky není možné zapisovat",
+    'EPL_ADLAN_54' => "Vyberte si prosím možnosti nastavení odinstalace:",
+    'EPL_ADLAN_55' => "Odinstalovat doplněk",
+    'EPL_ADLAN_57' => "Smazat tabulky doplňku",
+    'EPL_ADLAN_58' => "Pokud neodstraníte tabulky, lze doplněk znovu nainstalovat bez ztráty dosavadních dat doplňku. Vytváření tabulek během nové instalace selže. Tabulky bude nutné smazat ručně, pokud je budete chtít odstranit.",
+    'EPL_ADLAN_59' => "Smazat soubry doplňku",
+    'EPL_ADLAN_60' => "e107 se pokusí smazat všechny soubory daného doplňku.",
+    'EPL_ADLAN_62' => "Zrušit odinstalaci",
+    'EPL_ADLAN_63' => "Odinstalace:",
+    'EPL_ADLAN_64' => "Složka",
+    'EPL_ADLAN_70' => "Požadovaný doplněk není nainstalován:",
+    'EPL_ADLAN_71' => "Je požadován doplněk novější verze:",
+    'EPL_ADLAN_72' => "Verze:",
+    'EPL_ADLAN_73' => "Požadované rozšíření PHP není načteno:",
+    'EPL_ADLAN_74' => "Je požadována novější verze PHP:",
+    'EPL_ADLAN_75' => "Je požadována novější verze MySQL:",
+    'EPL_ADLAN_76' => "Chyba v plugin.xml",
+    'EPL_ADLAN_77' => "Soubor plugin.xml nenalezen",
+    'EPL_ADLAN_78' => "Smazat uživatelské třídy vytvořené doplňkem:",
+    'EPL_ADLAN_79' => "Smažte je, pouze pokud jste je nepoužili k jiným účelům.",
+    'EPL_ADLAN_80' => "Odstranit rozšířené uživatelské pole vytvořené doplňkem:",
+    'EPL_ADLAN_81' => "Xhtml",
+    'EPL_ADLAN_82' => "Ikona",
+    'EPL_ADLAN_83' => "Poznámky",
+    'EPL_ADLAN_84' => "Instalovat vybrané",
+    'EPL_ADLAN_85' => "Odinstalovat vybrané",
+    'EPL_ADLAN_86' => "Všechny soubory odstraněny z",
+    'EPL_ADLAN_87' => "Smazání souboru selhalo",
+    'EPL_ADLAN_88' => "Vytvořeno pro v2",
+    'EPL_ADLAN_89' => "Vyhledávat online",
+    'EPL_ADLAN_90' => "Pro tuto možnost je nutné povolení funkce cURL. V současné době není toto rozšíření dostupné. Obraťte se na poskytovatele webhosting pro povolení cURL.",
+    'EPL_ADLAN_91' => "Doporučené",
+    'EPL_ADLAN_92' => "Koupit",
+    'EPL_ADLAN_93' => "Zdarma",
+    'EPL_ADLAN_94' => "Připojování...",
+    'EPL_ADLAN_95' => "Nelze pokračovat",
+    'EPL_ADLAN_96' => "např. http://vasestranky.com/nejaky-doplnek.zip",
+    'EPL_ADLAN_97' => "Vyskytl se problém při rozbalování zip archívu doplňku do adresáře doplňků.",
+    'EPL_ADLAN_98' => "Neznámý soubor:",
+    'EPL_ADLAN_99' => "Chybová zpráva pro tento řádek",
+    'EPL_ADLAN_100' => "klikněte jsem pro instalaci někteých",
+    'EPL_ADLAN_101' => "Nejsou nainstalovány žádné doplňky - [x].",
+    'EPL_ADLAN_102' => "Tento průvodce vytvoří administrátorské rozhraní pro plugin a vytvoří soubor metadat plugin.xml. Než začnete:",
+    'EPL_ADLAN_103' => "Vytvořte novou zapisovatelnou složku v adresáři [x], např. [b]mujdoplnek[/b]",
+    'EPL_ADLAN_105' => "Pokud rozšíření potřebuje tabulky SQL, vytvořte v tomto adresáři nový soubor a pojmenujte jej jako název adresáře, tedy: [b]myplugin_sql php[/b]",
+    'EPL_ADLAN_106' => "Vyberte složku pro vytvoření vašeho doplňku.",
+    'EPL_ADLAN_107' => "Vytvořit oblast administrátora a soubor XML pro:",
+    'EPL_ADLAN_108' => "Kontrola jazykových souborů",
+    'EPL_ADLAN_109' => "Základní info",
+    'EPL_ADLAN_112' => "Zkontrolujte všechna pole a upravte je v případě potřeby.",
+    'EPL_ADLAN_113' => "Před klepnutím na tlačítko 'Vytvořit' přezkoumejte všechny karty.",
+    'EPL_ADLAN_114' => "Tvůrce doplňků",
+    'EPL_ADLAN_115' => "Krok 2",
+    'EPL_ADLAN_116' => "Textová kolonka",
+    'EPL_ADLAN_117' => "Textová kolonka (číslo)",
+    'EPL_ADLAN_118' => "Textová kolonka (url adresa)",
+    'EPL_ADLAN_119' => "Textová oblast",
+    'EPL_ADLAN_120' => "Bohatá textová oblast",
+    'EPL_ADLAN_121' => "Pravda/Nepravda",
+    'EPL_ADLAN_122' => "Vlastní funkce",
+    'EPL_ADLAN_123' => "Obrázek",
+    'EPL_ADLAN_124' => "Rozbalovací menu",
+    'EPL_ADLAN_125' => "Rozbalovací menu (uživatelské třídy)",
+    'EPL_ADLAN_126' => "Rozbalovací menu (jazyky)",
+    'EPL_ADLAN_127' => "Ikona",
+    'EPL_ADLAN_128' => "Soubor",
+    'EPL_ADLAN_129' => "Název předvolby",
+    'EPL_ADLAN_130' => "Výchozí hodnota",
+    'EPL_ADLAN_131' => "Typ pole...",
+    'EPL_ADLAN_132' => "[x] byl vytvořen",
+    'EPL_ADLAN_133' => "[x] chybí!",
+    'EPL_ADLAN_134' => "Prosím vytvořte [b][x][/b] ve vašem adresáři s doplňkem s následujícím obsahem: [y]",
+    'EPL_ADLAN_135' => "Název vašeho doplňku. (Musí být napsán v angličtině)",
+    'EPL_ADLAN_136' => "Jestliže máte jazykový soubor, zadejte hodnotu LAN_XXX pro název vašeho doplňku",
+    'EPL_ADLAN_137' => "Datum vytvoření vašeho doplňku",
+    'EPL_ADLAN_138' => "Verze vašeho doplňku. Ve formátu: x.x nebo x.x.x",
+    'EPL_ADLAN_139' => "Kompatibilní s  verzí e107",
+    'EPL_ADLAN_140' => "Jméno autora",
+    'EPL_ADLAN_141' => "Odkaz na stránky autora",
+    'EPL_ADLAN_142' => "Krátky, jednoořádkový popis doplňku",
+    'EPL_ADLAN_143' => "(Musí být napsán v angličtině)",
+    'EPL_ADLAN_144' => "Klíčové slovo / Štítek pro tento doplňěk",
+    'EPL_ADLAN_145' => "Plný popis k tomuto doplňku",
+    'EPL_ADLAN_146' => "Vyberte kategorii pro tento doplněk!",
+    'EPL_ADLAN_147' => "Nastavení",
+    'EPL_ADLAN_148' => "Uživatelé",
+    'EPL_ADLAN_149' => "Obsah",
+    'EPL_ADLAN_150' => "Nástroje",
+    'EPL_ADLAN_151' => "Správa",
+    'EPL_ADLAN_152' => "Různé",
+    'EPL_ADLAN_153' => "Menu",
+    'EPL_ADLAN_154' => "O nás",
+    'EPL_ADLAN_155' => "Uloženo:",
+    'EPL_ADLAN_156' => "Nelze uložit:",
+    'EPL_ADLAN_157' => "Hlavní oblast",
+    'EPL_ADLAN_158' => "Kategorie",
+    'EPL_ADLAN_159' => "Ostatní 1",
+    'EPL_ADLAN_160' => "Ostatní 2",
+    'EPL_ADLAN_161' => "Ostatní 3",
+    'EPL_ADLAN_162' => "Ostatní 4",
+    'EPL_ADLAN_163' => "Vyloučit tuto tabulku",
+    'EPL_ADLAN_164' => "Pole",
+    'EPL_ADLAN_165' => "Titulek",
+    'EPL_ADLAN_166' => "Typ",
+    'EPL_ADLAN_167' => "Datum",
+    'EPL_ADLAN_168' => "Šířka",
+    'EPL_ADLAN_169' => "Dávkové",
+    'EPL_ADLAN_170' => "Filtr",
+    'EPL_ADLAN_171' => "Editovatelný",
+    'EPL_ADLAN_172' => "Validní",
+    'EPL_ADLAN_173' => "Zobrazit",
+    'EPL_ADLAN_174' => "Nápověda",
+    'EPL_ADLAN_175' => "ReadParms",
+    'EPL_ADLAN_176' => "WriteParms",
+    'EPL_ADLAN_177' => "Pole musí být vyplněno",
+    'EPL_ADLAN_178' => "Zobrazuje se ve výchozím nastavení",
+    'EPL_ADLAN_179' => "Textová klonka",
+    'EPL_ADLAN_180' => "Skryté",
+    'EPL_ADLAN_181' => "Pravda/Nepravda",
+    'EPL_ADLAN_182' => "Textové pole (číselné)",
+    'EPL_ADLAN_183' => "Rozbalovací menu",
+    'EPL_ADLAN_184' => "Rozbalovací menu (uživatelské třídy)",
+    'EPL_ADLAN_186' => "Vlastní funkce",
+    'EPL_ADLAN_187' => "Skrytý",
+    'EPL_ADLAN_188' => "Uživatel",
+    'EPL_ADLAN_189' => "Textová kolonka",
+    'EPL_ADLAN_190' => "Rozbalovací menu",
+    'EPL_ADLAN_191' => "Vlastní funkce",
+    'EPL_ADLAN_192' => "Skrytý",
+    'EPL_ADLAN_193' => "Textová kolonka",
+    'EPL_ADLAN_194' => "Textová kolonka (url adresa)",
+    'EPL_ADLAN_195' => "Textová kolonka (email)",
+    'EPL_ADLAN_196' => "Textová kolonka (ip adresa)",
+    'EPL_ADLAN_197' => "Textová kolonka (číslo)",
+    'EPL_ADLAN_198' => "Textová kolonka (heslo)",
+    'EPL_ADLAN_199' => "Textová kolonka (klíčová slova)",
+    'EPL_ADLAN_200' => "Rozbalovací menu",
+    'EPL_ADLAN_201' => "Rozbalovací menu (uživatelské třídy)",
+    'EPL_ADLAN_202' => "Rozbalovací menu (jazyky)",
+    'EPL_ADLAN_203' => "Ikona",
+    'EPL_ADLAN_204' => "Obrázek",
+    'EPL_ADLAN_205' => "Soubor",
+    'EPL_ADLAN_206' => "Vlastní funkce",
+    'EPL_ADLAN_207' => "Skrytý",
+    'EPL_ADLAN_208' => "Textová oblast",
+    'EPL_ADLAN_209' => "Plná textová oblast",
+    'EPL_ADLAN_210' => "Textová kolonka",
+    'EPL_ADLAN_211' => "Textová kolonka (klíčové slova)",
+    'EPL_ADLAN_212' => "Vlastní funkce",
+    'EPL_ADLAN_213' => "Obrázek (string)",
+    'EPL_ADLAN_214' => "Obrázky (array)",
+    'EPL_ADLAN_215' => "Skrytý",
+    'EPL_ADLAN_216' => "Klikněte zde",
+    'EPL_ADLAN_217' => "[x] a přejděte na vytvořenou administrační stránku doplňku.",
+    'EPL_ADLAN_218' => "Nelze zapisovat [x]",
+    'EPL_ADLAN_219' => "Soubory nebyly vytvořeny! Zkopírujte a vložte kód do níže uvedených souborů.",
+    'EPL_ADLAN_220' => "Vyhledat doplňky",
+    'EPL_ADLAN_221' => "Kontrola jazykových souborů",
+    'EPL_ADLAN_222' => "Soubory doplňku",
+    'EPL_ADLAN_223' => "Použitý",
+    'EPL_ADLAN_224' => "Nepoužitý",
+    'EPL_ADLAN_225' => "Nejistý",
+    'EPL_ADLAN_226' => "Kontrola jazykových souborů doplňku",
+    'EPL_ADLAN_227' => "Vyhledání změn",
+    'EPL_ADLAN_228' => "Kontrola adresáře doplňku [x].  Klikněte na tlačítko Aktualizovat pro okamžité ověření.",
+    'EPL_ADLAN_229' => "Obnovit",
+    'EPL_ADLAN_230' => "Stažení a instalace:",
+    'EPL_ADLAN_231' => "Smazat ikony z aplikace Správce médií",
+    'EPL_ADLAN_232' => "Vytvořit soubory",
+    'EPL_ADLAN_233' => "Přidaný odkaz:",
+    'EPL_ADLAN_234' => "Odstraněný odkaz:",
+    'EPL_ADLAN_235' => "Automatické stahování není možné.",
+    'EPL_ADLAN_236' => "Prosím, stáhněte ručně",
+    'EPL_ADLAN_237' => "Stáhnout",
+    'EPL_ADLAN_238' => "Instalace kompletní!",
+    'EPL_ADLAN_239' => "Přidaná tabulka:",
+    'EPL_ADLAN_240' => "Odstraněná tabulka:",
+    'EPL_ADLAN_241' => "Přidaná předvolba:",
+    'EPL_ADLAN_242' => "Odstraněná předvolba:",
+    'EPL_ADLAN_243' => "Aktualizovaná předvolba:",
+    'EPL_ADLAN_244' => "Během instalace je povoleno pouze 5 kategorií médií.",
+    'EPL_ADLAN_245' => "Přidání kategorie médií: [x]",
+    'EPL_ADLAN_246' => "Smazání všech kategorií médií ve vlastnictví: [x]",
+    'EPL_ADLAN_247' => "Aktualizace, které mají být nainstalovány",
+    'EPL_ADLAN_249' => "Přidání rozšířeného pole:",
+    'EPL_ADLAN_250' => "Odebrání rozšířeného pole:",
+    'EPL_ADLAN_251' => "Rozšířené pole ponecháno:",
+    'EPL_ADLAN_252' => "Perm:",
+    'EPL_ADLAN_253' => "Dokončeno",
+    'LAN_RELEASED' => "Vydáno",
+    'LAN_REPAIR_PLUGIN_SETTINGS' => "Opravit nastavení doplňku",
+    'LAN_SYNC_WITH_GIT_REPO' => "Synchronizace s Git Repo",
+    'LAN_ADDONS' => "Příslušenství",
+    'LAN_UPGRADE_SUCCESSFUL' => "Aktualizace proběhla úspěšně",
+    'LAN_INSTALL_SUCCESSFUL' => "Instalace proběhla úspěšně",
+    'LAN_INSTALL_FAIL' => "Instalace selhala",
+    'LAN_UNINSTALL_FAIL' => "Nelze odinstalovat!",
+    'LAN_PLUGIN_IS_USED' => "[x] doplněk je používán:",
+    'EPL_ADLAN_254' => "Takto se zkontroluje jazykové soubory doplňky pro chyby a běžné nebo duplicitní definice souborů LAN.",
+    'EPL_ADLAN_255' => "Přepsat soubory",
+    'EPL_ADLAN_256' => "Přeskočeno [x] (již existuje)",
+    'EPL_ADLAN_257' => "Pouze pro čtení",
+    'EPL_ADLAN_REFUSED_PULL_TOKEN_MISSING' => "The plugin was not updated from its Git repository, because the link carried no security token. Start it from the Plugin Manager rather than from a bookmark or a link on another site.",
+    'EPL_ADLAN_REFUSED_BUILD_TOKEN_MISSING' => "No table definition file was written, because the link carried no security token. Start the plugin builder from the Plugins menu rather than from a bookmark or a link on another site.",
+];

@@ -4,22 +4,28 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:39:00
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_CHATBOX_MENU_NAME", "Chatbox");
-define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", "Chatbox menu");
-define("LAN_PLUGIN_CHATBOX_MENU_POSTS", "Příspěvky v Chatboxu");
-define("LAN_AL_CHBLAN_01", "Nastavení aktualizováno");
-define("LAN_AL_CHBLAN_02", "Chatbox pročištěn");
-define("LAN_AL_CHBLAN_03", "Příspěvky přepočítány");
-define("NT_LAN_CB_1", "Události Chatboxu");
-define("NT_LAN_CB_2", "Zpráva odeslána");
-define("NT_LAN_CB_3", "Přidal");
-define("NT_LAN_CB_5", "Zpráva");
-define("NT_LAN_CB_6", "Zpráva odeslána");
+
+
+return [
+    'LAN_PLUGIN_CHATBOX_MENU_NAME' => "Chatbox",
+    'LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION' => "Chatbox menu",
+    'LAN_PLUGIN_CHATBOX_MENU_POSTS' => "Příspěvky v Chatboxu",
+    'LAN_AL_CHBLAN_01' => "Nastavení aktualizováno",
+    'LAN_AL_CHBLAN_02' => "Chatbox pročištěn",
+    'LAN_AL_CHBLAN_03' => "Příspěvky přepočítány",
+    'LAN_AL_CHBLAN_04' => "",
+    'LAN_AL_CHBLAN_05' => "",
+    'NT_LAN_CB_1' => "Události Chatboxu",
+    'NT_LAN_CB_2' => "Zpráva odeslána",
+    'NT_LAN_CB_3' => "Přidal",
+    'NT_LAN_CB_5' => "Zpráva",
+    'NT_LAN_CB_6' => "Zpráva odeslána",
+];

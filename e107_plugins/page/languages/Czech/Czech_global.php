@@ -4,13 +4,16 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/08/01 07:10:57
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_PAGE_BOCHAP", "Vyhledávání v knihách / kapitolách");
-define("LAN_PLUGIN_PAGE_NAME", "Stránky");
+
+return [
+    'LAN_PLUGIN_PAGE_BOCHAP' => "Vyhledávání v knihách / kapitolách",
+    'LAN_PLUGIN_PAGE_NAME' => "Stránky",
+];

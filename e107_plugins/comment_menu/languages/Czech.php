@@ -4,22 +4,23 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/11/21 23:15:13
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.1.7 $
-|        $Id: 2017/11/21 23:15:13 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
-
-define("CM_L1", "Zatím žádné komentáře.");
-define("CM_L3", "Hlavička");
-define("CM_L4", "Kolik zobrazit komentářů?");
-define("CM_L5", "Kolik zobrazit znaků?");
-define("CM_L6", "Přípona pro příliš dlouhé komentáře?");
-define("CM_L7", "Zobrazit původní titulek v menu?");
-define("CM_L8", "Konfigurace menu nových komentářů");
-define("CM_L11", "v");
-define("CM_L12", "Re:");
-define("CM_L13", "Napsal");
+return [
+    'CM_L1' => "Zatím žádné komentáře.",
+    'CM_L2' => "",
+    'CM_L3' => "Hlavička",
+    'CM_L4' => "Kolik zobrazit komentářů?",
+    'CM_L5' => "Kolik zobrazit znaků?",
+    'CM_L6' => "Přípona pro příliš dlouhé komentáře?",
+    'CM_L7' => "Zobrazit původní titulek v menu?",
+    'CM_L8' => "Konfigurace menu nových komentářů",
+    'CM_L11' => "v",
+    'CM_L12' => "Re:",
+    'CM_L13' => "Napsal",
+];

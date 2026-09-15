@@ -4,25 +4,32 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:51:06
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
+ 
 
-define("BANNERLAN_19", "Zadejte své přihlašovací jméno klienta a heslo pokračovat");
-define("BANNERLAN_20", "Lituji, nemohu najít tyto údaje v databázi. Podrobnosti získáte od administrátora webu.");
-define("BANNERLAN_21", "Statistiky bannerů");
-define("BANNERLAN_22", "Klient");
-define("BANNERLAN_23", "ID banneru");
-define("BANNERLAN_24", "Prokliky");
-define("BANNERLAN_25", "Kliknutí %");
-define("BANNERLAN_26", "Zobrazení");
-define("BANNERLAN_27", "Zakoupené zobrazení");
-define("BANNERLAN_28", "Již zobrazené");
-define("BANNERLAN_30", "Neomezená");
-define("BANNERLAN_31", "Nelze použít");
-define("BANNERLAN_35", "Prokliky přes IP adresy");
-define("BANNERLAN_39", "Pro tento banner není přiřazen žádný obrázek.");
+//define("BANNERLAN_16", "Username: ");//LAN_USER
+//define("BANNERLAN_17", "Password: ");//LAN_PASSWORD
+//define("BANNERLAN_18", "Continue"); // English LAN_CONTINUE
+
+return [
+    'BANNERLAN_19' => "Zadejte své přihlašovací jméno klienta a heslo pokračovat",
+    'BANNERLAN_20' => "Lituji, nemohu najít tyto údaje v databázi. Podrobnosti získáte od administrátora webu.",
+    'BANNERLAN_21' => "Statistiky bannerů",
+    'BANNERLAN_22' => "Klient",
+    'BANNERLAN_23' => "ID banneru",
+    'BANNERLAN_24' => "Prokliky",
+    'BANNERLAN_25' => "Kliknutí %",
+    'BANNERLAN_26' => "Zobrazení",
+    'BANNERLAN_27' => "Zakoupené zobrazení",
+    'BANNERLAN_28' => "Již zobrazené",
+    'BANNERLAN_30' => "Neomezená",
+    'BANNERLAN_31' => "Nelze použít",
+    'BANNERLAN_35' => "Prokliky přes IP adresy",
+    'BANNERLAN_39' => "Pro tento banner není přiřazen žádný obrázek.",
+];

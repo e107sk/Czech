@@ -4,39 +4,42 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:38:21
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("EMOLAN_1", "Aktivace smajlíků");
-define("EMOLAN_3", "Smajlíci");
-define("EMOLAN_4", "Zapnout smajlíky?");
-define("EMOLAN_5", "Obrázek");
-define("EMOLAN_6", "Kód");
-define("EMOLAN_7", "víc položek oddělujte mezerami");
-define("EMOLAN_11", "Aktivuj balík");
-define("EMOLAN_13", "Instalované balíky");
-define("EMOLAN_17", "Tenhle balík smajlíků obsahuje mezery, a není povolen.");
-define("EMOLAN_18", "přejmenujte prosím výskyty uvedené níže tak, aby neobsahovaly mezery:");
-define("EMOLAN_20", "Lokace");
-define("EMOLAN_21", "Chyba");
-define("EMOLAN_22", "Našel jsem nový balík smajlíků:");
-define("EMOLAN_23", "Našel jsem nový xml balík smajlíků:");
-define("EMOLAN_24", "Našel jsem nové php s smalíky:");
-define("EMOLAN_26", "Znovu prohledat balíček");
-define("EMOLAN_27", "Během zpracování balíčku nastala chyba:");
-define("EMOLAN_28", "Vygenerovat XML");
-define("EMOLAN_29", "XML  soubor vygenerován:");
-define("EMOLAN_30", "Chyba při zápisu XML souboru:");
-define("EMOLAN_PAGE_TITLE", "Smajlíci");
-define("EMOLAN_31", "Celkem nalezeno souborů - [x]");
-define("EMOLAN_32", "Detekován neznámý balík");
-define("EMOLAN_33", "Nepodporovaný formát XML souboru");
-define("EMOLAN_34", "Chybí soubory pro balíček");
-define("EMOLAN_35", "- odstraněny v databázi");
-define("EMOLAN_37", "Smajlíci nejsou nastaveny");
-define("EMOLAN_38", "Nezadány kódy smajlíků");
+
+return [
+    'EMOLAN_1' => "Aktivace smajlíků",
+    'EMOLAN_3' => "Smajlíci",
+    'EMOLAN_4' => "Zapnout smajlíky?",
+    'EMOLAN_5' => "Obrázek",
+    'EMOLAN_6' => "Kód",
+    'EMOLAN_7' => "víc položek oddělujte mezerami",
+    'EMOLAN_11' => "Aktivuj balík",
+    'EMOLAN_13' => "Instalované balíky",
+    'EMOLAN_17' => "Tenhle balík smajlíků obsahuje mezery, a není povolen.",
+    'EMOLAN_18' => "přejmenujte prosím výskyty uvedené níže tak, aby neobsahovaly mezery:",
+    'EMOLAN_20' => "Lokace",
+    'EMOLAN_21' => "Chyba",
+    'EMOLAN_22' => "Našel jsem nový balík smajlíků:",
+    'EMOLAN_23' => "Našel jsem nový xml balík smajlíků:",
+    'EMOLAN_24' => "Našel jsem nové php s smalíky:",
+    'EMOLAN_26' => "Znovu prohledat balíček",
+    'EMOLAN_27' => "Během zpracování balíčku nastala chyba:",
+    'EMOLAN_28' => "Vygenerovat XML",
+    'EMOLAN_29' => "XML  soubor vygenerován:",
+    'EMOLAN_30' => "Chyba při zápisu XML souboru:",
+    'EMOLAN_PAGE_TITLE' => "Smajlíci",
+    'EMOLAN_31' => "Celkem nalezeno souborů - [x]",
+    'EMOLAN_32' => "Detekován neznámý balík",
+    'EMOLAN_33' => "Nepodporovaný formát XML souboru",
+    'EMOLAN_34' => "Chybí soubory pro balíček",
+    'EMOLAN_35' => "- odstraněny v databázi",
+    'EMOLAN_37' => "Smajlíci nejsou nastaveny",
+    'EMOLAN_38' => "Nezadány kódy smajlíků",
+];

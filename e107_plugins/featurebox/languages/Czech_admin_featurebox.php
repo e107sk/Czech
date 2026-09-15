@@ -4,30 +4,52 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:51:56
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("FBLAN_08", "Text zprávy");
-define("FBLAN_12", "Režim");
-define("FBLAN_13", "Náhodně měněné texty");
-define("FBLAN_14", "Zobrazit pouze tento text");
-define("FBLAN_22", "Nastavení vzhledu");
-define("FBLAN_23", "Podle šablony stránky");
-define("FBLAN_24", "Jednoduchý text");
-define("FBLAN_25", "K šabloně [x] nejsou přiřazeny žádné položky seznamu.");
-define("FBLAN_26", "Obrázek / Video");
-define("FBLAN_27", "Obrázek jako odkaz");
-define("FBLAN_28", "Menu Featurebox - kategorie");
-define("FBLAN_29", "Kategorie, kterou chcete zobrazit v menu featurebox");
-define("FBLAN_30", "Šablony kategorie");
-define("FBLAN_31", "Náhodný");
-define("FBLAN_32", "Parametry (volitelné)");
-define("FBLAN_33", "Volitelné parametry jazyka Javascript (formát se může změnit)");
-define("FBLAN_34", "Nepřiřazeno");
-define("FBLAN_35", "Kolotoč");
-define("FBLAN_36", "Záložky");
+/* 
+TODO LAN - cleanup constants not in use 
+Work in progress Moc - commented out are candidate for removal
+LAN file needs working from scratch after development is stabilized
+*/
+
+
+//define("LAN_PLUGIN_FEATUREBOX_NAME", "Feature Box");
+//define("FBLAN_02", "Displays an animated area on the top of your page with news-items and other content you would like to feature.");
+//define("FBLAN_03", "Configure feature box"); //FIXME LAN  - use generic. 
+//define("FBLAN_04", "Feature Box plugin has been successfully installed. To add messages and configure, return to the main admin page and click on the feature box icon in the plugin section.");
+//define("FBLAN_05", "No feature box messages defined yet");
+//define("FBLAN_06", "Existing Feature Box Messages"); //FIXME LAN  - use generic. 
+//define("FBLAN_07", "Title / Caption"); //FIXME LAN  - use generic. 
+
+return [
+    'FBLAN_08' => "Text zprávy",
+    'FBLAN_12' => "Režim",
+    'FBLAN_13' => "Náhodně měněné texty",
+    'FBLAN_14' => "Zobrazit pouze tento text",
+    'FBLAN_22' => "Nastavení vzhledu",
+    'FBLAN_23' => "Podle šablony stránky",
+    'FBLAN_24' => "Jednoduchý text",
+    'FBLAN_25' => "K šabloně [x] nejsou přiřazeny žádné položky seznamu.",
+    'FBLAN_26' => "Obrázek / Video",
+    'FBLAN_27' => "Obrázek jako odkaz",
+    'FBLAN_28' => "Menu Featurebox - kategorie",
+    'FBLAN_29' => "Kategorie, kterou chcete zobrazit v menu featurebox",
+    'FBLAN_30' => "Šablony kategorie",
+    'FBLAN_31' => "Náhodný",
+    'FBLAN_32' => "Parametry (volitelné)",
+    'FBLAN_33' => "Volitelné parametry jazyka Javascript (formát se může změnit)",
+    'FBLAN_34' => "Nepřiřazeno",
+    'FBLAN_35' => "Kolotoč",
+    'FBLAN_36' => "Záložky",
+    'LAN_FEATUREBOX_SEF' => "Shortcode name",
+    'LAN_FEATUREBOX_SEF_HELP' => "How a layout addresses this category, as {FEATUREBOX|my-category}. Letters, numbers, - and _ only; anything else is converted.",
+    'LAN_FEATUREBOX_SEF_EMPTY' => "Please give this category a shortcode name containing letters, numbers, - or _.",
+    'LAN_FEATUREBOX_SEF_TAKEN' => "Another category already uses that shortcode name. Please choose a different one.",
+    'LAN_FEATUREBOX_LAYOUT_RESERVED' => "The Unassigned layout belongs to the system category. Please choose a different layout.",
+];

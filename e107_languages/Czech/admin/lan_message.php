@@ -1,27 +1,33 @@
 <?php
 /*
-+ ----------------------------------------------------------------------------+
-|     e107 website system - Language File.
++---------------------------------------------------------------+
+|        e107 website content management system Czech Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2026/09/15 11:11:56
 |
-|     $Source: /cvsroot/e107/e107_0.7/e107_languages/Czech/admin/lan_message.php,v $
-|     $Revision: 1.1 $
-|     $Date: 2005/02/08 21:33:07 $
-|     $Author: stevedunstan $
-+----------------------------------------------------------------------------+
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
+|        $Author: stevedunstan $
++---------------------------------------------------------------+
 */
-define("MESSLAN_1", "Přijaté zprávy");
-define("MESSLAN_2", "Smazat zprávu");
-define("MESSLAN_3", "Zpráva smazána.");
-define("MESSLAN_4", "Smazat všechny zprávy");
-define("MESSLAN_5", "Potvrdit");
-define("MESSLAN_6", "Všechny zprávy smazány.");
-define("MESSLAN_7", "Žádné zprávy.");
-define("MESSLAN_8", "Typ zprávy");
-define("MESSLAN_9", "Nahlášeno");
-define("MESSLAN_10", "Předmět");
-define("MESSLAN_11", "otevřít v novém okně");
-define("MESSLAN_12", "Zpráva");
-define("MESSLAN_13", "Odkaz");
 
+// DEPRECATED FILE - UP FOR REMOVAL 
 
-?>
+/*
+define("MESSLAN_1", "Received messages");
+define("MESSLAN_2", "Delete Message");
+define("MESSLAN_3", "Message Deleted.");
+define("MESSLAN_4", "Delete All Messages");
+define("MESSLAN_5", "Confirm");
+define("MESSLAN_6", "All messages deleted.");
+define("MESSLAN_7", "No messages.");
+define("MESSLAN_8", "Message type");
+define("MESSLAN_9", "Reported on");
+
+define("MESSLAN_10", "Submitted by");
+define("MESSLAN_11", "opens in new window");
+define("MESSLAN_12", "Message");
+define("MESSLAN_13", "Link");
+
+?>*/

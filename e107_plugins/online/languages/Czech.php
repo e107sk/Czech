@@ -4,36 +4,38 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/11/22 03:50:40
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.1.7 $
-|        $Id: 2017/11/22 03:50:40 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
- 
-define("LAN_LASTSEEN_1", "Menu Naposledy viděno");
-define("LAN_ONLINE_TRACKING_MESSAGE", "Sledování online uživatelů není aktuálně povoleno, povolte ho prosím [zde]");
-define("LAN_ONLINE_1", "Počet hostů: ");
-define("LAN_ONLINE_2", "Počet členů: ");
-define("LAN_ONLINE_3", "Na této stránce: ");
-define("LAN_ONLINE_4", "Online");
-define("LAN_ONLINE_5", "");
-define("LAN_ONLINE_6", "Nejnovější člen: ");
-define("LAN_ONLINE_7", "prohlíží");
-define("LAN_ONLINE_8", "nejvíce online: ");
-define("LAN_ONLINE_9", "dne: ");
-define("LAN_ONLINE_10", "Menu Online");
-define("LAN_ONLINE_11", "Celkový počet registrovaných členů: ");
-define("LAN_ONLINE_ADMIN_1", "menu Naposledy viděno");
-define("LAN_ONLINE_ADMIN_2", "Nadpis menu Naposledy viděno");
-define("LAN_ONLINE_ADMIN_3", "Počet zobrazených záznamů");
-define("LAN_ONLINE_ADMIN_4", "online menu");
-define("LAN_ONLINE_ADMIN_5", "Nadpis online menu");
-define("LAN_ONLINE_ADMIN_6", "Zobrazit seznam členů online");
-define("LAN_ONLINE_ADMIN_7", "Zobrazit rozšířený seznam členů online");
-define("LAN_ONLINE_ADMIN_8", "Zobrazit seznam členů oddělený čárkami");
-define("LAN_ONLINE_ADMIN_9", "Zobrazit seznam členů prohlížejících některou stránku.");
-define("LAN_ONLINE_ADMIN_10", "Zobrazit hosty online.");
+//lastseen
+
+return [
+    'LAN_LASTSEEN_1' => "Menu Naposledy viděno",
+    'LAN_ONLINE_TRACKING_MESSAGE' => "Sledování online uživatelů není aktuálně povoleno, povolte ho prosím [zde]",
+    'LAN_ONLINE_1' => "Počet hostů: ",
+    'LAN_ONLINE_2' => "Počet členů: ",
+    'LAN_ONLINE_3' => "Na této stránce: ",
+    'LAN_ONLINE_4' => "Online",
+    'LAN_ONLINE_5' => "",
+    'LAN_ONLINE_6' => "Nejnovější člen: ",
+    'LAN_ONLINE_7' => "prohlíží",
+    'LAN_ONLINE_8' => "nejvíce online: ",
+    'LAN_ONLINE_9' => "dne: ",
+    'LAN_ONLINE_10' => "Menu Online",
+    'LAN_ONLINE_11' => "Celkový počet registrovaných členů: ",
+    'LAN_ONLINE_ADMIN_1' => "menu Naposledy viděno",
+    'LAN_ONLINE_ADMIN_2' => "Nadpis menu Naposledy viděno",
+    'LAN_ONLINE_ADMIN_3' => "Počet zobrazených záznamů",
+    'LAN_ONLINE_ADMIN_4' => "online menu",
+    'LAN_ONLINE_ADMIN_5' => "Nadpis online menu",
+    'LAN_ONLINE_ADMIN_6' => "Zobrazit seznam členů online",
+    'LAN_ONLINE_ADMIN_7' => "Zobrazit rozšířený seznam členů online",
+    'LAN_ONLINE_ADMIN_8' => "Zobrazit seznam členů oddělený čárkami",
+    'LAN_ONLINE_ADMIN_9' => "Zobrazit seznam členů prohlížejících některou stránku.",
+    'LAN_ONLINE_ADMIN_10' => "Zobrazit hosty online.",
+];

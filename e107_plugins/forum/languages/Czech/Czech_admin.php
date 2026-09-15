@@ -4,134 +4,243 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:54:07
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
-define("FORLAN_2", "Prosím vyberte, jestli chcete smazat příspěvky úplně, nebo je pouze označit jako neaktivní(nebudou smazány, ale nebudou zobrazeny ve fórech)");
-define("FORLAN_7", "Nastavení fóra");
-define("FORLAN_8", "Fóra pročištěna.");
-define("FORLAN_9", "Pročištění není nutné.");
-define("FORLAN_23", "Viditelné pro");
-define("FORLAN_24", "Zvolte jednu ze skupin pro kterou bude fórum viditelné");
-define("FORLAN_29", "Zatím žádná fóra.");
-define("FORLAN_30", "Současná fóra");
-define("FORLAN_34", "Vyberte skupinu pro moderování fóra");
-define("FORLAN_44", "Uzavřít tabulky");
-define("FORLAN_45", "Zaškrtněte pro vykreslení fóra bez tabulky vzhledu");
-define("FORLAN_47", "Povolit upozornění emailem");
-define("FORLAN_48", "Povolit uživatelům možnost zasílání emailů, pokud někdo odpoví na jejich příspěvek");
-define("FORLAN_49", "Povolit ankety");
-define("FORLAN_50", "Povolit uživatelům zakládat ankety ve fóru - doplněk ANKETY musí být nainstalován");
-define("FORLAN_51", "Povolit sledování");
-define("FORLAN_52", "Povolit uživatelům sledování nových odpovědí v tématech emailem");
-define("FORLAN_53", "Předpona emalů");
-define("FORLAN_54", "Tento text bude zobrazen před předmětem emailů posílaných z fóra (upozornění na nové příspěvky)");
-define("FORLAN_55", "Hranice oblíbeného tématu");
-define("FORLAN_56", "Počet příspěvků v tématu, kdy je označeno za oblíbené");
-define("FORLAN_57", "Příspěvků na stránku");
-define("FORLAN_58", "Počet příspěvků zobrazených na jedné stránce");
-define("FORLAN_60", "Tato možnost promaže všechny témata, ve kterých nebyla odeslána odpověď po zadaný počet dnů. <br /><b>Prosím, používejte s rozmyslem!</b>");
-define("FORLAN_63", "Hodnosti");
-define("FORLAN_65", "Titulek Fóra");
-define("FORLAN_66", "Doplněk ankety není nainstalován");
-define("FORLAN_70", "Povolit přílohy (soubory/obrázky)");
-define("FORLAN_71", "Povolit uživatelům nahrát soubor nebo obrázek k příspěvku,");
-define("FORLAN_75", "Sekce");
-define("FORLAN_76", "Hlavní strana fóra");
-define("FORLAN_77", "Vytvořit fóra");
-define("FORLAN_78", "Pořadí fór");
-define("FORLAN_83", "Vytvořit sekce");
-define("FORLAN_87", "Pročistit témata bez odpovědí po tolika dnech:");
-define("FORLAN_89", "Smazat kompletně všechny příspěvky");
-define("FORLAN_90", "Označit příspěvky jako neaktivní");
-define("FORLAN_91", "příspěvek( příspěvky) označeny jako neaktivní");
-define("FORLAN_92", "téma (témata) smazáno");
-define("FORLAN_93", "odpověď (odpovědi) smazány");
-define("FORLAN_112", "Povolit přesměrování");
-define("FORLAN_113", "Povolit přesměrování po odeslání odpovědi");
-define("FORLAN_116", "Nahlášené příspěvky");
-define("FORLAN_121", "Žádné nahlášené příspěvky");
-define("FORLAN_122", "Povolit zasílání upozornění o nahlášených příspěvcích emailem");
-define("WMGLAN_1", "Pravidla pro hosty");
-define("WMGLAN_2", "Pravidla pro členy");
-define("WMGLAN_3", "Pravidla pro administrátory");
-define("WMGLAN_5", "Nastavit pravidla fóra");
-define("WMGLAN_6", "Aktivovat?");
-define("FORLAN_126", "Zobrazovat tipy");
-define("FORLAN_127", "Povolit zobrazování tipu obsahující první příspěvek tématu při přejetí myší nad názvem tématu.");
-define("FORLAN_128", "Délka tipů");
-define("FORLAN_129", "Nastavit počet znaků zobrazených v tipu.");
-define("FORLAN_130", "klikněte");
-define("FORLAN_131", "pro nastavení maximální velikosti, povolené typy souborů apod.");
-define("FORLAN_132", "Zvýraznění přišpendlených témat");
-define("FORLAN_133", "Zvýraznit přišpendlená témata (oddělit od ostatních témat)");
-define("FORLAN_134", "Maximální šířka nahraného obrázku");
-define("FORLAN_135", "Ponechte prázdné pro vypnutí automatické změny velikosti obrázků");
-define("FORLAN_136", "Vytvořit odkaz na plnou velikost obrázku");
-define("FORLAN_137", "Povolit změnu velikosti velkých obrázků a vytvořit odkaz na obrázek v původní velikosti. Pokud tuto funkci vypnete, původní obrázky budou smazány");
-define("FORLAN_138", "Pročistit tato fóra");
-define("FORLAN_139", "Pro použití této možnosti musíte také zaškrtnout 'Povolit nahrávání obrázků' na stránce <a href='".e_ADMIN."image.php'>Obrázky</a>");
-define("FORLAN_140", "Zobrazit");
-define("FORLAN_142", "Práva k vkládání příspěvků");
-define("FORLAN_143", "Zvolené skupina bude mít možnost zasílat témata, příspěvky do právě vytvářeného fóra");
-define("FORLAN_145", "Nastavit pod-fóra");
-define("FORLAN_146", "Zatím žádná pod-fóra");
-define("FORLAN_152", "příspěvky");
-define("FORLAN_153", "Nástroje");
-define("FORLAN_155", "Kategorie fóra");
-define("FORLAN_156", "Vyberte fóra na kterých chcete akci provést");
-define("FORLAN_158", "Přepočítat informace o posledních příspěvcích fóra");
-define("FORLAN_159", "Vyberte pro přepočítání");
-define("FORLAN_160", "Vyberte pro provedení akce pouze na fórech, ne tématech");
-define("FORLAN_161", "Přepočítání příspěvky / odpovědi");
-define("FORLAN_162", "Vyberte pro přepočítání témat a odpovědí fóra");
-define("FORLAN_163", "Přepočítání uživatelských příspěvků");
-define("FORLAN_164", "Vyberte pro přepočítání počítadel");
-define("FORLAN_166", "Nástroje fóra");
-define("FORLAN_167", "Součty upraveny pro fórum");
-define("FORLAN_168", "Informace o posledních příspěvcích upraveno pro fórum");
-define("FORLAN_169", "Počítadla upravena");
-define("FORLAN_170", "Oznámení");
-define("FORLAN_171", "Oznámení příspěvků fóra");
-define("FORLAN_172", "Smazat toto oznámení");
-define("FORLAN_173", "Titulek tématu");
-define("FORLAN_174", "Oznámil uživatel");
-define("FORLAN_175", "Oznámení odesláno");
-define("FORLAN_177", "Upozornění emailem standardně zapnuto");
-define("FORLAN_178", "Nastavit upozornění emailem standardně jako zapnuté");
-define("FORLAN_179", "(Přidáním * na začátek názvu fóra udělá z fóra pouze 'kontejner' pro další pod-fóra. Fórum musí také podporovat tuto možnost.)");
-define("FORLAN_182", "a také přepočítat odpovědi všech témat ve zvoleném fóru");
-define("FORLAN_183", "(Toto nefunguje, pokud je vybrána možnost 'všechna fóra', protože by to vygenerovalo příliš dotazů najednou)");
-define("FORLAN_184", "Oprávnění vytvořit téma fóra");
-define("FORLAN_185", "Označuje, kdo může vytvářet nové témata fóra");
-define("FORLAN_186", "Počet témat na stránku");
-define("FORLAN_187", "Počet témat zobrazených na jedné stránce");
-define("FORLAN_189", "Klepnutím na tlačítko 'Smazat' vymažte přehled. [br][br]Klepnutím na tlačítko 'Zobrazit' zobrazíte téma / vlákno[br][br]Chcete-li být informováni o všech nových zprávách, přečtěte si část [Nastavení oznámení].");
-define("FORLAN_200", "Sledování témat");
-define("FORLAN_201", "Umožnit, uživatelům sledovat témata.");
-define("FORLAN_202", "Emailová upozornění na aktivitu v sledovaných tématech");
-define("FORLAN_203", "Povolte tuto možnost, aby uživatelé mohli přijímat e-mailová upozornění, když někdo odpoví na sledované téma.");
-define("FORLAN_204", "User-Anon");
-define("FORLAN_205", "Oprávnění přispívat");
-define("FORLAN_206", "Uživatelská třída pro vytvoření vlákna");
-define("FORLAN_207", "Fóra a vlákna");
-define("FORLAN_208", "Pouze fóra");
-define("FORLAN_209", "Vlákna");
-define("FORLAN_210", "Dotazy");
-define("FORLAN_211", "Vložil");
-define("FORLAN_212", "Přílohy");
-define("FORLAN_213", "Příspěvek");
-define("FORLAN_214", "Nechte prázdné pro automatické vygenerování z výše uvedeného nadpisu.");
-define("FORLAN_215", "Není instalován!");
-define("FORLAN_216", "(nový rodič)");
-define("FORLAN_217", "Výchozí systém");
-define("FORLAN_218", "Textové pole");
-define("FORLAN_219", "Bohatý textový editor");
-define("FORLAN_220", "Editor příspěvků");
-define("FORLAN_221", "Který editor by měl být použit k vytváření / úpravě příspěvků?");
-define("FORLAN_222", "Editor rychlých odpovědí");
-define("FORLAN_223", "Používejte pouze prostý text (bez bbcode nebo html!).");
+
+return [
+//'FORLAN_1' => "You must enter the number of days you wish to prune.",
+    'FORLAN_2' => "Prosím vyberte, jestli chcete smazat příspěvky úplně, nebo je pouze označit jako neaktivní(nebudou smazány, ale nebudou zobrazeny ve fórech)",
+// 'FORLAN_3' => "delete",
+// 'FORLAN_4' => "Make inactive",
+// 'FORLAN_5' => "Carry Out Prune",
+// 'FORLAN_6' => "Cancel",
+    'FORLAN_7' => "Nastavení fóra",
+    'FORLAN_8' => "Fóra pročištěna.",
+    'FORLAN_9' => "Pročištění není nutné.",
+//'FORLAN_10' => "Options Saved",
+//'FORLAN_11' => "Forum created",
+//'FORLAN_12' => "Forum updated",
+//'FORLAN_13' => "Parent created",
+//'FORLAN_14' => "Forum parent updated",
+//'FORLAN_15' => "Please tick the confirm box to delete the forum",
+// 'FORLAN_16' => "Forums",
+//'FORLAN_17' => "No parents yet.",
+//'FORLAN_18' => "Existing Parents",
+// 'FORLAN_19' => "Edit",
+// 'FORLAN_20' => "Delete",
+//'FORLAN_21' => "tick to confirm",
+//'FORLAN_22' => "Parent",
+    'FORLAN_23' => "Viditelné pro",
+    'FORLAN_24' => "Zvolte jednu ze skupin pro kterou bude fórum viditelné",
+//'FORLAN_25' => "Update Parent",
+//'FORLAN_26' => "Create Parent",
+//'FORLAN_27' => "You need to define at least one forum parent before creating a forum.",
+// 'FORLAN_28' => "Forums",
+    'FORLAN_29' => "Zatím žádná fóra.",
+    'FORLAN_30' => "Současná fóra",
+//'FORLAN_31' => "Name",
+//'FORLAN_32' => "Description",
+// 'FORLAN_33' => "Moderators",
+    'FORLAN_34' => "Vyberte skupinu pro moderování fóra",
+//'FORLAN_35' => "Update Forum",
+//'FORLAN_36' => "Create Forum",
+// 'FORLAN_37' => "Order",
+// 'FORLAN_38' => "Closed",
+// 'FORLAN_39' => "Members Only",
+// 'FORLAN_40' => "Restricted",
+// 'FORLAN_41' => "move up",
+// 'FORLAN_42' => "move down",
+// 'FORLAN_43' => "Preview / Forum Order",
+    'FORLAN_44' => "Uzavřít tabulky",
+    'FORLAN_45' => "Zaškrtněte pro vykreslení fóra bez tabulky vzhledu",
+// 'FORLAN_46' => "Title displayed in caption if enclose tables is ticked",
+    'FORLAN_47' => "Povolit upozornění emailem",
+    'FORLAN_48' => "Povolit uživatelům možnost zasílání emailů, pokud někdo odpoví na jejich příspěvek",
+    'FORLAN_49' => "Povolit ankety",
+    'FORLAN_50' => "Povolit uživatelům zakládat ankety ve fóru - doplněk ANKETY musí být nainstalován",
+    'FORLAN_51' => "Povolit sledování",
+    'FORLAN_52' => "Povolit uživatelům sledování nových odpovědí v tématech emailem",
+    'FORLAN_53' => "Předpona emalů",
+    'FORLAN_54' => "Tento text bude zobrazen před předmětem emailů posílaných z fóra (upozornění na nové příspěvky)",
+    'FORLAN_55' => "Hranice oblíbeného tématu",
+    'FORLAN_56' => "Počet příspěvků v tématu, kdy je označeno za oblíbené",
+    'FORLAN_57' => "Příspěvků na stránku",
+    'FORLAN_58' => "Počet příspěvků zobrazených na jedné stránce",
+//'FORLAN_59' => "Prune",
+    'FORLAN_60' => "Tato možnost promaže všechny témata, ve kterých nebyla odeslána odpověď po zadaný počet dnů. <br /><b>Prosím, používejte s rozmyslem!</b>",
+//'FORLAN_61' => "Update Options",
+// 'FORLAN_62' => "Forum Options",
+    'FORLAN_63' => "Hodnosti",
+// 'FORLAN_64' => "Enter your levels here, if left blank generic stars will be used to denote level. Separate levels with comma. Maximum of 10 levels, lowest first.",
+    'FORLAN_65' => "Titulek Fóra",
+    'FORLAN_66' => "Doplněk ankety není nainstalován",
+
+    'FORLAN_70' => "Povolit přílohy (soubory/obrázky)",
+    'FORLAN_71' => "Povolit uživatelům nahrát soubor nebo obrázek k příspěvku,",
+//'FORLAN_72' => "Update Order",
+//'FORLAN_73' => "Order Updated",
+
+    'FORLAN_75' => "Sekce",
+    'FORLAN_76' => "Hlavní strana fóra",
+    'FORLAN_77' => "Vytvořit fóra",
+    'FORLAN_78' => "Pořadí fór",
+// 'FORLAN_79' => "Preferences",
+//'FORLAN_80' => "Options",
+// 'FORLAN_81' => "Are you sure you want to delete this parent? - forums of this parent will also be deleted",
+// 'FORLAN_82' => "Are you sure you want to delete this forum?",
+    'FORLAN_83' => "Vytvořit sekce",
+// 'FORLAN_84' => "Members Only",
+// 'FORLAN_85' => "Read Only",
+// 'FORLAN_86' => "Admin Only",
+    'FORLAN_87' => "Pročistit témata bez odpovědí po tolika dnech:",
+
+// 'FORLAN_88' => "Prune topics with no replies in this many days:",
+
+    'FORLAN_89' => "Smazat kompletně všechny příspěvky",
+    'FORLAN_90' => "Označit příspěvky jako neaktivní",
+
+    'FORLAN_91' => "příspěvek( příspěvky) označeny jako neaktivní",
+    'FORLAN_92' => "téma (témata) smazáno",
+    'FORLAN_93' => "odpověď (odpovědi) smazány",
+
+// 'FORLAN_94' => "Set Ranks",
+// 'FORLAN_95' => "Ranks saved",
+//'FORLAN_96' => "Forum deleted",
+//'FORLAN_97' => "Parent deleted",
+
+// 'FORLAN_98' => "Rank Name",
+// 'FORLAN_99' => "number of points before level change",
+// 'FORLAN_100' => "upload images to e107_themes/Your_Theme/forum/",
+// 'FORLAN_101' => "Main Site Admin",
+// 'FORLAN_102' => "Threshold",
+// 'FORLAN_103' => "Site Admin",
+// 'FORLAN_104' => "Rank Image",
+// 'FORLAN_105' => "Forum Moderator",
+
+
+// 'FORLAN_106' => "Prune Type:",
+// 'FORLAN_107' => "Forum",
+// 'FORLAN_108' => " deleted",
+// 'FORLAN_109' => "days:",
+// 'FORLAN_110' => "Prune",
+// 'FORLAN_111' => "deactivate",
+
+    'FORLAN_112' => "Povolit přesměrování",
+    'FORLAN_113' => "Povolit přesměrování po odeslání odpovědi",
+//'FORLAN_114' => "User Custom Title",
+//'FORLAN_115' => "Tick this to allow users to change their Custom Title",
+    'FORLAN_116' => "Nahlášené příspěvky",
+// 'FORLAN_117' => "This will delete the record of the reported post. Not the post itself.",
+// 'FORLAN_118' => "Reported post deleted",
+// 'FORLAN_119' => "Clicking links will open forum in a new window.",
+// 'FORLAN_120' => "Tick this to allow users to change their Custom Title",
+    'FORLAN_121' => "Žádné nahlášené příspěvky",
+    'FORLAN_122' => "Povolit zasílání upozornění o nahlášených příspěvcích emailem",
+// 'FORLAN_123' => "Forum Rules",
+    'WMGLAN_1' => "Pravidla pro hosty",
+    'WMGLAN_2' => "Pravidla pro členy",
+    'WMGLAN_3' => "Pravidla pro administrátory",
+// 'WMGLAN_4' => "Submit",
+    'WMGLAN_5' => "Nastavit pravidla fóra",
+    'WMGLAN_6' => "Aktivovat?",
+    'FORLAN_126' => "Zobrazovat tipy",
+    'FORLAN_127' => "Povolit zobrazování tipu obsahující první příspěvek tématu při přejetí myší nad názvem tématu.",
+    'FORLAN_128' => "Délka tipů",
+    'FORLAN_129' => "Nastavit počet znaků zobrazených v tipu.",
+    'FORLAN_130' => "klikněte",
+    'FORLAN_131' => "pro nastavení maximální velikosti, povolené typy souborů apod.",
+    'FORLAN_132' => "Zvýraznění přišpendlených témat",
+    'FORLAN_133' => "Zvýraznit přišpendlená témata (oddělit od ostatních témat)",
+    'FORLAN_134' => "Maximální šířka nahraného obrázku",
+    'FORLAN_135' => "Ponechte prázdné pro vypnutí automatické změny velikosti obrázků",
+    'FORLAN_136' => "Vytvořit odkaz na plnou velikost obrázku",
+    'FORLAN_137' => "Povolit změnu velikosti velkých obrázků a vytvořit odkaz na obrázek v původní velikosti. Pokud tuto funkci vypnete, původní obrázky budou smazány",
+    'FORLAN_138' => "Pročistit tato fóra",
+    'FORLAN_139' => "Pro použití této možnosti musíte také zaškrtnout 'Povolit nahrávání obrázků' na stránce <a href='".e_ADMIN."image.php'>Obrázky</a>", // FIX html in LAN",
+    'FORLAN_140' => "Zobrazit",
+// 'FORLAN_141' => "Post",
+    'FORLAN_142' => "Práva k vkládání příspěvků",
+    'FORLAN_143' => "Zvolené skupina bude mít možnost zasílat témata, příspěvky do právě vytvářeného fóra",
+//'FORLAN_144' => "Moderators set",
+    'FORLAN_145' => "Nastavit pod-fóra",
+    'FORLAN_146' => "Zatím žádná pod-fóra",
+//'FORLAN_147' => "Update sub-forums",
+//'FORLAN_148' => "Create sub-forums",
+// 'FORLAN_149' => "sub-forums",
+// 'FORLAN_150' => "sub-forum",
+//'FORLAN_151' => "ID",
+    'FORLAN_152' => "příspěvky",
+    'FORLAN_153' => "Nástroje",
+// 'FORLAN_154' => "Reply Deleted",
+    'FORLAN_155' => "Kategorie fóra",
+
+    'FORLAN_156' => "Vyberte fóra na kterých chcete akci provést",
+// 'FORLAN_157' => "All Forums",
+    'FORLAN_158' => "Přepočítat informace o posledních příspěvcích fóra",
+    'FORLAN_159' => "Vyberte pro přepočítání",
+    'FORLAN_160' => "Vyberte pro provedení akce pouze na fórech, ne tématech",
+    'FORLAN_161' => "Přepočítání příspěvky / odpovědi",
+    'FORLAN_162' => "Vyberte pro přepočítání témat a odpovědí fóra",
+    'FORLAN_163' => "Přepočítání uživatelských příspěvků",
+    'FORLAN_164' => "Vyberte pro přepočítání počítadel",
+// 'FORLAN_165' => "Execute functions",
+    'FORLAN_166' => "Nástroje fóra",
+    'FORLAN_167' => "Součty upraveny pro fórum",
+    'FORLAN_168' => "Informace o posledních příspěvcích upraveno pro fórum",
+    'FORLAN_169' => "Počítadla upravena",
+    'FORLAN_170' => "Oznámení",
+    'FORLAN_171' => "Oznámení příspěvků fóra",
+    'FORLAN_172' => "Smazat toto oznámení",
+    'FORLAN_173' => "Titulek tématu",
+    'FORLAN_174' => "Oznámil uživatel",
+    'FORLAN_175' => "Oznámení odesláno",
+// 'FORLAN_176' => "Report",
+
+    'FORLAN_177' => "Upozornění emailem standardně zapnuto",
+    'FORLAN_178' => "Nastavit upozornění emailem standardně jako zapnuté",
+
+    'FORLAN_179' => "(Přidáním * na začátek názvu fóra udělá z fóra pouze 'kontejner' pro další pod-fóra. Fórum musí také podporovat tuto možnost.)",
+// 'FORLAN_180' => "Confirm delete operation",
+//'FORLAN_181' => "Confirm Delete",
+    'FORLAN_182' => "a také přepočítat odpovědi všech témat ve zvoleném fóru",
+    'FORLAN_183' => "(Toto nefunguje, pokud je vybrána možnost 'všechna fóra', protože by to vygenerovalo příliš dotazů najednou)",
+
+    'FORLAN_184' => "Oprávnění vytvořit téma fóra",
+    'FORLAN_185' => "Označuje, kdo může vytvářet nové témata fóra",
+
+    'FORLAN_186' => "Počet témat na stránku",
+    'FORLAN_187' => "Počet témat zobrazených na jedné stránce",
+// 'FORLAN_188' => "Latest Posts",
+    'FORLAN_189' => "Klepnutím na tlačítko 'Smazat' vymažte přehled. [br][br]Klepnutím na tlačítko 'Zobrazit' zobrazíte téma / vlákno[br][br]Chcete-li být informováni o všech nových zprávách, přečtěte si část [Nastavení oznámení].",
+
+    'FORLAN_200' => "Sledování témat",
+    'FORLAN_201' => "Umožnit, uživatelům sledovat témata.",
+    'FORLAN_202' => "Emailová upozornění na aktivitu v sledovaných tématech",
+    'FORLAN_203' => "Povolte tuto možnost, aby uživatelé mohli přijímat e-mailová upozornění, když někdo odpoví na sledované téma.",
+    'FORLAN_204' => "User-Anon",
+    'FORLAN_205' => "Oprávnění přispívat",
+    'FORLAN_206' => "Uživatelská třída pro vytvoření vlákna",
+    'FORLAN_207' => "Fóra a vlákna",
+    'FORLAN_208' => "Pouze fóra",
+    'FORLAN_209' => "Vlákna",
+    'FORLAN_210' => "Dotazy",
+    'FORLAN_211' => "Vložil",
+    'FORLAN_212' => "Přílohy",
+    'FORLAN_213' => "Příspěvek",
+    'FORLAN_214' => "Nechte prázdné pro automatické vygenerování z výše uvedeného nadpisu.",
+    'FORLAN_215' => "Není instalován!",
+    'FORLAN_216' => "(nový rodič)",
+    'FORLAN_217' => "Výchozí systém",
+    'FORLAN_218' => "Textové pole",
+    'FORLAN_219' => "Bohatý textový editor",
+    'FORLAN_220' => "Editor příspěvků",
+    'FORLAN_221' => "Který editor by měl být použit k vytváření / úpravě příspěvků?",
+    'FORLAN_222' => "Editor rychlých odpovědí",
+    'FORLAN_223' => "Používejte pouze prostý text (bez bbcode nebo html!).",
+    'FORLAN_REFUSED_TOKEN_MISSING' => "The forum upgrade did nothing, because the request carried no security token. Start it from the forum's administration menu rather than from a bookmark or a link on another site.",
+];

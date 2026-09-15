@@ -4,13 +4,15 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2020/07/31 18:59:26
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/oxigeno2/e107 $
-|        $Revision: 2.3.0 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_IMPORT_NAME", "Import do e107");
-define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Import dat z Wordpress, Joomla, Drupal, Blogpost, RSS a dalších formátů.");
+return [
+    'LAN_PLUGIN_IMPORT_NAME'        => "Import do e107",
+    'LAN_PLUGIN_IMPORT_DESCRIPTION' => "Import dat z Wordpress, Joomla, Drupal, Blogpost, RSS a dalších formátů.",
+];

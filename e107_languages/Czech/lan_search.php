@@ -4,101 +4,103 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:14:53
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("PAGE_NAME", "Vyhledávání");
-define("LAN_140", "Uživatelé");
-define("LAN_192", "Všechny kategorie");
-define("LAN_193", "Kalendář akcí");
-define("LAN_194", "Všechny kategorie");
-define("LAN_195", "Hledání");
-define("LAN_196", "se shoduje");
-define("LAN_197", "Stahování");
-define("LAN_198", "Neshoduje se");
-define("LAN_199", "Vyhledat v:");
-define("LAN_416", "K přístupu na tuto stranu musíte být přihlášen");
-define("LAN_417", "Výraz pro vyhledávání musí mít nejméně [x] znaky.");
-define("LAN_418", "Ostatních strákách");
-define("LAN_SEARCH_1", "Vybrat vše");
-define("LAN_SEARCH_2", "Zrušit výběr");
-define("LAN_SEARCH_3", "Zasláno v");
-define("LAN_SEARCH_4", "Shoda nalezena v názvu novinky");
-define("LAN_SEARCH_5", "Shoda nalezena v textu novinky");
-define("LAN_SEARCH_6", "Shoda nalezena v rozšířeném textu novinky");
-define("LAN_SEARCH_7", "Zaslal");
-define("LAN_SEARCH_8", " v");
-define("LAN_SEARCH_9", "Bez názvu");
-define("LAN_SEARCH_11", "Výsledky");
-define("LAN_SEARCH_12", " z");
-define("LAN_SEARCH_13", " v");
-define("LAN_SEARCH_14", "Kategorie:");
-define("LAN_SEARCH_15", "Autor:");
-define("LAN_SEARCH_17", "Promiňte, ale vyhledávat můžete pouze jednou za");
-define("LAN_SEARCH_18", " vteřin.");
-define("LAN_SEARCH_19", "Prohledat:");
-define("LAN_SEARCH_20", "vyžadována autorizace");
-define("LAN_SEARCH_21", "Nemáte oprávnění přistupovat k této stránce.");
-define("LAN_SEARCH_22", "všechny oblasti");
-define("LAN_SEARCH_23", "formulář rozšířeného hledání");
-define("LAN_SEARCH_24", "Musí obsahovat slovo(slova)");
-define("LAN_SEARCH_25", "Nesmí obsahovat slovo(slova)");
-define("LAN_SEARCH_26", "Přesný výraz");
-define("LAN_SEARCH_27", "Slovo (slova) začínající na");
-define("LAN_SEARCH_28", "V rozšířeném hledání jako celku nelze pokračovat");
-define("LAN_SEARCH_29", "Základní");
-define("LAN_SEARCH_30", "Rozšířené");
-define("LAN_SEARCH_31", "Není dostupné rozšířené hledání");
-define("LAN_SEARCH_32", "Rozšířené hledání není k dispozici");
-define("LAN_SEARCH_33", "Následující slovo bylo vyřazeno z vyhledávání");
-define("LAN_SEARCH_34", "Novější než");
-define("LAN_SEARCH_35", "Starší než");
-define("LAN_SEARCH_36", "Kdykoliv");
-define("LAN_SEARCH_37", "Den");
-define("LAN_SEARCH_38", "Dva dny");
-define("LAN_SEARCH_39", "Tři dny");
-define("LAN_SEARCH_40", "Týden");
-define("LAN_SEARCH_41", "Dva týdny");
-define("LAN_SEARCH_42", "Tři týdny");
-define("LAN_SEARCH_43", "Měsíc");
-define("LAN_SEARCH_44", "Dva měsíce");
-define("LAN_SEARCH_45", "Tři měsíce");
-define("LAN_SEARCH_46", "Půl roku");
-define("LAN_SEARCH_47", "Rok");
-define("LAN_SEARCH_48", "Dva roky");
-define("LAN_SEARCH_49", "Tři roky");
-define("LAN_SEARCH_50", "Datum zaslání");
-define("LAN_SEARCH_51", "Všechny kategorie");
-define("LAN_SEARCH_52", "Shoda v");
-define("LAN_SEARCH_53", "Celá položka");
-define("LAN_SEARCH_54", "Pouze název");
-define("LAN_SEARCH_55", "Vyhledání v kategoriích novinek");
-define("LAN_SEARCH_56", "Všechny kategorie novinek");
-define("LAN_SEARCH_57", "komentáře zaslané k");
-define("LAN_SEARCH_58", "Všechny oblasti");
-define("LAN_SEARCH_59", "Všechny komentáře");
-define("LAN_SEARCH_60", "Komentáře zaslané do");
-define("LAN_SEARCH_61", "Autorem");
-define("LAN_SEARCH_62", "Datum připojení");
-define("LAN_SEARCH_63", "Hledání v kategorii");
-define("LAN_SEARCH_64", "Všechny kategorie ke stažení");
-define("LAN_SEARCH_65", "Ke stažení");
-define("LAN_SEARCH_66", "Datum přidání");
-define("LAN_SEARCH_67", "Detail všech stahování");
-define("LAN_SEARCH_69", "Shodnost");
-define("LAN_SEARCH_70", "Zasláno ke stažení");
-define("LAN_SEARCH_71", "Zasláno jako odpověď k novince");
-define("LAN_SEARCH_72", "podpis");
-define("LAN_SEARCH_73", "Bez podpisu");
-define("LAN_SEARCH_74", "Připojeno na");
-define("LAN_SEARCH_75", "Typ vyhledávání");
-define("LAN_SEARCH_76", "Vloženo na stranu");
-define("LAN_SEARCH_77", "Vloženo v profilu strany");
-define("LAN_SEARCH_98", "Novinky");
-define("LAN_SEARCH_201", "Prosím přeformulujte dotaz");
-define("LAN_SEARCH_202", "Rozšířené vyhledávání");
+return [
+    'PAGE_NAME' => "Vyhledávání",
+    'LAN_140' => "Uživatelé",
+    'LAN_192' => "Všechny kategorie",
+    'LAN_193' => "Kalendář akcí",
+    'LAN_194' => "Všechny kategorie",
+    'LAN_195' => "Hledání",
+    'LAN_196' => "se shoduje",
+    'LAN_197' => "Stahování",
+    'LAN_198' => "Neshoduje se",
+    'LAN_199' => "Vyhledat v:",
+    'LAN_416' => "K přístupu na tuto stranu musíte být přihlášen",
+    'LAN_417' => "Výraz pro vyhledávání musí mít nejméně [x] znaky.",
+    'LAN_418' => "Ostatních strákách",
+    'LAN_SEARCH_1' => "Vybrat vše",
+    'LAN_SEARCH_2' => "Zrušit výběr",
+    'LAN_SEARCH_3' => "Zasláno v",
+    'LAN_SEARCH_4' => "Shoda nalezena v názvu novinky",
+    'LAN_SEARCH_5' => "Shoda nalezena v textu novinky",
+    'LAN_SEARCH_6' => "Shoda nalezena v rozšířeném textu novinky",
+    'LAN_SEARCH_7' => "Zaslal",
+    'LAN_SEARCH_8' => " v",
+    'LAN_SEARCH_9' => "Bez názvu",
+    'LAN_SEARCH_11' => "Výsledky",
+    'LAN_SEARCH_12' => " z",
+    'LAN_SEARCH_13' => " v",
+    'LAN_SEARCH_14' => "Kategorie:",
+    'LAN_SEARCH_15' => "Autor:",
+    'LAN_SEARCH_17' => "Promiňte, ale vyhledávat můžete pouze jednou za",
+    'LAN_SEARCH_18' => " vteřin.",
+    'LAN_SEARCH_19' => "Prohledat:",
+    'LAN_SEARCH_20' => "vyžadována autorizace",
+    'LAN_SEARCH_21' => "Nemáte oprávnění přistupovat k této stránce.",
+    'LAN_SEARCH_22' => "všechny oblasti",
+    'LAN_SEARCH_23' => "formulář rozšířeného hledání",
+    'LAN_SEARCH_24' => "Musí obsahovat slovo(slova)",
+    'LAN_SEARCH_25' => "Nesmí obsahovat slovo(slova)",
+    'LAN_SEARCH_26' => "Přesný výraz",
+    'LAN_SEARCH_27' => "Slovo (slova) začínající na",
+    'LAN_SEARCH_28' => "V rozšířeném hledání jako celku nelze pokračovat",
+    'LAN_SEARCH_29' => "Základní",
+    'LAN_SEARCH_30' => "Rozšířené",
+    'LAN_SEARCH_31' => "Není dostupné rozšířené hledání",
+    'LAN_SEARCH_32' => "Rozšířené hledání není k dispozici",
+    'LAN_SEARCH_33' => "Následující slovo bylo vyřazeno z vyhledávání",
+    'LAN_SEARCH_34' => "Novější než",
+    'LAN_SEARCH_35' => "Starší než",
+    'LAN_SEARCH_36' => "Kdykoliv",
+    'LAN_SEARCH_37' => "Den",
+    'LAN_SEARCH_38' => "Dva dny",
+    'LAN_SEARCH_39' => "Tři dny",
+    'LAN_SEARCH_40' => "Týden",
+    'LAN_SEARCH_41' => "Dva týdny",
+    'LAN_SEARCH_42' => "Tři týdny",
+    'LAN_SEARCH_43' => "Měsíc",
+    'LAN_SEARCH_44' => "Dva měsíce",
+    'LAN_SEARCH_45' => "Tři měsíce",
+    'LAN_SEARCH_46' => "Půl roku",
+    'LAN_SEARCH_47' => "Rok",
+    'LAN_SEARCH_48' => "Dva roky",
+    'LAN_SEARCH_49' => "Tři roky",
+    'LAN_SEARCH_50' => "Datum zaslání",
+    'LAN_SEARCH_51' => "Všechny kategorie",
+    'LAN_SEARCH_52' => "Shoda v",
+    'LAN_SEARCH_53' => "Celá položka",
+    'LAN_SEARCH_54' => "Pouze název",
+    'LAN_SEARCH_55' => "Vyhledání v kategoriích novinek",
+    'LAN_SEARCH_56' => "Všechny kategorie novinek",
+    'LAN_SEARCH_57' => "komentáře zaslané k",
+    'LAN_SEARCH_58' => "Všechny oblasti",
+    'LAN_SEARCH_59' => "Všechny komentáře",
+    'LAN_SEARCH_60' => "Komentáře zaslané do",
+    'LAN_SEARCH_61' => "Autorem",
+    'LAN_SEARCH_62' => "Datum připojení",
+    'LAN_SEARCH_63' => "Hledání v kategorii",
+    'LAN_SEARCH_64' => "Všechny kategorie ke stažení",
+    'LAN_SEARCH_65' => "Ke stažení",
+    'LAN_SEARCH_66' => "Datum přidání",
+    'LAN_SEARCH_67' => "Detail všech stahování",
+    'LAN_SEARCH_69' => "Shodnost",
+    'LAN_SEARCH_70' => "Zasláno ke stažení",
+    'LAN_SEARCH_71' => "Zasláno jako odpověď k novince",
+    'LAN_SEARCH_72' => "podpis",
+    'LAN_SEARCH_73' => "Bez podpisu",
+    'LAN_SEARCH_74' => "Připojeno na",
+    'LAN_SEARCH_75' => "Typ vyhledávání",
+    'LAN_SEARCH_76' => "Vloženo na stranu",
+    'LAN_SEARCH_77' => "Vloženo v profilu strany",
+    'LAN_SEARCH_98' => "Novinky",
+    'LAN_SEARCH_201' => "Prosím přeformulujte dotaz",
+    'LAN_SEARCH_202' => "Rozšířené vyhledávání",
+];

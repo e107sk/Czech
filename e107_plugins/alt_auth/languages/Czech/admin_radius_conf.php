@@ -1,22 +1,33 @@
 <?php
+
 /*
 +---------------------------------------------------------------+
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2015/12/20 20:09:15
+|        Last Modified: 2026/09/15 11:11:56
 |
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: Oxigen $
 +---------------------------------------------------------------+
 */
 
-define("LAN_RADIUS_01", "Adresa serveru");
-define("LAN_RADIUS_02", "Sdílený tajný klíč");
-define("LAN_RADIUS_03", "Uživatel serveru");
-define("LAN_RADIUS_04", "Heslo serveru");
-define("LAN_RADIUS_06", "Konfigurace ověřování RADIUS");
-define("LAN_RADIUS_11", "Upozornění: Zdá se, že poloměr modul není v současné době k dispozici; nastavení metody ověřování na RADIUS nebude pravděpodobně fungovat!");
-define("LAN_AUTHENTICATE_HELP", "Tato metoda ověřování se používá s externím serverem RADIUS. To requres, že je povolena rozšíření protokolu RADIUS je PHP\.<br>Všimněte si, že RADIUS server může povolit pouze přístup pro konkrétní rozsah IP adres");
+/**
+ *	e107 Alternate authorisation plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	alt_auth
+ *	@version 	$Id$;
+ */
 
 
-?>
+return [
+    'LAN_RADIUS_01' => "Adresa serveru",
+    'LAN_RADIUS_02' => "Sdílený tajný klíč",
+    'LAN_RADIUS_03' => "Uživatel serveru",
+    'LAN_RADIUS_04' => "Heslo serveru",
+    'LAN_RADIUS_06' => "Konfigurace ověřování RADIUS",
+    'LAN_RADIUS_11' => "Upozornění: Zdá se, že poloměr modul není v současné době k dispozici; nastavení metody ověřování na RADIUS nebude pravděpodobně fungovat!",
+    'LAN_AUTHENTICATE_HELP' => "Tato metoda ověřování se používá s externím serverem RADIUS. To requres, že je povolena rozšíření protokolu RADIUS je PHP\.<br>Všimněte si, že RADIUS server může povolit pouze přístup pro konkrétní rozsah IP adres",
+];

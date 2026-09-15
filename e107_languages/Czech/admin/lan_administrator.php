@@ -4,29 +4,38 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:36:07
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("ADMSLAN_6", "je hlavní administrátor stránek a nemůže být smazán!");
-define("ADMSLAN_13", "Současní administrátoři");
-define("ADMSLAN_16", "Jméno administrátora");
-define("ADMSLAN_18", "Práva");
-define("ADMSLAN_21", "Změnit pravomoci správců");
-define("ADMSLAN_25", "Nahrát / spravovat soubory");
-define("ADMSLAN_27", "Zkontrolovat kategorie odkazů");
-define("ADMSLAN_41", "Vytvořit / upravit vlastní menu");
-define("ADMSLAN_42", "Zveřejnit recenze");
-define("ADMSLAN_52", "Upravit administrátora");
-define("ADMSLAN_56", "Administrátor");
-define("ADMSLAN_58", "Hlavní administrátor");
-define("ADMSLAN_59", "Odebrat status administrátora");
-define("ADMSLAN_61", "Administrátor smazán");
-define("ADMSLAN_62", "Správa doplňků");
-define("ADMSLAN_71", "Zobrazit práva");
-define("ADMSLAN_72", "Administrátor ID: [x] jméno: [y] nové oprávnění:");
-define("ADMSLAN_73", "Administrátor ID: [x] jméno: [y]");
+//define("ADMSLAN_0", "New user/admin entry created for"); - no references found
+//define("ADMSLAN_1", "now has admin status."); - no references found
+
+//define("ADMSLAN_3", "is the main site administrator and cannot be edited.");
+//define("ADMSLAN_4", "Continue");//LAN_CONTINUE
+//define("ADMSLAN_5", "Error!"); - global admin LAN_ERROR
+
+return [
+    'ADMSLAN_6' => "je hlavní administrátor stránek a nemůže být smazán!",
+    'ADMSLAN_13' => "Současní administrátoři",
+    'ADMSLAN_16' => "Jméno administrátora",
+    'ADMSLAN_18' => "Práva",
+    'ADMSLAN_21' => "Změnit pravomoci správců",
+    'ADMSLAN_25' => "Nahrát / spravovat soubory",
+    'ADMSLAN_27' => "Zkontrolovat kategorie odkazů",
+    'ADMSLAN_41' => "Vytvořit / upravit vlastní menu",
+    'ADMSLAN_42' => "Zveřejnit recenze",
+    'ADMSLAN_52' => "Upravit administrátora",
+    'ADMSLAN_56' => "Administrátor",
+    'ADMSLAN_58' => "Hlavní administrátor",
+    'ADMSLAN_59' => "Odebrat status administrátora",
+    'ADMSLAN_61' => "Administrátor smazán",
+    'ADMSLAN_62' => "Správa doplňků",
+    'ADMSLAN_71' => "Zobrazit práva",
+    'ADMSLAN_72' => "Administrátor ID: [x] jméno: [y] nové oprávnění:",
+    'ADMSLAN_73' => "Administrátor ID: [x] jméno: [y]",
+];

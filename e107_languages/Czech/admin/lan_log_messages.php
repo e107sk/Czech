@@ -4,222 +4,260 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:44:59
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_AUDIT_LOG_001", "Zakázán přístup uživateli");
-define("LAN_AUDIT_LOG_002", "Aktivována ochrana před zahlcením");
-define("LAN_AUDIT_LOG_003", "Blokace IP adresy");
-define("LAN_AUDIT_LOG_006", "Uživatel změnil heslo");
-define("LAN_AUDIT_LOG_007", "Uživatel změnil emailovou adresu");
-define("LAN_AUDIT_LOG_010", "Uživatelská data změněna administrátorem");
-define("LAN_AUDIT_LOG_011", "Registrace uživatele");
-define("LAN_AUDIT_LOG_012", "Ověření registrace uživatele");
-define("LAN_AUDIT_LOG_013", "Přihlášení uživatele");
-define("LAN_AUDIT_LOG_014", "Odhlášení uživatele");
-define("LAN_AUDIT_LOG_015", "Uživatel změnil veřejné jméno");
-define("LAN_AUDIT_LOG_016", "Uživatel změnil heslo");
-define("LAN_AUDIT_LOG_017", "Uživatel změnil emailovou adresu");
-define("LAN_AUDIT_LOG_018", "Obnovení uživatelského hesla");
-define("LAN_AUDIT_LOG_019", "Uživatel změnil nastavení");
-define("LAN_AUDIT_LOG_020", "Administrátor přidal nového uživatele");
-define("LAN_AUDIT_LOG_021", "Odražení emailu uživatele");
-define("LAN_AUDIT_LOG_022", "Zakázání uživatele");
-define("LAN_AUDIT_LOG_023", "Odražení uživatelé reset");
-define("LAN_AUDIT_LOG_024", "Uživatel dočasný status");
-define("LAN_AL_ADLOG_01", "Admin. záznam - preference aktualizovány");
-define("LAN_AL_ADLOG_02", "Admin. záznam - smazání starých dat");
-define("LAN_AL_ADLOG_03", "Uživatelské protokoly - starší data smazána");
-define("LAN_AL_ADLOG_04", "Nastavení uživatelských protokolů aktualizováno");
-define("LAN_AL_USET_01", "Admin upravil data uživatele");
-define("LAN_AL_USET_02", "Admin přidal uživatele");
-define("LAN_AL_USET_03", "Uživatelské možnosti aktualizovány");
-define("LAN_AL_USET_04", "Pročištění uživatelů");
-define("LAN_AL_USET_05", "Uživatel zakázán");
-define("LAN_AL_USET_06", "Uživatel povolen");
-define("LAN_AL_USET_07", "Uživatel smazán");
-define("LAN_AL_USET_08", "Uživateli dán status admina");
-define("LAN_AL_USET_09", "Uživateli odebrán status admina");
-define("LAN_AL_USET_10", "Uživatel schválen");
-define("LAN_AL_USET_11", "Znovu odeslán ověřovací e-mail");
-define("LAN_AL_USET_12", "Znovu odeslány všechny ověřovací e-mail");
-define("LAN_AL_USET_13", "Odražené emaily odstraněny");
-define("LAN_AL_USET_14", "Aktualizace členství ve třídě");
-define("LAN_AL_USET_15", "Registrace byla odmítnuta");
-define("LAN_AL_UCLASS_00", "Neznámá událost týkající se uživatelských tříd");
-define("LAN_AL_UCLASS_01", "Uživatelská třída vytvořena");
-define("LAN_AL_UCLASS_02", "Uživatelská třída smazána");
-define("LAN_AL_UCLASS_03", "Uživatelská třída upravena");
-define("LAN_AL_UCLASS_04", "Členství v třídě byla aktualizována");
-define("LAN_AL_UCLASS_05", "Úprava výchozího nastavení uživatelské třídy");
-define("LAN_AL_UCLASS_06", "Členství třídy je vyprázdněno");
-define("LAN_AL_BANLIST_00", "Neznámá událost týkající se banu");
-define("LAN_AL_BANLIST_01", "Manuální zákaz přidán");
-define("LAN_AL_BANLIST_02", "Zakázáno smazáno");
-define("LAN_AL_BANLIST_03", "Banový čas změněn");
-define("LAN_AL_BANLIST_04", "Přidána položka na seznamu povolených položek");
-define("LAN_AL_BANLIST_05", "Smazána položka na seznamu povolených položek");
-define("LAN_AL_BANLIST_06", "Banlist exportován");
-define("LAN_AL_BANLIST_07", "Importovaný banlist");
-define("LAN_AL_BANLIST_08", "Možnosti seznamu listů byly aktualizovány");
-define("LAN_AL_BANLIST_09", "Úprava seznamu banlistů");
-define("LAN_AL_BANLIST_10", "Úprava seznamu povolených položek");
-define("LAN_AL_BANLIST_11", "Whitelist hit pro vstup zakázky");
-define("LAN_AL_BANLIST_12", "Zánik vypršení platnosti zakázán");
-define("LAN_AL_COMMENT_01", "Komentář(e) odstraněn");
-define("LAN_ROLL_LOG_01", "Vyprázdnit uživatelské jméno a / nebo heslo");
-define("LAN_ROLL_LOG_02", "Zadán nesprávný kód obrázku");
-define("LAN_ROLL_LOG_03", "Neplatná kombinace uživatelského jména a hesla");
-define("LAN_ROLL_LOG_04", "Neplatné uživatelské jméno zadáno");
-define("LAN_ROLL_LOG_05", "Pokus o přihlášení uživatele není úplně zaregistrován");
-define("LAN_ROLL_LOG_06", "Přihlášení zablokováno obslužným programem spouštění událostí");
-define("LAN_ROLL_LOG_07", "Vícenásobné přihlašování ze stejné adresy");
-define("LAN_ROLL_LOG_08", "Nadměrná délka uživatelského jména");
-define("LAN_ROLL_LOG_09", "Zakázaný uživatel se pokoušel o přihlášení");
-define("LAN_ROLL_LOG_10", "Přihlášení selhalo - důvod není neznámý");
-define("LAN_ROLL_LOG_11", "Přihlášení k serveru se nezdaří");
-define("LAN_AL_PREFS_01", "Předvolby změněny");
-define("LAN_AL_PREFS_02", "Vytvořeny nové předvolby");
-define("LAN_AL_PREFS_03", "Chyba ukládání prefs");
-define("LAN_AL_FRONTPG_00", "Neznámá událost na frontě");
-define("LAN_AL_FRONTPG_01", "Změna řádků");
-define("LAN_AL_FRONTPG_02", "Pravidlo bylo přidáno");
-define("LAN_AL_FRONTPG_03", "Pravidlo editováno");
-define("LAN_AL_FRONTPG_04", "Pravidlo bylo smazáno");
-define("LAN_AL_UTHEME_00", "Neznámá událost týkající se vzhledu uživatele");
-define("LAN_AL_UTHEME_01", "Nastavení vzhledu uživatele bylo změněno");
-define("LAN_AL_UPDATE_00", "Neznámá událost související s aktualizací softwaru");
-define("LAN_AL_UPDATE_01", "Aktualizace od 1.0 do 2.0 provedena");
-define("LAN_AL_UPDATE_02", "Aktualizace z 0.7.x na 0.7.6 provedena");
-define("LAN_AL_UPDATE_03", "Chybějící prefs přidány");
-define("LAN_AL_ADMIN_00", "Neznámá událost administrátora");
-define("LAN_AL_ADMIN_01", "Aktualizovat administrátorská oprávnění");
-define("LAN_AL_ADMIN_02", "administrátorská práva byla odebrána");
-define("LAN_AL_MAINT_00", "Neznámá zpráva údržby");
-define("LAN_AL_MAINT_01", "Nastavení režimu údržby");
-define("LAN_AL_MAINT_02", "Údržba režimu vymazána");
-define("LAN_AL_SLINKS_00", "Neznámá zpráva o odkazu na podstránky");
-define("LAN_AL_SLINKS_01", "Podřízené odkazy vytvořeny");
-define("LAN_AL_SLINKS_02", "Pohyb odkazu na podstránku");
-define("LAN_AL_SLINKS_03", "Odkaz byl posunut dolů");
-define("LAN_AL_SLINKS_04", "Pořadí odkazu na podstránku bylo aktualizováno");
-define("LAN_AL_SLINKS_05", "Možnosti odkazů na podstránky byly aktualizovány");
-define("LAN_AL_SLINKS_06", "Odkaz odstraněn");
-define("LAN_AL_SLINKS_07", "Odkaz odeslán");
-define("LAN_AL_SLINKS_08", "Odkaz aktualizován");
-define("LAN_AL_THEME_00", "Neznámá zpráva týkající se tématu");
-define("LAN_AL_THEME_01", "Téma webu aktualizováno");
-define("LAN_AL_THEME_02", "Aktualizace tématu administrátora");
-define("LAN_AL_THEME_03", "Předběžné načtení obrázku / CSS stránky aktualizováno");
-define("LAN_AL_THEME_04", "Admin styl / CSS aktualizováno");
-define("LAN_AL_CACHE_00", "Neznámá zpráva o kontrole vyrovnávací paměti");
-define("LAN_AL_CACHE_01", "Aktualizace nastavení mezipaměti");
-define("LAN_AL_CACHE_02", "prázdná mezipaměť systému");
-define("LAN_AL_CACHE_03", "prázdná mezipaměť obsahu");
-define("LAN_AL_EMOTE_00", "Neznámá zpráva týkající se emote");
-define("LAN_AL_EMOTE_01", "Aktivní balíček smajlíků změněn");
-define("LAN_AL_EMOTE_02", "Smajlíci aktivovány");
-define("LAN_AL_EMOTE_03", "Smajlíci deaktivovány");
-define("LAN_AL_WELCOME_00", "Neznámá uvítací zpráva");
-define("LAN_AL_WELCOME_01", "Uvítací zpráva byla vytvořena");
-define("LAN_AL_WELCOME_02", "Uvítací zpráva byla aktualizována");
-define("LAN_AL_WELCOME_03", "Uvítací zpráva byla smazána");
-define("LAN_AL_WELCOME_04", "Možnosti uvítací zprávy byly změněny");
-define("LAN_AL_ADMINPW_01", "Heslo administrátora změněno");
-define("LAN_AL_ADMINPW_02", "Heslo administrátora obnoveno");
-define("LAN_AL_BANNER_00", "Neznámá zpráva týkající se bannerů");
-define("LAN_AL_BANNER_01", "Aktualizace nabídky bannerů");
-define("LAN_AL_BANNER_02", "Banner vytvořen");
-define("LAN_AL_BANNER_03", "Banner aktualizován");
-define("LAN_AL_BANNER_04", "Banner odstraněn");
-define("LAN_AL_BANNER_05", "Aktualizace konfigurace banneru");
-define("LAN_AL_IMALAN_00", "Neznámá zpráva související s obrazem");
-define("LAN_AL_IMALAN_01", "Avatar byl smazán");
-define("LAN_AL_IMALAN_02", "All avatars and photos deleted");
-define("LAN_AL_IMALAN_03", "Avatar odstraněn");
-define("LAN_AL_IMALAN_04", "Nastavení aktualizováno");
-define("LAN_AL_LANG_00", "Neznámá zpráva týkající se jazyka");
-define("LAN_AL_LANG_01", "Jazykové předvolby byly změněny");
-define("LAN_AL_LANG_02", "Jazykové tabulky byly smazány");
-define("LAN_AL_LANG_03", "Vytvořeny jazykové tabulky");
-define("LAN_AL_LANG_04", "Jazykový balíček zip byl vytvořen");
-define("LAN_AL_META_01", "Meta tagy byly aktualizovány");
-define("LAN_AL_CPAGE_01", "Vlastní stránka / nabídka byla přidána");
-define("LAN_AL_CPAGE_02", "Vlastní stránka / nabídka byla aktualizována");
-define("LAN_AL_CPAGE_03", "Vlastní stránka / nabídka byla smazána");
-define("LAN_AL_CPAGE_04", "Aktualizace uživatelských stránek / nabídek");
-define("LAN_AL_EUF_01", "EUF posunout nahoru");
-define("LAN_AL_EUF_02", "EUF posunout dolů");
-define("LAN_AL_EUF_03", "kategorie EUF se posunuly nahoru");
-define("LAN_AL_EUF_04", "kategorie EUF se posunula dolů");
-define("LAN_AL_EUF_05", "Rozšířené uživatelské pole bylo přidáno");
-define("LAN_AL_EUF_06", "rozšířené uživatelské pole bylo aktualizováno");
-define("LAN_AL_EUF_07", "Rozšířené uživatelské pole bylo smazáno");
-define("LAN_AL_EUF_08", "Kategorie EUF přidána");
-define("LAN_AL_EUF_09", "Kategorie EUF aktualizována");
-define("LAN_AL_EUF_10", "Kategorie EUF smazána");
-define("LAN_AL_EUF_11", "Rozšířené uživatelské pole byla aktivována");
-define("LAN_AL_EUF_12", "Rozšířené uživatelské pole byla deaktivována");
-define("LAN_AL_MENU_01", "Menu aktivováno");
-define("LAN_AL_MENU_02", "Menu - nastavení viditelnosti");
-define("LAN_AL_MENU_03", "Nabídka - změna oblasti");
-define("LAN_AL_MENU_04", "Menu deaktivováno");
-define("LAN_AL_MENU_05", "Menu - přesunout nahoru");
-define("LAN_AL_MENU_06", "Menu - přesunout dolů");
-define("LAN_AL_MENU_07", "Menu - posun nahoru");
-define("LAN_AL_MENU_08", "Menu - přesunout dolů");
-define("LAN_AL_UPLOAD_01", "Nahraný soubor byl smazán");
-define("LAN_AL_UPLOAD_02", "Předvolba nahrávání souborů změněny");
-define("LAN_AL_SEARCH_01", "Nastavení vyhledávání aktualizováno");
-define("LAN_AL_SEARCH_02", "Předvolby vyhledávání byla aktualizována");
-define("LAN_AL_SEARCH_03", "Automatické aktualizace parametrů hledání");
-define("LAN_AL_SEARCH_04", "Vyhledávací oblasti byly aktualizovány");
-define("LAN_AL_SEARCH_05", "Nastavení prohlížeče pro vyhledávání aktualizováno");
-define("LAN_AL_NOTIFY_01", "Nastavení upozornění aktualizováno");
-define("LAN_AL_NEWS_01", "Novinka byla smazána");
-define("LAN_AL_NEWS_02", "Kategorie novinek odstraněna");
-define("LAN_AL_NEWS_03", "Předložená novinka byla smazána");
-define("LAN_AL_NEWS_04", "Kategorie novinek vytvořena");
-define("LAN_AL_NEWS_05", "Kategorie novinek byla aktualizována");
-define("LAN_AL_NEWS_06", "Předvolby novinek byly aktualizovány");
-define("LAN_AL_NEWS_07", "Zasílání novinek povolené");
-define("LAN_AL_NEWS_08", "Novinka přidána");
-define("LAN_AL_NEWS_09", "Novinka byla aktualizována");
-define("LAN_AL_NEWS_10", "Kategorie novinek byla změněna");
-define("LAN_AL_NEWS_11", "Kategorie novinek byla smazána");
-define("LAN_AL_NEWS_12", "Přepisy zpráv byly změněny");
-define("LAN_AL_NEWS_13", "Přepsání zpráv bylo smazáno");
-define("LAN_AL_FILEMAN_01", "Smazání souboru");
-define("LAN_AL_FILEMAN_02", "Přesunutí souboru");
-define("LAN_AL_FILEMAN_03", "Nahrání souboru");
-define("LAN_AL_MAIL_01", "Testovací e-mail odeslán");
-define("LAN_AL_MAIL_02", "Vytvoření pošty");
-define("LAN_AL_MAIL_03", "Nastavení pošty aktualizováno");
-define("LAN_AL_MAIL_04", "odstraněny detaily pošty");
-define("LAN_AL_MAIL_05", "Pošta v pořádku");
-define("LAN_AL_MAIL_06", "Mailout aktivováno");
-define("LAN_AL_PLUGMAN_01", "Doplněk nainstalován");
-define("LAN_AL_PLUGMAN_02", "Doplněk aktualizován");
-define("LAN_AL_PLUGMAN_03", "Doplněk odinstalován");
-define("LAN_AL_PLUGMAN_04", "Doplněk obnoven");
-define("LAN_AL_EURL_01", "URL webu změněna");
-define("LAN_AL_MISC_01", "Nastavení stromového menu aktualizováno");
-define("LAN_AL_MISC_02", "Nastavení online menu aktualizováno");
-define("LAN_AL_MISC_03", "Nastavení přihlašovacího menu aktualizováno");
-define("LAN_AL_MISC_04", "Nastavení menu komentářů aktualizováno");
-define("LAN_AL_MISC_05", "Nastavení menu s hodinami aktualizováno");
-define("LAN_AL_MISC_06", "Nastavení menu s kalendářem aktualizováno");
-define("LAN_AL_PING_01", "Ping k službě");
-define("LAN_AL_ADMINUI_01", "Vložen nový záznam do databáze: [x]");
-define("LAN_AL_ADMINUI_02", "Úprava záznamu v databázi: [x]");
-define("LAN_AL_ADMINUI_03", "Smazán záznam z databáze: [x]");
-define("LAN_AL_ADMINUI_04", "Chyba databáze: [x]");
-define("LAN_AL_BACKUP", "Zálohování databáze");
-define("LAN_AL_MEDIA_01", "Nahrávání médií");
-define("LAN_AL_USET_100", "Administrátor je přihlášen jako jiný uživatel");
-define("LAN_AL_USET_101", "Administrátor byl odhlášen jako jiný uživatel");
+/*
+The definitions in this file are for standard "explanatory" messages which might be entered
+into any of the system logs. They are in three groups with different prefixes:
+	LAN_ADMIN_LOG_nnn - the admin log (records intentional actions by admins)
+	LAN_AUDIT_LOG_nnn - the audit log (records actions, generally intentional, by users)
+	LAN_ROLL_LOG_nnn - the rolling log (records extraneous events, debugging etc)
+*/
+
+
+// User audit trail events. For messages 11-30, the last 2 digits must match the define for the event type in the admin log class file
+
+return [
+    'LAN_AUDIT_LOG_001' => "Zakázán přístup uživateli",
+    'LAN_AUDIT_LOG_002' => "Aktivována ochrana před zahlcením",
+    'LAN_AUDIT_LOG_003' => "Blokace IP adresy",
+    'LAN_AUDIT_LOG_004' => "",
+    'LAN_AUDIT_LOG_005' => "",
+    'LAN_AUDIT_LOG_006' => "Uživatel změnil heslo",
+    'LAN_AUDIT_LOG_007' => "Uživatel změnil emailovou adresu",
+    'LAN_AUDIT_LOG_008' => "",
+    'LAN_AUDIT_LOG_009' => "",
+    'LAN_AUDIT_LOG_010' => "Uživatelská data změněna administrátorem",
+    'LAN_AUDIT_LOG_011' => "Registrace uživatele",
+    'LAN_AUDIT_LOG_012' => "Ověření registrace uživatele",
+    'LAN_AUDIT_LOG_013' => "Přihlášení uživatele",
+    'LAN_AUDIT_LOG_014' => "Odhlášení uživatele",
+    'LAN_AUDIT_LOG_015' => "Uživatel změnil veřejné jméno",
+    'LAN_AUDIT_LOG_016' => "Uživatel změnil heslo",
+    'LAN_AUDIT_LOG_017' => "Uživatel změnil emailovou adresu",
+    'LAN_AUDIT_LOG_018' => "Obnovení uživatelského hesla",
+    'LAN_AUDIT_LOG_019' => "Uživatel změnil nastavení",
+    'LAN_AUDIT_LOG_020' => "Administrátor přidal nového uživatele",
+    'LAN_AUDIT_LOG_021' => "Odražení emailu uživatele",
+    'LAN_AUDIT_LOG_022' => "Zakázání uživatele",
+    'LAN_AUDIT_LOG_023' => "Odražení uživatelé reset",
+    'LAN_AUDIT_LOG_024' => "Uživatel dočasný status",
+    'LAN_AUDIT_LOG_025' => "User navigation trail",
+    'LAN_AL_ADLOG_01' => "Admin. záznam - preference aktualizovány",
+    'LAN_AL_ADLOG_02' => "Admin. záznam - smazání starých dat",
+    'LAN_AL_ADLOG_03' => "Uživatelské protokoly - starší data smazána",
+    'LAN_AL_ADLOG_04' => "Nastavení uživatelských protokolů aktualizováno",
+    'LAN_AL_ADLOG_05' => "",
+    'LAN_AL_USET_01' => "Admin upravil data uživatele",
+    'LAN_AL_USET_02' => "Admin přidal uživatele",
+    'LAN_AL_USET_03' => "Uživatelské možnosti aktualizovány",
+    'LAN_AL_USET_04' => "Pročištění uživatelů",
+    'LAN_AL_USET_05' => "Uživatel zakázán",
+    'LAN_AL_USET_06' => "Uživatel povolen",
+    'LAN_AL_USET_07' => "Uživatel smazán",
+    'LAN_AL_USET_08' => "Uživateli dán status admina",
+    'LAN_AL_USET_09' => "Uživateli odebrán status admina",
+    'LAN_AL_USET_10' => "Uživatel schválen",
+    'LAN_AL_USET_11' => "Znovu odeslán ověřovací e-mail",
+    'LAN_AL_USET_12' => "Znovu odeslány všechny ověřovací e-mail",
+    'LAN_AL_USET_13' => "Odražené emaily odstraněny",
+    'LAN_AL_USET_14' => "Aktualizace členství ve třídě",
+    'LAN_AL_USET_15' => "Registrace byla odmítnuta",
+    'LAN_AL_UCLASS_00' => "Neznámá událost týkající se uživatelských tříd",
+    'LAN_AL_UCLASS_01' => "Uživatelská třída vytvořena",
+    'LAN_AL_UCLASS_02' => "Uživatelská třída smazána",
+    'LAN_AL_UCLASS_03' => "Uživatelská třída upravena",
+    'LAN_AL_UCLASS_04' => "Členství v třídě byla aktualizována",
+    'LAN_AL_UCLASS_05' => "Úprava výchozího nastavení uživatelské třídy",
+    'LAN_AL_UCLASS_06' => "Členství třídy je vyprázdněno",
+    'LAN_AL_BANLIST_00' => "Neznámá událost týkající se banu",
+    'LAN_AL_BANLIST_01' => "Manuální zákaz přidán",
+    'LAN_AL_BANLIST_02' => "Zakázáno smazáno",
+    'LAN_AL_BANLIST_03' => "Banový čas změněn",
+    'LAN_AL_BANLIST_04' => "Přidána položka na seznamu povolených položek",
+    'LAN_AL_BANLIST_05' => "Smazána položka na seznamu povolených položek",
+    'LAN_AL_BANLIST_06' => "Banlist exportován",
+    'LAN_AL_BANLIST_07' => "Importovaný banlist",
+    'LAN_AL_BANLIST_08' => "Možnosti seznamu listů byly aktualizovány",
+    'LAN_AL_BANLIST_09' => "Úprava seznamu banlistů",
+    'LAN_AL_BANLIST_10' => "Úprava seznamu povolených položek",
+    'LAN_AL_BANLIST_11' => "Whitelist hit pro vstup zakázky",
+    'LAN_AL_BANLIST_12' => "Zánik vypršení platnosti zakázán",
+    'LAN_AL_COMMENT_01' => "Komentář(e) odstraněn",
+    'LAN_ROLL_LOG_01' => "Vyprázdnit uživatelské jméno a / nebo heslo",
+    'LAN_ROLL_LOG_02' => "Zadán nesprávný kód obrázku",
+    'LAN_ROLL_LOG_03' => "Neplatná kombinace uživatelského jména a hesla",
+    'LAN_ROLL_LOG_04' => "Neplatné uživatelské jméno zadáno",
+    'LAN_ROLL_LOG_05' => "Pokus o přihlášení uživatele není úplně zaregistrován",
+    'LAN_ROLL_LOG_06' => "Přihlášení zablokováno obslužným programem spouštění událostí",
+    'LAN_ROLL_LOG_07' => "Vícenásobné přihlašování ze stejné adresy",
+    'LAN_ROLL_LOG_08' => "Nadměrná délka uživatelského jména",
+    'LAN_ROLL_LOG_09' => "Zakázaný uživatel se pokoušel o přihlášení",
+    'LAN_ROLL_LOG_10' => "Přihlášení selhalo - důvod není neznámý",
+    'LAN_ROLL_LOG_11' => "Přihlášení k serveru se nezdaří",
+    'LAN_AL_PREFS_01' => "Předvolby změněny",
+    'LAN_AL_PREFS_02' => "Vytvořeny nové předvolby",
+    'LAN_AL_PREFS_03' => "Chyba ukládání prefs",
+    'LAN_AL_FRONTPG_00' => "Neznámá událost na frontě",
+    'LAN_AL_FRONTPG_01' => "Změna řádků",
+    'LAN_AL_FRONTPG_02' => "Pravidlo bylo přidáno",
+    'LAN_AL_FRONTPG_03' => "Pravidlo editováno",
+    'LAN_AL_FRONTPG_04' => "Pravidlo bylo smazáno",
+    'LAN_AL_FRONTPG_05' => "",
+    'LAN_AL_FRONTPG_06' => "",
+    'LAN_AL_UTHEME_00' => "Neznámá událost týkající se vzhledu uživatele",
+    'LAN_AL_UTHEME_01' => "Nastavení vzhledu uživatele bylo změněno",
+    'LAN_AL_UTHEME_02' => "",
+    'LAN_AL_UPDATE_00' => "Neznámá událost související s aktualizací softwaru",
+    'LAN_AL_UPDATE_01' => "Aktualizace od 1.0 do 2.0 provedena",
+    'LAN_AL_UPDATE_02' => "Aktualizace z 0.7.x na 0.7.6 provedena",
+    'LAN_AL_UPDATE_03' => "Chybějící prefs přidány",
+    'LAN_AL_ADMIN_00' => "Neznámá událost administrátora",
+    'LAN_AL_ADMIN_01' => "Aktualizovat administrátorská oprávnění",
+    'LAN_AL_ADMIN_02' => "administrátorská práva byla odebrána",
+    'LAN_AL_ADMIN_03' => "",
+    'LAN_AL_MAINT_00' => "Neznámá zpráva údržby",
+    'LAN_AL_MAINT_01' => "Nastavení režimu údržby",
+    'LAN_AL_MAINT_02' => "Údržba režimu vymazána",
+    'LAN_AL_SLINKS_00' => "Neznámá zpráva o odkazu na podstránky",
+    'LAN_AL_SLINKS_01' => "Podřízené odkazy vytvořeny",
+    'LAN_AL_SLINKS_02' => "Pohyb odkazu na podstránku",
+    'LAN_AL_SLINKS_03' => "Odkaz byl posunut dolů",
+    'LAN_AL_SLINKS_04' => "Pořadí odkazu na podstránku bylo aktualizováno",
+    'LAN_AL_SLINKS_05' => "Možnosti odkazů na podstránky byly aktualizovány",
+    'LAN_AL_SLINKS_06' => "Odkaz odstraněn",
+    'LAN_AL_SLINKS_07' => "Odkaz odeslán",
+    'LAN_AL_SLINKS_08' => "Odkaz aktualizován",
+    'LAN_AL_THEME_00' => "Neznámá zpráva týkající se tématu",
+    'LAN_AL_THEME_01' => "Téma webu aktualizováno",
+    'LAN_AL_THEME_02' => "Aktualizace tématu administrátora",
+    'LAN_AL_THEME_03' => "Předběžné načtení obrázku / CSS stránky aktualizováno",
+    'LAN_AL_THEME_04' => "Admin styl / CSS aktualizováno",
+    'LAN_AL_THEME_05' => "",
+    'LAN_AL_CACHE_00' => "Neznámá zpráva o kontrole vyrovnávací paměti",
+    'LAN_AL_CACHE_01' => "Aktualizace nastavení mezipaměti",
+    'LAN_AL_CACHE_02' => "prázdná mezipaměť systému",
+    'LAN_AL_CACHE_03' => "prázdná mezipaměť obsahu",
+    'LAN_AL_CACHE_04' => "",
+    'LAN_AL_EMOTE_00' => "Neznámá zpráva týkající se emote",
+    'LAN_AL_EMOTE_01' => "Aktivní balíček smajlíků změněn",
+    'LAN_AL_EMOTE_02' => "Smajlíci aktivovány",
+    'LAN_AL_EMOTE_03' => "Smajlíci deaktivovány",
+    'LAN_AL_WELCOME_00' => "Neznámá uvítací zpráva",
+    'LAN_AL_WELCOME_01' => "Uvítací zpráva byla vytvořena",
+    'LAN_AL_WELCOME_02' => "Uvítací zpráva byla aktualizována",
+    'LAN_AL_WELCOME_03' => "Uvítací zpráva byla smazána",
+    'LAN_AL_WELCOME_04' => "Možnosti uvítací zprávy byly změněny",
+    'LAN_AL_WELCOME_05' => "",
+    'LAN_AL_ADMINPW_01' => "Heslo administrátora změněno",
+    'LAN_AL_ADMINPW_02' => "Heslo administrátora obnoveno",
+    'LAN_AL_BANNER_00' => "Neznámá zpráva týkající se bannerů",
+    'LAN_AL_BANNER_01' => "Aktualizace nabídky bannerů",
+    'LAN_AL_BANNER_02' => "Banner vytvořen",
+    'LAN_AL_BANNER_03' => "Banner aktualizován",
+    'LAN_AL_BANNER_04' => "Banner odstraněn",
+    'LAN_AL_BANNER_05' => "Aktualizace konfigurace banneru",
+    'LAN_AL_BANNER_06' => "",
+    'LAN_AL_IMALAN_00' => "Neznámá zpráva související s obrazem",
+    'LAN_AL_IMALAN_01' => "Avatar byl smazán",
+    'LAN_AL_IMALAN_02' => "All avatars and photos deleted",
+    'LAN_AL_IMALAN_03' => "Avatar odstraněn",
+    'LAN_AL_IMALAN_04' => "Nastavení aktualizováno",
+    'LAN_AL_IMALAN_05' => "",
+    'LAN_AL_IMALAN_06' => "",
+    'LAN_AL_LANG_00' => "Neznámá zpráva týkající se jazyka",
+    'LAN_AL_LANG_01' => "Jazykové předvolby byly změněny",
+    'LAN_AL_LANG_02' => "Jazykové tabulky byly smazány",
+    'LAN_AL_LANG_03' => "Vytvořeny jazykové tabulky",
+    'LAN_AL_LANG_04' => "Jazykový balíček zip byl vytvořen",
+    'LAN_AL_LANG_05' => "",
+    'LAN_AL_META_01' => "Meta tagy byly aktualizovány",
+    // LAN_AL_DOWNL_* admin-log titles live in the download plugin: e107_plugins/download/languages/English/English_log.php
+    'LAN_AL_CPAGE_01' => "Vlastní stránka / nabídka byla přidána",
+    'LAN_AL_CPAGE_02' => "Vlastní stránka / nabídka byla aktualizována",
+    'LAN_AL_CPAGE_03' => "Vlastní stránka / nabídka byla smazána",
+    'LAN_AL_CPAGE_04' => "Aktualizace uživatelských stránek / nabídek",
+    'LAN_AL_EUF_01' => "EUF posunout nahoru",
+    'LAN_AL_EUF_02' => "EUF posunout dolů",
+    'LAN_AL_EUF_03' => "kategorie EUF se posunuly nahoru",
+    'LAN_AL_EUF_04' => "kategorie EUF se posunula dolů",
+    'LAN_AL_EUF_05' => "Rozšířené uživatelské pole bylo přidáno",
+    'LAN_AL_EUF_06' => "rozšířené uživatelské pole bylo aktualizováno",
+    'LAN_AL_EUF_07' => "Rozšířené uživatelské pole bylo smazáno",
+    'LAN_AL_EUF_08' => "Kategorie EUF přidána",
+    'LAN_AL_EUF_09' => "Kategorie EUF aktualizována",
+    'LAN_AL_EUF_10' => "Kategorie EUF smazána",
+    'LAN_AL_EUF_11' => "Rozšířené uživatelské pole byla aktivována",
+    'LAN_AL_EUF_12' => "Rozšířené uživatelské pole byla deaktivována",
+    'LAN_AL_MENU_01' => "Menu aktivováno",
+    'LAN_AL_MENU_02' => "Menu - nastavení viditelnosti",
+    'LAN_AL_MENU_03' => "Nabídka - změna oblasti",
+    'LAN_AL_MENU_04' => "Menu deaktivováno",
+    'LAN_AL_MENU_05' => "Menu - přesunout nahoru",
+    'LAN_AL_MENU_06' => "Menu - přesunout dolů",
+    'LAN_AL_MENU_07' => "Menu - posun nahoru",
+    'LAN_AL_MENU_08' => "Menu - přesunout dolů",
+    'LAN_AL_MENU_09' => "",
+    'LAN_AL_UPLOAD_01' => "Nahraný soubor byl smazán",
+    'LAN_AL_UPLOAD_02' => "Předvolba nahrávání souborů změněny",
+    'LAN_AL_SEARCH_01' => "Nastavení vyhledávání aktualizováno",
+    'LAN_AL_SEARCH_02' => "Předvolby vyhledávání byla aktualizována",
+    'LAN_AL_SEARCH_03' => "Automatické aktualizace parametrů hledání",
+    'LAN_AL_SEARCH_04' => "Vyhledávací oblasti byly aktualizovány",
+    'LAN_AL_SEARCH_05' => "Nastavení prohlížeče pro vyhledávání aktualizováno",
+    'LAN_AL_SEARCH_06' => "",
+    'LAN_AL_NOTIFY_01' => "Nastavení upozornění aktualizováno",
+    'LAN_AL_NEWS_01' => "Novinka byla smazána",
+    'LAN_AL_NEWS_02' => "Kategorie novinek odstraněna",
+    'LAN_AL_NEWS_03' => "Předložená novinka byla smazána",
+    'LAN_AL_NEWS_04' => "Kategorie novinek vytvořena",
+    'LAN_AL_NEWS_05' => "Kategorie novinek byla aktualizována",
+    'LAN_AL_NEWS_06' => "Předvolby novinek byly aktualizovány",
+    'LAN_AL_NEWS_07' => "Zasílání novinek povolené",
+    'LAN_AL_NEWS_08' => "Novinka přidána",
+    'LAN_AL_NEWS_09' => "Novinka byla aktualizována",
+    'LAN_AL_NEWS_10' => "Kategorie novinek byla změněna",
+    'LAN_AL_NEWS_11' => "Kategorie novinek byla smazána",
+    'LAN_AL_NEWS_12' => "Přepisy zpráv byly změněny",
+    'LAN_AL_NEWS_13' => "Přepsání zpráv bylo smazáno",
+    'LAN_AL_FILEMAN_01' => "Smazání souboru",
+    'LAN_AL_FILEMAN_02' => "Přesunutí souboru",
+    'LAN_AL_FILEMAN_03' => "Nahrání souboru",
+    'LAN_AL_FILEMAN_04' => "",
+    'LAN_AL_MAIL_01' => "Testovací e-mail odeslán",
+    'LAN_AL_MAIL_02' => "Vytvoření pošty",
+    'LAN_AL_MAIL_03' => "Nastavení pošty aktualizováno",
+    'LAN_AL_MAIL_04' => "odstraněny detaily pošty",
+    'LAN_AL_MAIL_05' => "Pošta v pořádku",
+    'LAN_AL_MAIL_06' => "Mailout aktivováno",
+    'LAN_AL_MAIL_07' => "",
+    'LAN_AL_PLUGMAN_01' => "Doplněk nainstalován",
+    'LAN_AL_PLUGMAN_02' => "Doplněk aktualizován",
+    'LAN_AL_PLUGMAN_03' => "Doplněk odinstalován",
+    'LAN_AL_PLUGMAN_04' => "Doplněk obnoven",
+    'LAN_AL_EURL_01' => "URL webu změněna",
+    'LAN_AL_MISC_01' => "Nastavení stromového menu aktualizováno",
+    'LAN_AL_MISC_02' => "Nastavení online menu aktualizováno",
+    'LAN_AL_MISC_03' => "Nastavení přihlašovacího menu aktualizováno",
+    'LAN_AL_MISC_04' => "Nastavení menu komentářů aktualizováno",
+    'LAN_AL_MISC_05' => "Nastavení menu s hodinami aktualizováno",
+    'LAN_AL_MISC_06' => "Nastavení menu s kalendářem aktualizováno",
+    'LAN_AL_PING_01' => "Ping k službě",
+    'LAN_AL_ADMINUI_01' => "Vložen nový záznam do databáze: [x]",
+    'LAN_AL_ADMINUI_02' => "Úprava záznamu v databázi: [x]",
+    'LAN_AL_ADMINUI_03' => "Smazán záznam z databáze: [x]",
+    'LAN_AL_ADMINUI_04' => "Chyba databáze: [x]",
+    'LAN_AL_BACKUP' => "Zálohování databáze",
+    'LAN_AL_MEDIA_01' => "Nahrávání médií",
+    'LAN_AL_USET_100' => "Administrátor je přihlášen jako jiný uživatel",
+    'LAN_AL_USET_101' => "Administrátor byl odhlášen jako jiný uživatel",
+    'LAN_AL_USET_102' => "Admin started permission emulation of another user",
+    'LAN_AL_USET_103' => "Admin stopped permission emulation of another user",
+    'LAN_AL_CSRF_01' => "POST request carried no security token",
+];

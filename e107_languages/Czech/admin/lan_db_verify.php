@@ -4,32 +4,42 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:37:36
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("DBVLAN_1", "Nelze číst datový soubor sql<br/><br/>Ujistěte se, že soubor <b>core_sql.php</b> existuje v adresáři <b>/e107_core/sql</b>.");
-define("DBVLAN_4", "Tabulka");
-define("DBVLAN_5", "Pole");
-define("DBVLAN_6", "Stav");
-define("DBVLAN_7", "Záznam");
-define("DBVLAN_8", "Chybný");
-define("DBVLAN_9", "Aktuální");
-define("DBVLAN_10", "měl by být");
-define("DBVLAN_11", "Pole chybí!");
-define("DBVLAN_12", "Extra pole!");
-define("DBVLAN_13", "Tabulka chybí!");
-define("DBVLAN_14", "Vyberte si tabulku(y) k ověření");
-define("DBVLAN_15", "Začít kontrolu");
-define("DBVLAN_16", "Kontrola SQL");
-define("DBVLAN_19", "Pokusit se o opravu");
-define("DBVLAN_21", "Opravit vybrané položky");
-define("DBVLAN_22", "[x] nelze přečíst");
-define("DBVLAN_23", "Nástroje databáze");
-define("DBVLAN_24", "Prosím vyberte akci.");
-define("DBVLAN_25", "Chybí index!");
-define("DBVLAN_26", "[x] tabulek hlásí problém!");
+
+return [
+    'DBVLAN_1' => "Nelze číst datový soubor sql<br/><br/>Ujistěte se, že soubor <b>core_sql.php</b> existuje v adresáři <b>/e107_core/sql</b>.",
+    'DBVLAN_4' => "Tabulka",
+    'DBVLAN_5' => "Pole",
+    'DBVLAN_6' => "Stav",
+    'DBVLAN_7' => "Záznam",
+    'DBVLAN_8' => "Chybný",
+    'DBVLAN_9' => "Aktuální",
+    'DBVLAN_10' => "měl by být",
+    'DBVLAN_11' => "Pole chybí!",
+    'DBVLAN_12' => "Extra pole!",
+    'DBVLAN_13' => "Tabulka chybí!",
+    'DBVLAN_14' => "Vyberte si tabulku(y) k ověření",
+    'DBVLAN_15' => "Začít kontrolu",
+    'DBVLAN_16' => "Kontrola SQL",
+    'DBVLAN_17' => "Storage engine should be [x] but is [y]",
+    'DBVLAN_18' => "Character set should be [x] but is [y]",
+    'DBVLAN_19' => "Pokusit se o opravu",
+    'DBVLAN_21' => "Opravit vybrané položky",
+    'DBVLAN_22' => "[x] nelze přečíst",
+    'DBVLAN_23' => "Nástroje databáze",
+    'DBVLAN_24' => "Prosím vyberte akci.",
+    'DBVLAN_25' => "Chybí index!",
+    'DBVLAN_26' => "[x] tabulek hlásí problém!",
+    'DBVLAN_27' => "Table inconsistency",
+    'DBVLAN_28' => "Not applicable",
+    'DBVLAN_RESULT_INCOMPLETE' => "Some tables could not be checked, so this result is incomplete. Enable debug mode for the reason.",
+    'DBVLAN_INDEX_REDUNDANT' => "Redundant index",
+    'DBVLAN_INDEX_REDUNDANT_NOTE' => "Duplicates the FULLTEXT index [x]; the schema declares that one, so this one can be removed.",
+];

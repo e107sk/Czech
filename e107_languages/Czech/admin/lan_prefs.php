@@ -4,268 +4,309 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:47:37
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("PRFLAN_1", "Informace stránek");
-define("PRFLAN_2", "Název stránek");
-define("PRFLAN_3", "URL stránek");
-define("PRFLAN_4", "Reklamní ikona stránek");
-define("PRFLAN_5", "Informační řádek");
-define("PRFLAN_6", "Popis stránek");
-define("PRFLAN_7", "Hlavní admin");
-define("PRFLAN_8", "E-mail hlavního správce");
-define("PRFLAN_9", "Informace v zápatí stránek");
-define("PRFLAN_13", "Zobrazované informace");
-define("PRFLAN_14", "Zobrazovat informace o vzhledu?");
-define("PRFLAN_15", "Zobrazovat čas nutný pro vykreslení?");
-define("PRFLAN_16", "Zobrazovat informace o SQL dotazech?");
-define("PRFLAN_17", "Provádět kompresi výstupních dat stránek pomocí gzip");
-define("PRFLAN_19", "Volby při registraci uživatele");
-define("PRFLAN_21", "Nastavení času/data");
-define("PRFLAN_22", "Zkrácený formát data");
-define("PRFLAN_23", "Dlouhý formát data");
-define("PRFLAN_24", "Formát datumu pro fórum");
-define("PRFLAN_25", "Více informací o formátu pro datum a čas naleznete");
-define("PRFLAN_26", "Časový posun");
-define("PRFLAN_27", "Např. nastavení +1 přičítá 1 hodinu ke všem časům zobrazovaných na stránkách");
-define("PRFLAN_28", "Registrace a příspěvky");
-define("PRFLAN_29", "Aktivovat systém registrace uživatelů?");
-define("PRFLAN_30", "umožní návštěvníkům registrovat se jako uživatel vašich stránek");
-define("PRFLAN_32", "Povolit přispívání neregistrovaným?");
-define("PRFLAN_33", "zakázáním umožníte přispívání pouze registrovaným uživatelům");
-define("PRFLAN_35", "Zapnout ochranu proti zahlcení stránek?");
-define("PRFLAN_36", "Čas pro označení jako zahlcování");
-define("PRFLAN_37", "Automaticky blokovat");
-define("PRFLAN_38", "Minimální prodleva v sekundách mezi dvěma příspěvky. Při překročení limitu bude uživatel přesměrován na hlavní stránku");
-define("PRFLAN_40", "Filtrovat nevhodné výrazy?");
-define("PRFLAN_41", "nevhodné výrazy budou nahrazeny řetězcem uvedeným níže");
-define("PRFLAN_42", "Nahrazovací řetězec");
-define("PRFLAN_43", "Seznam nevhodných výrazů k filtraci");
-define("PRFLAN_44", "filtrovat tyto výrazy (oddělujte čárkou)");
-define("PRFLAN_45", "Použít COPPA ujednání na stránkách registrace?");
-define("PRFLAN_46", "více informací o COPPA naleznete zde");
-define("PRFLAN_47", "Bezpečnost a ochrana");
-define("PRFLAN_48", "Metoda sledování uživatelů");
-define("PRFLAN_49", "Cookies");
-define("PRFLAN_50", "Sessions");
-define("PRFLAN_52", "Uložit nastavení");
-define("PRFLAN_53", "Nastavení stránek");
-define("PRFLAN_55", "Název pro cookies (pokud je zvoleno)");
-define("PRFLAN_56", "Časové pásmo");
-define("PRFLAN_58", "Povolit přístup na stránky pouze registrovaným uživatelům");
-define("PRFLAN_59", "neregistrovaným/nepřihlášeným uživatelům bude umožněn přístup pouze na hlavní a přihlašovací stránku.");
-define("PRFLAN_60", "Povolite SSL");
-define("PRFLAN_61", "povolujte SSL pouze pokud víte co děláte!");
-define("PRFLAN_76", "Zapnout ověření pomocí obrázku při registraci");
-define("PRFLAN_77", "Administrátorská nastavení");
-define("PRFLAN_78", "Nevyplněním volby bude služba vypnuta");
-define("PRFLAN_81", "Zapnout ověření obrázkem při přihlašování.");
-define("PRFLAN_83", "příklad");
-define("PRFLAN_87", "Komentáře");
-define("PRFLAN_88", "Povolit vnořené komentáře");
-define("PRFLAN_89", "Zobrazovat ikonu u nového komentáře");
-define("PRFLAN_90", "Povolit možnost úpravy pro zasílatele");
-define("CUSTSIG_2", "Skutečné jméno:");
-define("CUSTSIG_6", "Podpis:");
-define("CUSTSIG_7", "Avatar:");
-define("CUSTSIG_12", "Skryto");
-define("CUSTSIG_13", "Pole");
-define("CUSTSIG_14", "Veřejné");
-define("CUSTSIG_15", "Vyžadováno");
-define("CUSTSIG_16", "Minimální délka hesla");
-define("CUSTSIG_17", "Zasílat e-mail o novém obsahu");
-define("CUSTSIG_18", "Nepovolený obsah pro uživatelská jména");
-define("CUSTSIG_19", "uživatelská jména, která obsahují následující text budou odmítnuta(hodnoty oddělujte čárkou)");
-define("CUSTSIG_20", "Vlastní název");
-define("CUSTSIG_21", "Potvrzení e-mailem");
-define("CUSTSIG_22", "Možnost skrýt e-mail");
-define("PRFLAN_91", "Pokud někdo útočí na web mnoha požadavky na server, jeho IP adresa bude automaticky blokována. Doporučujeme udělat to samé, s nastavením serveru(pokud je to možné)!");
-define("PRFLAN_92", "Bezpečné ověření přihlášky - skrýt heslo v emailu?");
-define("PRFLAN_93", "funkce strftime na php.net");
-define("PRFLAN_94", "zde");
-define("PRFLAN_95", "Zobrazit informace o doplňcích:");
-define("PRFLAN_96", "na všech administrátorských stranách zobrazí informace doplňků, které tuto funkci podporují.");
-define("PRFLAN_97", "Vlastní nabídka informací o doplňku:");
-define("PRFLAN_98", "Pokud tato položka nebude vybrána, každý doplněk zobrazí své vlastní informace v samostatné nabídce. Pokud je položka aktivní, všechny informace budou zobrazeny ve společné nabídce.");
-define("PRFLAN_102", "Zaměnit URL");
-define("PRFLAN_103", "Pokud je volba zaškrtnuta a volba 'Automatický odkaz' je také zaškrtnuta, zaslaná URL jsou zobrazovaná jako odkazy s textem definovaným níže. Tato funkce zabrání velmi dlouhým URL adresám, aby rozbíjeli formát strany kvůli zalamování řetězců v prohlížeči.");
-define("PRFLAN_104", "Text, který nahradí URL");
-define("PRFLAN_105", "Tento text nahradí URL pro zobrazení. Lze použít i obrázek - &lt;img&gt; tag s plnou cestou k obrázku");
-define("PRFLAN_106", "Základní nastavení jsou uložena do databáze");
-define("PRFLAN_107", "Text pro nahrazení email odkazu");
-define("PRFLAN_108", "Tento text nahradí email adresu pro zobrazení. Lze použít i obrázek &lt;img&gt; tag s plnou cestou k obrázku");
-define("PRFLAN_109", "Zalamovat dlouhá slova v textu");
-define("PRFLAN_110", "slova delší než nastavený počet znaků budou automaticky zalomena");
-define("PRFLAN_111", "Zalamovat dlouhá slova v textech menu");
-define("PRFLAN_113", "vypnuto");
-define("PRFLAN_116", "Povolit zasílat texty v HTML formátu");
-define("PRFLAN_117", "Umožní uživatelům posílat v textech kód HTML kdekoliv na webu. Zvolte uživatelskou skupinu.");
-define("PRFLAN_118", "Pro zvýraznění syntaxe použít Geshi");
-define("PRFLAN_119", "Geshi je program pro zvýrazňování syntaxe s otevřeným kódem s podporou více jazyků. Více informací naleznete na [link]");
-define("PRFLAN_120", "Základní jazyk pro Geshi syntaxi");
-define("PRFLAN_121", "Pokud není vybrán jazyk v kódu bbtag, bude použit tento jazyk pro zvýrazňování syntaxe");
-define("PRFLAN_122", "Mají editovací pole textu podporovat WYSIWYG?");
-define("PRFLAN_123", "Zobrazí editor typu 'co vidíš, to dostaneš (WYSIWYG) pro editovací pole textu. Aplikuje se pouze pro uživatele, kteří mají povolené zasílání HTML kódu a pro administrátory.");
-define("PRFLAN_124", "Použij 'klasické' zobrazení tlačítek předchozí-další");
-define("PRFLAN_125", "Pokud je funkce zapnutá, bude zobrazení přechodu stran takto: 1 2 3 ... 21 22 23 namísto nového stylu zobrazení s vyskakovací nabídkou.");
-define("PRFLAN_126", "Text, který se zobrazí na stránce pro přihlášení");
-define("PRFLAN_127", "URL adresy udělat automaticky jako klikací");
-define("PRFLAN_128", "Funkce bude automaticky převádět zaslané URL adresy na klikací odkazy");
-define("PRFLAN_129", "Zakázat vícenásobné přihlášení");
-define("PRFLAN_130", "Pokud je funkce aktivní, nelze se přihlásit se stejným uživatelským jménem/heslem vícekrát (tzv. sdílení přihlašovacích informací)");
-define("PRFLAN_133", "PHP rozšíření GD nenalezeno, ačkoliv je systémem vyžadováno");
-define("PRFLAN_134", "Přesměrovat veškeré požadavky na hlavní stranu");
-define("PRFLAN_135", "Např.: Pokud je URL adresa webu http://stranka.cz, kdokoliv požadující http://www.stranka.cz bude přesměrován na http://stranka.cz");
-define("PRFLAN_136", "Povolený počet registrací z jedné IP adresy");
-define("PRFLAN_137", "Zobrazit hodnoty využití paměti");
-define("PRFLAN_138", "Aktivovat ověření obrázkem při zapomenutí hesla.");
-define("PRFLAN_139", "Zobrazit varování pokud si hlavní Admin nezmění heslo déle než 30 dnů");
-define("PRFLAN_140", "Text, který se zobrazí po odeslání registrace.");
-define("PRFLAN_142", "Pouze zahlcení");
-define("PRFLAN_143", "Pouze nezdařené přihlášení");
-define("PRFLAN_144", "Zahlcení i nezdařená přihlášení");
-define("PRFLAN_145", "Odkazy do nového okna");
-define("PRFLAN_146", "Funkce zajistí, že se všechny odkazy budou otevírat do nového okna (platí pro celé stránky).");
-define("PRFLAN_147", "Mód pro vývojáře");
-define("PRFLAN_148", "Aktivuje vývojářské funkce. Je to k užitku pouze pro vývojáře. Z bezpečnostních důvodů se nedoporučuje zapínat na produkčních stránkách.");
-define("PRFLAN_149", "Rozšiřující funkce");
-define("PRFLAN_150", "Metoda pro ověřování identity uživatele");
-define("PRFLAN_151", "Nejsou instalovány žádné alternativní metody pro ověřování identity");
-define("PRFLAN_31", "Aktivace e-mailem");
-define("PRFLAN_152", "Bez aktivace");
-define("PRFLAN_153", "Aktivace administrátorem");
-define("PRFLAN_154", "Metoda ověření nového uživatele");
-define("PRFLAN_155", "Zobrazovaná jména a jména k přihlášení mohou být rozdílná pro");
-define("PRFLAN_156", "Resetovat VŠECHNA jména pro zobrazení");
-define("PRFLAN_157", "Všechna jména pro zobrazení byla nastavena na přihlašovací");
-define("PRFLAN_158", "Maximální délka jména pro zobrazení (5..30)");
-define("PRFLAN_159", "zobrazuji tuto stranu");
-define("PRFLAN_160", "Kontaktovat vzdálený server při ověření emailové adresy.");
-define("PRFLAN_161", "Zakázat veškeré komentáře na stránkách");
-define("PRFLAN_162", "Kontaktní informace stránek");
-define("PRFLAN_163", "např. společnost, adresa, telefon, apod.");
-define("PRFLAN_164", "Povolit uživateli zaslat si kopii vlastního kontaktního e-mailu");
-define("PRFLAN_165", "Pozor. Toto použijte obezřetně, tuto funkci lze zneužít pro spam.");
-define("PRFLAN_166", "Zobrazit obrázky smajlíků na formuláři pro vložení komentáře?");
-define("PRFLAN_167", "Vložení emailové adresy je volitelné?");
-define("PRFLAN_168", "Kontaktní osoba(y) těchto stránek");
-define("PRFLAN_169", "Pokud obsahuje vybraná skupina více než jednu osobu, bude uživatel požádán, aby vybral jednu osobu z této skupiny.");
-define("PRFLAN_172", "Maximální délka přihlašovacího jména (10..100)");
-define("PRFLAN_173", "Jednou denně kontrolovat aktualizace pro E107");
-define("PRFLAN_174", "Jméno pro odpovídací e-maily stránek");
-define("PRFLAN_175", "Toto se zobrazí jako název odesilatele v registračních a jiných e-mailů z těchto stránek");
-define("PRFLAN_176", "Adresa e-mailů odeslaných z těchto stránek");
-define("PRFLAN_177", "Adresa určená k odpovědi na e-maily z těchto stránek");
-define("PRFLAN_178", "Způsob přenosu hesla");
-define("PRFLAN_179", "(Podporováno pouze pokud používáte relace pro sledování uživatelů.)");
-define("PRFLAN_180", "Prostý text");
-define("PRFLAN_181", "Protokol CHAP, prostou text pouze v případě nouze");
-define("PRFLAN_182", "Pouze CHAP");
-define("PRFLAN_183", "CHAP vyžaduje povolení JS v prohlížeči uživatele");
-define("PRFLAN_184", "Metoda přihlášení uživatele");
-define("PRFLAN_188", "Kódování hesla");
-define("PRFLAN_189", "md5 (starší)");
-define("PRFLAN_190", "Solený");
-define("PRFLAN_191", "(md5 je obvykle dostačující pro Intranet, a často i jiné stránky)");
-define("PRFLAN_192", "Generovat náhodné předdefinované přihlašovací jména podle vzoru");
-define("PRFLAN_193", "Chcete-li umožnit uživatelům, aby zadávali své vlastní přihlašovací jména, ponechte prázdné");
-define("PRFLAN_194", "# alpha[br]. numerický[br]* alfanumerické[br] Další znaky zadané.");
-define("PRFLAN_196", "Všechny přístupy na stránce");
-define("PRFLAN_197", "Automatické přihlášení nového uživatele po kliknutí na odkaz přihlásit se");
-define("PRFLAN_198", "Pokud je vypnutý, uživatel se musí výslovně přihlásit po registraci");
-define("PRFLAN_154a", "Pokud je zvoleno 'schválení správcem', doporučujeme, aby bylo povoleno upozornění e-mailem na registraci uživatele [here].");
-define("PRFLAN_196a", "Adresář protokolů:");
-define("PRFLAN_199", "Zobrazit podřízené odkazy administraci");
-define("PRFLAN_200", "Je-li tato volba povolena, nabídka pro posun směrem dolů (pokud je to podporováno aktuálním vzhledem) provede v případě potřeby podřízené odkazy (např. Zprávy - Vytvořit novinku).");
-define("PRFLAN_201", "Uživatelské jméno a heslo");
-define("PRFLAN_202", "Email a heslo");
-define("PRFLAN_203", "Jméno/Email a heslo");
-define("PRFLAN_204", "Zobrazit vlastním menu s doplňky.");
-define("PRFLAN_205", "Pokud je povoleno, budou doplňky zobrazeny ve vlastní nabídce, podobně jako e107 v0.7 a dříve.");
-define("PRFLAN_206", "Pouze pro členy, výjimky podle URL");
-define("PRFLAN_207", "Režim pouze pro členy bude zakázán pro adresy URL, které odpovídají některému z výrazů v tomto seznamu. Jeden na řádek.");
-define("PRFLAN_208", "Uživatelská třída která může odesílat odkazy na položky na portálu");
-define("PRFLAN_209", "Další funkce");
-define("PRFLAN_210", "Komentáře příspěvků");
-define("PRFLAN_211", "Pokud je vyžadováno pro ověření nebo přihlášení, nemůže být e-mailová adresa volitelná");
-define("PRFLAN_212", "Hodnota [x] je příliš vysoká - změněno na [y]");
-define("PRFLAN_213", "Hodnota [x] je příliš nízká - změněno na [y]-");
-define("PRFLAN_214", "Logo stránek");
-define("PRFLAN_215", "Třída která může používat &lt;script&gt; a podobné znaky");
-define("PRFLAN_216", "(Vyžaduje práva K odeslání HTML)");
-define("PRFLAN_217", "Filtr HTML obsahu");
-define("PRFLAN_218", "Je-li vypnuto , jsou vystaveni uživatelé vystaveni zvýšenému riziku zneužití XSS, které mohou být uveřejněny členy výše uvedených tříd, nebo před 0.7.24");
-define("PRFLAN_219", "V názvu Cookie byli použity nepovolené znaky (Jsou povoleny pouze alfanumerické znaky). Název Cookie neuložen.");
-define("PRFLAN_220", "HTML filtr proti zneužívání (experimentální)");
-define("PRFLAN_221", "Zakazuje užití některých nebezpečních znaků pro ty uživatele kteří mohou psát HTML");
-define("PRFLAN_222", "Moderovat předložené komentáře");
-define("PRFLAN_223", "Komentář bude čekat na osobní schválení administrátorem");
-define("PRFLAN_224", "Uživatelský registrační systém");
-define("PRFLAN_225", "Facebook a jiní používají. Měli by mít čtvercový obraz, který je alespoň 144 pixelů široký a vysoký");
-define("PRFLAN_226", "Mnohé šablony vzhledu používají jako hlavičkový obrázek vašich stránek");
-define("PRFLAN_227", "Využívají některé šablony vzhledu. Umístěte 'SITETAG' do vybrané šablony, abyste tuto hodnotu použili.");
-define("PRFLAN_228", "Využívá několik šablon. Vložte kód 'SITEDESCRIPTION' do vybrané šablony.");
-define("PRFLAN_229", "Použití více šablon. Použijte kód 'SITEDISCLAIMER' pro šablonu.");
-define("PRFLAN_230", "Formát data a času");
-define("PRFLAN_231", "Maximální chybové hlášení před zákazem:");
-define("PRFLAN_232", "Nepodařené přihlašování ze stejné adresy IP budou zakázány po několika pokusech.");
-define("PRFLAN_233", "Moderované komentáře:");
-define("PRFLAN_234", "Komentáře musí být ručně schváleny administrátorem pro zobrazení ostatním uživatelů");
-define("PRFLAN_235", "Řazení komentářů:");
-define("PRFLAN_236", "Nejnovější komentáře nejdříve");
-define("PRFLAN_237", "Poslední komentáře nejdříve");
-define("PRFLAN_238", "Nahrávání souborů");
-define("PRFLAN_239", "Maximální velikost souboru, který byl definován v nastavení php.ini");
-define("PRFLAN_240", "Restrikce seznamu souborů");
-define("PRFLAN_241", "Z bezpečnostních důvodů, tato změna je možná pouze manuálně v souboru");
-define("PRFLAN_242", "Javascript Framework (pouze pro testování)");
-define("PRFLAN_243", "Automaticky (na požádání)");
-define("PRFLAN_244", "Administrace");
-define("PRFLAN_245", "Uživatelská oblast");
-define("PRFLAN_246", "Oba");
-define("PRFLAN_247", "Zakázáno");
-define("PRFLAN_248", "Zakázání konsolidace skriptů");
-define("PRFLAN_249", "Pokud je zakázáno, skripty se načtou do jednoho konsolidovaného souboru");
-define("PRFLAN_250", "Povolit konsolidaci komprese zlib skriptů:");
-define("PRFLAN_251", "Používá se, pouze když je povolena konsolidace skriptů");
-define("PRFLAN_252", "Zakázat mezipaměť serveru konsolidovaných skriptů:");
-define("PRFLAN_253", "Zakázat mezipaměť konsolidovaných skriptů prohlížeče:");
-define("PRFLAN_254", "Email &amp; Kontaktní informace");
-define("PRFLAN_255", "Nahrávání souborů");
-define("PRFLAN_256", "Pokročilé možnosti");
-define("PRFLAN_257", "Knihovny");
-define("PRFLAN_258", "Viditelnost kontaktního formuláře");
-define("PRFLAN_259", "Registrace a přihlášení");
-define("PRFLAN_260", "Pouze přihlášení");
-define("PRFLAN_261", "Možnosti pole");
-define("PRFLAN_262", "Heslo pro potvrzení e-mailu");
-define("PRFLAN_263", " ID místo musí být zcela unikátní");
-define("PRFLAN_264", "Domovská přihlašovací stránka (login.php)");
-define("PRFLAN_265", "Domovská stránka (membersonly.php)");
-define("PRFLAN_266", "Který uživatel bude přesměrován po odhlášení");
-define("PRFLAN_267", "Metoda e-mailu");
-define("PRFLAN_268", "Frontend Inline-Editing");
-define("PRFLAN_269", "The správci a uživatelé mohou přímo upravit příslušnou správu přístupu na domovskou stránku html oblasti.");
-define("PRFLAN_270", "Filtr kontaktních formulářů");
-define("PRFLAN_271", "Ignorovat odesílání formulářů obsahující tato slova nebo fráze. Jeden na řádek.");
-define("PRFLAN_272", "Životnost relace");
-define("PRFLAN_273", "Délka relace v sekundách 0 = dokud není prohlížeč uzavřen.");
-define("PRFLAN_274", "Kontaktní formulář bude viditelný pouze pro tuto skupinu uživatelů.");
-define("PRFLAN_275", " viz strana pomocí protokolu HTTPS (SSL) pro změnu nastavení.");
-define("PRFLAN_276", "Výchozí PHP (doporučeno)");
-define("PRFLAN_277", "Nastavení GDPR");
-define("PRFLAN_278", "URL se zásadami ochrany osobních údajů");
-define("PRFLAN_279", "Zkontrolujte, zda adresa URL existuje! Nejlepší je použít absolutní adresu URL. Toto nastavení bude použito na všech místech, která vyžadují souhlas uživatele (např. Registrace, kontaktní formulář / nabídka atd.).");
-define("PRFLAN_280", "URL odkaz - pravidla a podmínky stránek");
-define("PRFLAN_281", "The 2 links above are used on various page on this site (e.g. signup and contact form/menu).\nPlease create 2 pages (if not already done) that contain your 'Privacy Policy' and the websites 'Terms and conditions'.\nThere are several websites that can generate those text for you.\nCopy the urls of this websites into the fields above (e.g. /page/privacy-policy or /page/terms-and-conditions).\nJust make sure, the pages and urls exist and are working!");
-define("PRFLAN_282", "Metoda uložení relace");
-define("PRFLAN_283", "Zobrazit popisky v navigační liště");
-define("PRFLAN_284", "Ve výchozím nastavení sbalit postranní panel");
-define("PRFLAN_285", "Tipy pro nápovědu k zobrazovacímu poli");
-define("PRFLAN_286", "Filtry obsahu");
+
+return [
+    'PRFLAN_1' => "Informace stránek",
+    'PRFLAN_2' => "Název stránek",
+    'PRFLAN_3' => "URL stránek",
+    'PRFLAN_4' => "Reklamní ikona stránek",
+    'PRFLAN_5' => "Informační řádek",
+    'PRFLAN_6' => "Popis stránek",
+    'PRFLAN_7' => "Hlavní admin",
+    'PRFLAN_8' => "E-mail hlavního správce",
+    'PRFLAN_9' => "Informace v zápatí stránek",
+    'PRFLAN_13' => "Zobrazované informace",
+    'PRFLAN_14' => "Zobrazovat informace o vzhledu?",
+    'PRFLAN_15' => "Zobrazovat čas nutný pro vykreslení?",
+    'PRFLAN_16' => "Zobrazovat informace o SQL dotazech?",
+    'PRFLAN_17' => "Provádět kompresi výstupních dat stránek pomocí gzip",
+    'PRFLAN_19' => "Volby při registraci uživatele",
+    'PRFLAN_21' => "Nastavení času/data",
+    'PRFLAN_22' => "Zkrácený formát data",
+    'PRFLAN_23' => "Dlouhý formát data",
+    'PRFLAN_24' => "Formát datumu pro fórum",
+    'PRFLAN_25' => "Více informací o formátu pro datum a čas naleznete",
+    'PRFLAN_26' => "Časový posun",
+    'PRFLAN_27' => "Např. nastavení +1 přičítá 1 hodinu ke všem časům zobrazovaných na stránkách",
+    'PRFLAN_28' => "Registrace a příspěvky",
+    'PRFLAN_29' => "Aktivovat systém registrace uživatelů?",
+    'PRFLAN_30' => "umožní návštěvníkům registrovat se jako uživatel vašich stránek",
+    'PRFLAN_32' => "Povolit přispívání neregistrovaným?",
+    'PRFLAN_33' => "zakázáním umožníte přispívání pouze registrovaným uživatelům",
+    'PRFLAN_35' => "Zapnout ochranu proti zahlcení stránek?",
+    'PRFLAN_36' => "Čas pro označení jako zahlcování",
+    'PRFLAN_37' => "Automaticky blokovat",
+    'PRFLAN_38' => "Minimální prodleva v sekundách mezi dvěma příspěvky. Při překročení limitu bude uživatel přesměrován na hlavní stránku",
+    'PRFLAN_40' => "Filtrovat nevhodné výrazy?",
+    'PRFLAN_41' => "nevhodné výrazy budou nahrazeny řetězcem uvedeným níže",
+    'PRFLAN_42' => "Nahrazovací řetězec",
+    'PRFLAN_43' => "Seznam nevhodných výrazů k filtraci",
+    'PRFLAN_44' => "filtrovat tyto výrazy (oddělujte čárkou)",
+    'PRFLAN_45' => "Použít COPPA ujednání na stránkách registrace?",
+    'PRFLAN_46' => "více informací o COPPA naleznete zde",
+    'PRFLAN_47' => "Bezpečnost a ochrana",
+    'PRFLAN_48' => "Metoda sledování uživatelů",
+    'PRFLAN_49' => "Cookies",
+    'PRFLAN_50' => "Sessions",
+    'PRFLAN_52' => "Uložit nastavení",
+    'PRFLAN_53' => "Nastavení stránek",
+    'PRFLAN_55' => "Název pro cookies (pokud je zvoleno)",
+    'PRFLAN_56' => "Časové pásmo",
+    'PRFLAN_58' => "Povolit přístup na stránky pouze registrovaným uživatelům",
+    'PRFLAN_59' => "neregistrovaným/nepřihlášeným uživatelům bude umožněn přístup pouze na hlavní a přihlašovací stránku.",
+    'PRFLAN_60' => "Povolite SSL",
+    'PRFLAN_61' => "povolujte SSL pouze pokud víte co děláte!",
+    'PRFLAN_76' => "Zapnout ověření pomocí obrázku při registraci",
+    'PRFLAN_77' => "Administrátorská nastavení",
+    'PRFLAN_78' => "Nevyplněním volby bude služba vypnuta",
+    'PRFLAN_81' => "Zapnout ověření obrázkem při přihlašování.",
+    'PRFLAN_83' => "příklad",
+    'PRFLAN_87' => "Komentáře",
+    'PRFLAN_88' => "Povolit vnořené komentáře",
+    'PRFLAN_89' => "Zobrazovat ikonu u nového komentáře",
+    'PRFLAN_90' => "Povolit možnost úpravy pro zasílatele",
+    'CUSTSIG_2' => "Skutečné jméno:",
+    'CUSTSIG_6' => "Podpis:",
+    'CUSTSIG_7' => "Avatar:",
+    'CUSTSIG_12' => "Skryto",
+    'CUSTSIG_13' => "Pole",
+    'CUSTSIG_14' => "Veřejné",
+    'CUSTSIG_15' => "Vyžadováno",
+    'CUSTSIG_16' => "Minimální délka hesla",
+    'CUSTSIG_17' => "Zasílat e-mail o novém obsahu",
+    'CUSTSIG_18' => "Nepovolený obsah pro uživatelská jména",
+    'CUSTSIG_19' => "uživatelská jména, která obsahují následující text budou odmítnuta(hodnoty oddělujte čárkou)",
+    'CUSTSIG_20' => "Vlastní název",
+    'CUSTSIG_21' => "Potvrzení e-mailem",
+    'CUSTSIG_22' => "Možnost skrýt e-mail",
+    'PRFLAN_91' => "Pokud někdo útočí na web mnoha požadavky na server, jeho IP adresa bude automaticky blokována. Doporučujeme udělat to samé, s nastavením serveru(pokud je to možné)!",
+    'PRFLAN_92' => "Bezpečné ověření přihlášky - skrýt heslo v emailu?",
+    'PRFLAN_93' => "funkce strftime na php.net",
+    'PRFLAN_94' => "zde",
+    'PRFLAN_95' => "Zobrazit informace o doplňcích:",
+    'PRFLAN_96' => "na všech administrátorských stranách zobrazí informace doplňků, které tuto funkci podporují.",
+    'PRFLAN_97' => "Vlastní nabídka informací o doplňku:",
+    'PRFLAN_98' => "Pokud tato položka nebude vybrána, každý doplněk zobrazí své vlastní informace v samostatné nabídce. Pokud je položka aktivní, všechny informace budou zobrazeny ve společné nabídce.",
+    'PRFLAN_102' => "Zaměnit URL",
+    'PRFLAN_103' => "Pokud je volba zaškrtnuta a volba 'Automatický odkaz' je také zaškrtnuta, zaslaná URL jsou zobrazovaná jako odkazy s textem definovaným níže. Tato funkce zabrání velmi dlouhým URL adresám, aby rozbíjeli formát strany kvůli zalamování řetězců v prohlížeči.",
+    'PRFLAN_104' => "Text, který nahradí URL",
+    'PRFLAN_105' => "Tento text nahradí URL pro zobrazení. Lze použít i obrázek - &lt;img&gt; tag s plnou cestou k obrázku",
+    'PRFLAN_106' => "Základní nastavení jsou uložena do databáze",
+    'PRFLAN_107' => "Text pro nahrazení email odkazu",
+    'PRFLAN_108' => "Tento text nahradí email adresu pro zobrazení. Lze použít i obrázek &lt;img&gt; tag s plnou cestou k obrázku",
+    'PRFLAN_109' => "Zalamovat dlouhá slova v textu",
+    'PRFLAN_110' => "slova delší než nastavený počet znaků budou automaticky zalomena",
+    'PRFLAN_111' => "Zalamovat dlouhá slova v textech menu",
+    'PRFLAN_113' => "vypnuto",
+    'PRFLAN_116' => "Povolit zasílat texty v HTML formátu",
+    'PRFLAN_117' => "Umožní uživatelům posílat v textech kód HTML kdekoliv na webu. Zvolte uživatelskou skupinu.",
+    'PRFLAN_118' => "Pro zvýraznění syntaxe použít Geshi",
+    'PRFLAN_119' => "Geshi je program pro zvýrazňování syntaxe s otevřeným kódem s podporou více jazyků. Více informací naleznete na [link]",
+    'PRFLAN_120' => "Základní jazyk pro Geshi syntaxi",
+    'PRFLAN_121' => "Pokud není vybrán jazyk v kódu bbtag, bude použit tento jazyk pro zvýrazňování syntaxe",
+    'PRFLAN_122' => "Mají editovací pole textu podporovat WYSIWYG?",
+    'PRFLAN_123' => "Zobrazí editor typu 'co vidíš, to dostaneš (WYSIWYG) pro editovací pole textu. Aplikuje se pouze pro uživatele, kteří mají povolené zasílání HTML kódu a pro administrátory.",
+    'PRFLAN_124' => "Použij 'klasické' zobrazení tlačítek předchozí-další",
+    'PRFLAN_125' => "Pokud je funkce zapnutá, bude zobrazení přechodu stran takto: 1 2 3 ... 21 22 23 namísto nového stylu zobrazení s vyskakovací nabídkou.",
+    'PRFLAN_126' => "Text, který se zobrazí na stránce pro přihlášení",
+    'PRFLAN_127' => "URL adresy udělat automaticky jako klikací",
+    'PRFLAN_128' => "Funkce bude automaticky převádět zaslané URL adresy na klikací odkazy",
+    'PRFLAN_129' => "Zakázat vícenásobné přihlášení",
+    'PRFLAN_130' => "Pokud je funkce aktivní, nelze se přihlásit se stejným uživatelským jménem/heslem vícekrát (tzv. sdílení přihlašovacích informací)",
+    'PRFLAN_133' => "PHP rozšíření GD nenalezeno, ačkoliv je systémem vyžadováno",
+    'PRFLAN_134' => "Přesměrovat veškeré požadavky na hlavní stranu",
+    'PRFLAN_135' => "Např.: Pokud je URL adresa webu http://stranka.cz, kdokoliv požadující http://www.stranka.cz bude přesměrován na http://stranka.cz",
+    'PRFLAN_136' => "Povolený počet registrací z jedné IP adresy",
+    'PRFLAN_137' => "Zobrazit hodnoty využití paměti",
+    'PRFLAN_138' => "Aktivovat ověření obrázkem při zapomenutí hesla.",
+    'PRFLAN_139' => "Zobrazit varování pokud si hlavní Admin nezmění heslo déle než 30 dnů",
+    'PRFLAN_140' => "Text, který se zobrazí po odeslání registrace.",
+    'PRFLAN_142' => "Pouze zahlcení",
+    'PRFLAN_143' => "Pouze nezdařené přihlášení",
+    'PRFLAN_144' => "Zahlcení i nezdařená přihlášení",
+    'PRFLAN_145' => "Odkazy do nového okna",
+    'PRFLAN_146' => "Funkce zajistí, že se všechny odkazy budou otevírat do nového okna (platí pro celé stránky).",
+    'PRFLAN_147' => "Mód pro vývojáře",
+    'PRFLAN_148' => "Aktivuje vývojářské funkce. Je to k užitku pouze pro vývojáře. Z bezpečnostních důvodů se nedoporučuje zapínat na produkčních stránkách.",
+    'PRFLAN_149' => "Rozšiřující funkce",
+    'PRFLAN_150' => "Metoda pro ověřování identity uživatele",
+    'PRFLAN_151' => "Nejsou instalovány žádné alternativní metody pro ověřování identity",
+    'PRFLAN_31' => "Aktivace e-mailem",
+    'PRFLAN_152' => "Bez aktivace",
+    'PRFLAN_153' => "Aktivace administrátorem",
+    'PRFLAN_154' => "Metoda ověření nového uživatele",
+    'PRFLAN_155' => "Zobrazovaná jména a jména k přihlášení mohou být rozdílná pro",
+    'PRFLAN_156' => "Resetovat VŠECHNA jména pro zobrazení",
+    'PRFLAN_157' => "Všechna jména pro zobrazení byla nastavena na přihlašovací",
+    'PRFLAN_158' => "Maximální délka jména pro zobrazení (5..30)",
+    'PRFLAN_159' => "zobrazuji tuto stranu",
+    'PRFLAN_160' => "Kontaktovat vzdálený server při ověření emailové adresy.",
+    'PRFLAN_161' => "Zakázat veškeré komentáře na stránkách",
+    'PRFLAN_162' => "Kontaktní informace stránek",
+    'PRFLAN_163' => "např. společnost, adresa, telefon, apod.",
+    'PRFLAN_164' => "Povolit uživateli zaslat si kopii vlastního kontaktního e-mailu",
+    'PRFLAN_165' => "Pozor. Toto použijte obezřetně, tuto funkci lze zneužít pro spam.",
+    'PRFLAN_166' => "Zobrazit obrázky smajlíků na formuláři pro vložení komentáře?",
+    'PRFLAN_167' => "Vložení emailové adresy je volitelné?",
+    'PRFLAN_168' => "Kontaktní osoba(y) těchto stránek",
+    'PRFLAN_169' => "Pokud obsahuje vybraná skupina více než jednu osobu, bude uživatel požádán, aby vybral jednu osobu z této skupiny.",
+    'PRFLAN_172' => "Maximální délka přihlašovacího jména (10..100)",
+    'PRFLAN_173' => "Jednou denně kontrolovat aktualizace pro E107",
+    'PRFLAN_174' => "Jméno pro odpovídací e-maily stránek",
+    'PRFLAN_175' => "Toto se zobrazí jako název odesilatele v registračních a jiných e-mailů z těchto stránek",
+    'PRFLAN_176' => "Adresa e-mailů odeslaných z těchto stránek",
+    'PRFLAN_177' => "Adresa určená k odpovědi na e-maily z těchto stránek",
+    'PRFLAN_178' => "Způsob přenosu hesla",
+    'PRFLAN_179' => "(Podporováno pouze pokud používáte relace pro sledování uživatelů.)",
+    'PRFLAN_180' => "Prostý text",
+    'PRFLAN_181' => "Protokol CHAP, prostou text pouze v případě nouze",
+    'PRFLAN_182' => "Pouze CHAP",
+    'PRFLAN_183' => "CHAP vyžaduje povolení JS v prohlížeči uživatele",
+    'PRFLAN_184' => "Metoda přihlášení uživatele",
+    'PRFLAN_188' => "Kódování hesla",
+    'PRFLAN_189' => "md5 (starší)",
+    'PRFLAN_190' => "Solený",
+    'PRFLAN_191' => "(md5 je obvykle dostačující pro Intranet, a často i jiné stránky)",
+    'PRFLAN_192' => "Generovat náhodné předdefinované přihlašovací jména podle vzoru",
+    'PRFLAN_193' => "Chcete-li umožnit uživatelům, aby zadávali své vlastní přihlašovací jména, ponechte prázdné",
+    'PRFLAN_194' => "# alpha[br]. numerický[br]* alfanumerické[br] Další znaky zadané.",
+    'PRFLAN_196' => "Všechny přístupy na stránce",
+    'PRFLAN_197' => "Automatické přihlášení nového uživatele po kliknutí na odkaz přihlásit se",
+    'PRFLAN_198' => "Pokud je vypnutý, uživatel se musí výslovně přihlásit po registraci",
+    'PRFLAN_154a' => "Pokud je zvoleno 'schválení správcem', doporučujeme, aby bylo povoleno upozornění e-mailem na registraci uživatele [here].",
+    'PRFLAN_196a' => "Adresář protokolů:",
+    'PRFLAN_199' => "Zobrazit podřízené odkazy administraci",
+    'PRFLAN_200' => "Je-li tato volba povolena, nabídka pro posun směrem dolů (pokud je to podporováno aktuálním vzhledem) provede v případě potřeby podřízené odkazy (např. Zprávy - Vytvořit novinku).",
+    'PRFLAN_201' => "Uživatelské jméno a heslo",
+    'PRFLAN_202' => "Email a heslo",
+    'PRFLAN_203' => "Jméno/Email a heslo",
+    'PRFLAN_204' => "Zobrazit vlastním menu s doplňky.",
+    'PRFLAN_205' => "Pokud je povoleno, budou doplňky zobrazeny ve vlastní nabídce, podobně jako e107 v0.7 a dříve.",
+    'PRFLAN_206' => "Pouze pro členy, výjimky podle URL",
+    'PRFLAN_207' => "Režim pouze pro členy bude zakázán pro adresy URL, které odpovídají některému z výrazů v tomto seznamu. Jeden na řádek.",
+    'PRFLAN_208' => "Uživatelská třída která může odesílat odkazy na položky na portálu",
+    'PRFLAN_209' => "Další funkce",
+    'PRFLAN_210' => "Komentáře příspěvků",
+    'PRFLAN_211' => "Pokud je vyžadováno pro ověření nebo přihlášení, nemůže být e-mailová adresa volitelná",
+    'PRFLAN_212' => "Hodnota [x] je příliš vysoká - změněno na [y]",
+    'PRFLAN_213' => "Hodnota [x] je příliš nízká - změněno na [y]-",
+    'PRFLAN_214' => "Logo stránek",
+    'PRFLAN_215' => "Třída která může používat &lt;script&gt; a podobné znaky",
+    'PRFLAN_216' => "(Vyžaduje práva K odeslání HTML)",
+    'PRFLAN_217' => "Filtr HTML obsahu",
+    'PRFLAN_218' => "Je-li vypnuto , jsou vystaveni uživatelé vystaveni zvýšenému riziku zneužití XSS, které mohou být uveřejněny členy výše uvedených tříd, nebo před 0.7.24",
+    'PRFLAN_219' => "V názvu Cookie byli použity nepovolené znaky (Jsou povoleny pouze alfanumerické znaky). Název Cookie neuložen.",
+    'PRFLAN_220' => "HTML filtr proti zneužívání (experimentální)",
+    'PRFLAN_221' => "Zakazuje užití některých nebezpečních znaků pro ty uživatele kteří mohou psát HTML",
+    'PRFLAN_222' => "Moderovat předložené komentáře",
+    'PRFLAN_223' => "Komentář bude čekat na osobní schválení administrátorem",
+    'PRFLAN_224' => "Uživatelský registrační systém",
+    'PRFLAN_225' => "Facebook a jiní používají. Měli by mít čtvercový obraz, který je alespoň 144 pixelů široký a vysoký",
+    'PRFLAN_226' => "Mnohé šablony vzhledu používají jako hlavičkový obrázek vašich stránek",
+    'PRFLAN_227' => "Využívají některé šablony vzhledu. Umístěte 'SITETAG' do vybrané šablony, abyste tuto hodnotu použili.",
+    'PRFLAN_228' => "Využívá několik šablon. Vložte kód 'SITEDESCRIPTION' do vybrané šablony.",
+    'PRFLAN_229' => "Použití více šablon. Použijte kód 'SITEDISCLAIMER' pro šablonu.",
+    'PRFLAN_230' => "Formát data a času",
+    'PRFLAN_231' => "Maximální chybové hlášení před zákazem:",
+    'PRFLAN_232' => "Nepodařené přihlašování ze stejné adresy IP budou zakázány po několika pokusech.",
+    'PRFLAN_233' => "Moderované komentáře:",
+    'PRFLAN_234' => "Komentáře musí být ručně schváleny administrátorem pro zobrazení ostatním uživatelů",
+    'PRFLAN_235' => "Řazení komentářů:",
+    'PRFLAN_236' => "Nejnovější komentáře nejdříve",
+    'PRFLAN_237' => "Poslední komentáře nejdříve",
+    'PRFLAN_238' => "Nahrávání souborů",
+    'PRFLAN_239' => "Maximální velikost souboru, který byl definován v nastavení php.ini",
+    'PRFLAN_240' => "Restrikce seznamu souborů",
+    'PRFLAN_241' => "Z bezpečnostních důvodů, tato změna je možná pouze manuálně v souboru",
+    'PRFLAN_242' => "Javascript Framework (pouze pro testování)",
+    'PRFLAN_243' => "Automaticky (na požádání)",
+    'PRFLAN_244' => "Administrace",
+    'PRFLAN_245' => "Uživatelská oblast",
+    'PRFLAN_246' => "Oba",
+    'PRFLAN_247' => "Zakázáno",
+    'PRFLAN_248' => "Zakázání konsolidace skriptů",
+    'PRFLAN_249' => "Pokud je zakázáno, skripty se načtou do jednoho konsolidovaného souboru",
+    'PRFLAN_250' => "Povolit konsolidaci komprese zlib skriptů:",
+    'PRFLAN_251' => "Používá se, pouze když je povolena konsolidace skriptů",
+    'PRFLAN_252' => "Zakázat mezipaměť serveru konsolidovaných skriptů:",
+    'PRFLAN_253' => "Zakázat mezipaměť konsolidovaných skriptů prohlížeče:",
+    'PRFLAN_254' => "Email &amp; Kontaktní informace",
+    'PRFLAN_255' => "Nahrávání souborů",
+    'PRFLAN_256' => "Pokročilé možnosti",
+    'PRFLAN_257' => "Knihovny",
+    'PRFLAN_258' => "Viditelnost kontaktního formuláře",
+    'PRFLAN_259' => "Registrace a přihlášení",
+    'PRFLAN_260' => "Pouze přihlášení",
+    'PRFLAN_261' => "Možnosti pole",
+    'PRFLAN_262' => "Heslo pro potvrzení e-mailu",
+    'PRFLAN_263' => " ID místo musí být zcela unikátní",
+    'PRFLAN_264' => "Domovská přihlašovací stránka (login.php)",
+    'PRFLAN_265' => "Domovská stránka (membersonly.php)",
+    'PRFLAN_266' => "Který uživatel bude přesměrován po odhlášení",
+    'PRFLAN_267' => "Metoda e-mailu",
+    'PRFLAN_268' => "Frontend Inline-Editing",
+    'PRFLAN_269' => "The správci a uživatelé mohou přímo upravit příslušnou správu přístupu na domovskou stránku html oblasti.",
+    'PRFLAN_270' => "Filtr kontaktních formulářů",
+    'PRFLAN_271' => "Ignorovat odesílání formulářů obsahující tato slova nebo fráze. Jeden na řádek.",
+    'PRFLAN_272' => "Životnost relace",
+    'PRFLAN_273' => "Délka relace v sekundách 0 = dokud není prohlížeč uzavřen.",
+    'PRFLAN_274' => "Kontaktní formulář bude viditelný pouze pro tuto skupinu uživatelů.",
+    'PRFLAN_275' => " viz strana pomocí protokolu HTTPS (SSL) pro změnu nastavení.",
+    'PRFLAN_276' => "Výchozí PHP (doporučeno)",
+    'PRFLAN_277' => "Nastavení GDPR",
+    'PRFLAN_278' => "URL se zásadami ochrany osobních údajů",
+    'PRFLAN_279' => "Zkontrolujte, zda adresa URL existuje! Nejlepší je použít absolutní adresu URL. Toto nastavení bude použito na všech místech, která vyžadují souhlas uživatele (např. Registrace, kontaktní formulář / nabídka atd.).",
+    'PRFLAN_280' => "URL odkaz - pravidla a podmínky stránek",
+    'PRFLAN_281' => "The 2 links above are used on various page on this site (e.g. signup and contact form/menu).\nPlease create 2 pages (if not already done) that contain your 'Privacy Policy' and the websites 'Terms and conditions'.\nThere are several websites that can generate those text for you.\nCopy the urls of this websites into the fields above (e.g. /page/privacy-policy or /page/terms-and-conditions).\nJust make sure, the pages and urls exist and are working!",
+    'PRFLAN_282' => "Metoda uložení relace",
+    'PRFLAN_283' => "Zobrazit popisky v navigační liště",
+    'PRFLAN_284' => "Ve výchozím nastavení sbalit postranní panel",
+    'PRFLAN_285' => "Tipy pro nápovědu k zobrazovacímu poli",
+    'PRFLAN_286' => "Filtry obsahu",
+    'PRFLAN_287' => "Display debug button in admin area navigation bar",
+    'PRFLAN_288' => "Trusted Hosts",
+    'PRFLAN_289' => "Additional hostnames the site will accept in the Host header, one per line. The host parsed from Site URL is always trusted; entries here are added to that list. Paste a full URL and the saved value is normalised to the host only.",
+    'PRFLAN_290' => "Update channel",
+    'PRFLAN_291' => "The Development Preview channel includes alpha, beta and release-candidate versions. Leave on Stable for production sites.",
+    'PRFLAN_292' => "Stable",
+    'PRFLAN_293' => "Development Preview",
+    // PRFLAN_294 to PRFLAN_298 shipped in v2.3.10 and are left exactly as they
+    // went out. A translator already holds them, and silently changing the
+    // English under a shipped key is how a translation becomes wrong without
+    // anyone being able to see that it has. The preference they described
+    // offered three choices and now offers six, so the new wording takes new
+    // keys, PRFLAN_305 onwards.
+    'PRFLAN_294' => "Requests without a security token",
+    'PRFLAN_295' => "A cross-site request forgery works by making a visitor's browser send a request the visitor did not intend. The security token is what proves a request came from a page this site rendered.\\nRefuse is the safe setting. Choose Allow and log if an integration has stopped working and you need to see which requests are affected before deciding; every affected request is then written to the admin log instead of being refused.",
+    'PRFLAN_296' => "Refuse (recommended)",
+    'PRFLAN_297' => "Allow and log",
+    'PRFLAN_298' => "Allow",
+    'PRFLAN_299' => "Session cookie SameSite",
+    'PRFLAN_300' => "Controls whether the browser sends the session cookie on a request that started from another site. Lax is the safe default: the cookie still travels with an ordinary link into this site, but not with a form another site posts here.\\nChoose None if a payment gateway, single sign-on provider or similar has to post to this site and be recognised as the logged-in visitor; it requires SSL and falls back to Lax without it. Strict also drops the cookie on inbound links, so a visitor following a link from elsewhere arrives logged out.",
+    'PRFLAN_301' => "Lax (recommended)",
+    'PRFLAN_302' => "Strict",
+    'PRFLAN_303' => "None (requires SSL)",
+    'PRFLAN_304' => "Do not set",
+    'PRFLAN_305' => "Proof that a request came from this site",
+    'PRFLAN_306' => "A cross-site request forgery works by making a visitor's browser send a request the visitor did not intend. e107 can tell a genuine request from a forged one in two ways.\\nA security token is a value this site writes into its own pages and checks when they are submitted. It works in every browser, but only protects a page that was actually given one.\\nThe browser check reads Sec-Fetch-Site, a header the browser sets itself and which no web page is allowed to forge. Nothing has to be delivered to the page for it to work, but browsers older than Chrome 76, Firefox 90 or Safari 16.4 do not send it and cannot be protected this way.\\nLeave this on the recommended setting unless you have a reason not to.",
+    'PRFLAN_307' => "e107's recommended setting",
+    'PRFLAN_308' => "Security token or browser check",
+    'PRFLAN_309' => "Browser check",
+    'PRFLAN_310' => "Browser check, this exact address only",
+    'PRFLAN_311' => "Security token, refuse without one",
+    'PRFLAN_312' => "Security token, allow without one and log it",
+    'PRFLAN_313' => "Accept anything",
+    'PRFLAN_314' => "The browser check is unavailable on this address. Browsers only send Sec-Fetch-Site to a secure address, so on a site served over plain HTTP the header never arrives and a setting that asks for nothing else would refuse every submission. Serve this site over HTTPS to use it.",
+    'PRFLAN_315' => "Seconds to answer the code",
+    'PRFLAN_316' => "How long a visitor has between the code being drawn and the form being submitted. Each code may be answered once, right or wrong, so a short window is not a second chance. Raise it if visitors using a magnifier or a screen reader report that the code has expired by the time they submit.",
+    'PRFLAN_317' => "Answer from the same address",
+    'PRFLAN_318' => "Refuse a code answered from a different network address than it was drawn to. It stops a code being solved elsewhere and passed on, and it also refuses a genuine visitor whose address changes between the two requests, which happens on mobile data, on carrier-grade NAT, with rotating IPv6 privacy addresses and over Tor.",
+];

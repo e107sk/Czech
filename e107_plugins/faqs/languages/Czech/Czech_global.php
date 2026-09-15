@@ -1,16 +1,23 @@
 <?php
 /*
-* Copyright (c) e107 Inc 2008-2013 - e107.org, 
-* Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
-*
-* 'FAQ plugin' global language definitions
++---------------------------------------------------------------+
+|        e107 website content management system Czech Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2026/09/15 11:11:56
+|
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
+|        $Author: Jimako $
++---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_FAQS_NAME", 			"FAQ");
-define("LAN_PLUGIN_FAQS_DESCRIPTION", 	"Jednoduchý doplněk pro přidání (FAQ) Často kladené otázky.");
-define("LAN_PLUGIN_FAQS_FUNCTIONNAME",	"FAQ kategorie");
-define("LAN_PLUGIN_FAQS_FRONT_NAME", 	"FAQ (Často kladené otázky)");
-define("LAN_PLUGIN_FAQS_SEARCH",		"FAQ vyhledávání");
-define("LAN_FAQS_ASK_A_QUESTION",		"Položit otázku");
 
-
+return [
+    'LAN_PLUGIN_FAQS_NAME' => "FAQ",
+    'LAN_PLUGIN_FAQS_DESCRIPTION' => "Jednoduchý doplněk pro přidání (FAQ) Často kladené otázky.",
+    'LAN_PLUGIN_FAQS_FUNCTIONNAME' => "FAQ kategorie",
+    'LAN_PLUGIN_FAQS_FRONT_NAME' => "FAQ (Často kladené otázky)",
+    'LAN_PLUGIN_FAQS_SEARCH' => "FAQ vyhledávání",
+    'LAN_FAQS_ASK_A_QUESTION' => "Položit otázku",
+];

@@ -4,223 +4,228 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:49:22
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("USRLAN_1", "Nastavení uloženo.");
-define("USRLAN_3", "je nyní administrátorem - pro nastavení oprávnění pokračujte na");
-define("USRLAN_4", "Administrátorské stránky");
-define("USRLAN_5", "Hlavnímu adminovi nemůže být odebrán status administrátora");
-define("USRLAN_6", "byl status administrátora odebrán.");
-define("USRLAN_7", "Hlavnímu administrátorovi nemůže být udělen zákaz");
-define("USRLAN_8", "Uživateli byl udělen zakázán.");
-define("USRLAN_9", "Uživateli byl odebrán zákaz.");
-define("USRLAN_10", "Uživatel smazán.");
-define("USRLAN_11", "Smazání zrušeno.");
-define("USRLAN_12", "Hlavní administrátor nemůže být smazán.");
-define("USRLAN_13", "Potvrďte smazání tohoto uživatele");
-define("USRLAN_16", "Potvrdit smazání");
-define("USRLAN_17", "Potvrzením bude uživatel smazán");
-define("USRLAN_30", "Udělit zákaz");
-define("USRLAN_32", "Aktivovat");
-define("USRLAN_33", "Odstranit zákaz");
-define("USRLAN_34", "Odebrat status administrátora");
-define("USRLAN_35", "Udělit status administrátora");
-define("USRLAN_36", "Nastavit třídu");
-define("USRLAN_44", "Povolit uživatelům nahrávat obrázek (avatar)?");
-define("USRLAN_47", "Maximální šířka obrázku (v pixelech)");
-define("USRLAN_48", "standardně 120px");
-define("USRLAN_49", "Maximální výška (v pixelech)");
-define("USRLAN_50", "standardně 100px");
-define("USRLAN_51", "Uložit nastavení");
-define("USRLAN_52", "Nastavení uživatelů");
-define("USRLAN_53", "Povolit uživatelům nahrávat fotografii?");
-define("USRLAN_54", "Kliknutím zde smažete všechny neaktivované uživatele");
-define("USRLAN_55", "Pročistit");
-define("USRLAN_56", "Smazáno");
-define("USRLAN_57", "Smazání neaktivovaných uživatelů ...");
-define("USRLAN_58", "nahrávání souborů je vypnuto v php.ini");
-define("USRLAN_59", "Rychlé vytvoření uživatele");
-define("USRLAN_60", "Vytvořit");
-define("USRLAN_61", "Uživatelské jméno");
-define("USRLAN_63", "Potvrzení hesla");
-define("USRLAN_64", "E-mailová adresa");
-define("USRLAN_65", "Toto uživatelské jméno nemůže být použité, vyberte si prosím jiné");
-define("USRLAN_66", "Toto uživatelské heslo již existuje, vyberte si prosím jiné");
-define("USRLAN_67", "Vaše hesla se neshodují");
-define("USRLAN_68", "Některé povinné údaje nebyly vyplněny");
-define("USRLAN_69", "E-mailová adresa je neplatná");
-define("USRLAN_78", "Uživatelské jméno");
-define("USRLAN_79", "Status");
-define("USRLAN_80", "Informace");
-define("USRLAN_84", "Je zde");
-define("USRLAN_85", "uživatelů, kteří si neaktivovali své účty - kliknutím níže, je smažete.");
-define("USRLAN_86", "Ověřený uživatel");
-define("USRLAN_87", "Nastavení uživatele změněno");
-define("USRLAN_88", "Nastavení skupiny uživatele, změněno");
-define("USRLAN_90", "Hledat/Obnovit");
-define("USRLAN_91", "Třída");
-define("USRLAN_92", "Neplatné znaky v uživatelském jméně");
-define("USRLAN_93", "Smazat neověřené účty");
-define("USRLAN_94", "Smazat uživatelské účty, které nebyly ověřeny do doby - zadáním nuly službu vypnete <br />Toto nastavení ignorujte, pokud Administrátor uživatele moderuje sám.");
-define("USRLAN_95", "minut");
-define("USRLAN_112", "Přeposlat e-mail");
-define("USRLAN_113", "Registrační informace od");
-define("USRLAN_114", "Vážený/á");
-define("USRLAN_115", "Děkujeme vám, za vaši registraci.");
-define("USRLAN_116", "Potvrďte, že si přejete přeposílat e-maily:");
-define("USRLAN_117", "Kliknutím otestujete e-mail:");
-define("USRLAN_118", "Test e-mailu");
-define("USRLAN_119", "Test [x]");
-define("USRLAN_120", "Nastavení uživatelských tříd");
-define("USRLAN_121", "Mailing");
-define("USRLAN_122", "Vítejte v");
-define("USRLAN_123", "Registrace byla přijata a vytvořena.");
-define("USRLAN_124", "Váš účet je v tuto chvíli neaktivovaný. Následujícím odkazem účet aktivujte.");
-define("USRLAN_125", "Od");
-define("USRLAN_126", "Povolit uživatelům hodnotit ostatní uživatele");
-define("USRLAN_127", "Povolit komentovat uživatelův profil");
-define("USRLAN_128", "Přihlašovací jméno");
-define("USRLAN_129", "Skutečné jméno");
-define("USRLAN_130", "Povolit sledování přihlášených uživatelů");
-define("USRLAN_131", "povolením umožníte sledování stavu na online.php, online menu a také na fóru.");
-define("USRLAN_133", "Donutit uživatele doplnit požadované údaje");
-define("USRLAN_134", "zapnutím volby pošlete uživatele do nastavení účtů pro doplnění vyžadovaných údajů.");
-define("USRLAN_135", "Informace i uživatelově IP adrese nebyly nalezeny; IP nelze zakázat");
-define("USRLAN_136", "Více uživatelů se stejnou IP adresou {IP}; IP nelze zakázat.");
-define("USRLAN_137", "Uživatelova IP adresa {IP} byla zakázána. Byl udělen zákaz.");
-define("USRLAN_138", "Neověření uživatelé");
-define("USRLAN_139", "Váš účet byl aktivován.\n\nNa stránkách {SITEURL} se nyní můžete přihlásit pomocí přihlašovacích údajů, které jste uvedenl při registraci.");
-define("USRLAN_140", "Přeposlaný e-mail");
-define("USRLAN_141", "Selhání přeposílání e-mailu");
-define("USRLAN_142", "s tímto aktivačním odkazem");
-define("USRLAN_143", "Kontrola odrazů");
-define("USRLAN_144", "Všem přeposlat potvrzovací e-mail");
-define("USRLAN_145", "Odražení uživatelé");
-define("USRLAN_146", "Uživatelské informace jsou dostupné pro");
-define("USRLAN_147", "E-mailová adresa je již použita zakázaným uživatelem.");
-define("USRLAN_148", "E-mailová adresa je zakázána");
-define("USRLAN_149", "Smazat přečtené e-maily");
-define("USRLAN_150", "Smazat všechny e-maily");
-define("USRLAN_151", "Zrušení blokování s vyžádáním aktivace");
-define("USRLAN_152", "Zrušení blokování a následná aktivace");
-define("USRLAN_153", "Smazat nevyhozené e-maily");
-define("USRLAN_154", "Odstranit e-maily k přečtení");
-define("USRLAN_155", "Bylo nalezeno celkem [w] e-mailů. Z toho bylo [x] dle nastavení smazáno.[br] [y] uživatelů označených jako 'zakázaný' (out of [z] emails)");
-define("USRLAN_156", "E-mailová adresa je již použita");
-define("USRLAN_161", "ID uživatele [x] jméno [y] zakázáno");
-define("USRLAN_162", "ID uživatele [x] jméno [y] zakázáno");
-define("USRLAN_164", "ID uživatele [x] jméno [y] ([y]) z adminu");
-define("USRLAN_165", "Uživatelské jméno [x] jméno [y] admin zrušeno");
-define("USRLAN_166", "ID uživatele [x] jméno [y] schváleno");
-define("USRLAN_167", "ID ověřovacího e-mailu [x] odkázat na [y] na [z]");
-define("USRLAN_169", "Celkem [x] odstraněné emaily byly smazány");
-define("USRLAN_170", "Náhodné uživatelské jméno");
-define("USRLAN_171", "Náhodné heslo");
-define("USRLAN_172", "Uživatelský účet byl vytvořen s následujícím:");
-define("USRLAN_179", "Zákaz uživatele:");
-define("USRLAN_180", "adresa IP {IP} se objeví na whitelistu, IP není zakázána.");
-define("USRLAN_181", "Zvolit možnost pro stav uživatele a odeslání potvrzujícího e-mailu uživateli");
-define("USRLAN_182", "Neplatné znaky v přihlašovací jméno");
-define("USRLAN_183", "Přihlašovací jméno již používáno");
-define("USRLAN_184", "Délka přihlašovacího jména mimo mezní hodnoty");
-define("USRLAN_185", "Uživatelský účet byl vytvořen pro vás na adrese {SITEURL} s následujícím přihlašováním: <br /> <br /> <b> Jméno přihlášení: </ b> {LOGINNAME} b> Heslo: </ b> {PASSWORD} <br/> <b> Aktivační odkaz: </ b> {ACTIVATION_LINK} <br /> <br />");
-define("USRLAN_186", "Přejděte prosím na stránky co nejdříve a přihlaste se, změňte heslo pomocí možnosti \"Nastavení\". <br /> <br /> Můžete také změnit jiné nastavení ve stejném čas. <br /> <br /> Pamatujte, že heslo nemůžete obnovit, pokud ji ztratíte.");
-define("USRLAN_187", "Přístup k webu:");
-define("USRLAN_188", "E-mail byl úspěšně odeslán");
-define("USRLAN_189", "Chyba při odesílání e-mailu");
-define("USRLAN_190", "Zkušební doba nových uživatelů (dny)");
-define("USRLAN_191", "(administrátor může omezit používání některých funkcí v zadané zkušební době)");
-define("USRLAN_193", "Nic se nezměnilo - nebylo uloženo");
-define("USRLAN_194", "Podpis může být změněn");
-define("USRLAN_195", "Poslední příspěvek");
-define("USRLAN_198", "Název pole");
-define("USRLAN_199", "Operace");
-define("USRLAN_200", "Hodnota");
-define("USRLAN_201", "Počet komentářů");
-define("USRLAN_202", "Počet návštěv stránek");
-define("USRLAN_203", "Počet dnů členů");
-define("USRLAN_204", "Jádro");
-define("USRLAN_206", "Aktuální výpočet");
-define("USRLAN_207", "Typ");
-define("USRLAN_208", "Hodnocení jméno");
-define("USRLAN_209", "Dolní mez");
-define("USRLAN_210", "Předpona jazyka (Prefix)");
-define("USRLAN_211", "Pozice obrazu");
-define("USRLAN_212", "Hodnost uživatele");
-define("USRLAN_214", "Přidat novou hodnost");
-define("USRLAN_216", "--vybrat obrázek--");
-define("USRLAN_219", "Starší než 30 dní");
-define("LAN_MAINADMIN", "Hlavní administrátor");
-define("LAN_NOTVERIFIED", "Neověřený");
-define("LAN_BANNED", "Blokován");
-define("LAN_BOUNCED", "Odražený");
-define("LAN_UI_1_HOUR", "1 hodina");
-define("LAN_UI_3_HOURS", "3 hodiny");
-define("LAN_UI_6_HOURS", "6 hodin");
-define("LAN_UI_12_HOURS", "12 hodin");
-define("LAN_UI_24_HOURS", "24 hodin");
-define("LAN_UI_48_HOURS", "48 hodin");
-define("LAN_UI_3_DAYS", "3 dny");
-define("USRLAN_220", "Všechny uživatelské třídy");
-define("USRLAN_221", "Upravit oprávnení admin");
-define("USRLAN_222", "Chystáte se smazat [x] ([y]) s ID # [z]. Jste si jisti?");
-define("USRLAN_223", "Uživatel nebyl nalezen.");
-define("USRLAN_224", "E-mail odeslán:");
-define("USRLAN_225", "Nepodařilo se odeslat e-mail:");
-define("USRLAN_226", "Nemáte k tomu dostatek oprávnění.");
-define("USRLAN_227", "Neznámá chyba. Akce se nezdařila.");
-define("USRLAN_228", "Chystáte se vytvořit uživatele [b] [x] [/b]: [b] [y] [/b] ([z]) administrátora [/b].");
-define("USRLAN_229", "Nastavit oprávnění a kliknutím na tlačítko [b] Aktualizovat [/b] pokračovat nebo [b] Zpět [/b].");
-define("USRLAN_230", "Správce aktualizace [x] ([y])");
-define("USRLAN_231", "Nedostatečná oprávnění, přerušení provozu.");
-define("USRLAN_232", "Chybí aktivační klíč.");
-define("USRLAN_233", "Platné");
-define("USRLAN_234", "Neplatný");
-define("USRLAN_235", "Uživatel musí ověřit.");
-define("USRLAN_236", "Akce selhala.");
-define("USRLAN_237", "Uživatelské jméno a zobrazované jméno nesmí být jiné (na základě konfigurace webu). Zobrazovaný název je nastaven na [b] [x] [/b].");
-define("USRLAN_238", "Váš aktuální stav je [b] Aktivní [/b]");
-define("USRLAN_239", "Oznámení a stav uživatele");
-define("USRLAN_240", "Aktivovat, neoznamovat");
-define("USRLAN_241", "Aktivovat, oznámit (heslo)");
-define("USRLAN_242", "Vyžadovat aktivaci, oznámit (heslo a aktivační odkaz)");
-define("USRLAN_243", "Nastavit oprávnění");
-define("USRLAN_244", "Porušení zabezpečení (nedostatečné oprávnění) - Administrátor [x] ([y], [z] ) se pokusil odebrat stav administrátora z adresy [u] ([v], [w])");
-define("USRLAN_245", "Porušení zabezpečení (nedostatečná oprávnění) - Administrátor [x] ([y], [z]) se pokusil vytvořit [u] ([v], [w]) systému admin");
-define("USRLAN_246", "(Není požadováno)");
-define("USRLAN_247", "Us");
-define("USRLAN_248", "Us");
-define("USRLAN_249", "Us");
-define("USRLAN_250", "Us");
-define("USRLAN_251", "Ponechat prázdné bez změny");
-define("USRLAN_252", "Znovu odeslat aktivační e-mail účtu neaktivovaným uživatelům.");
-define("USRLAN_253", "starší než");
-define("USRLAN_254", "Resetovat všechna hesla");
-define("USRLAN_255", "Upozornit uživatele");
-define("USRLAN_256", "Vážení");
-define("USRLAN_257", "Povolit uživatelům smazat svůj účet?");
-define("UCSLAN_1", "Odesílat oznámení s upozorněním");
-define("UCSLAN_2", "Aktualizované oprávnění");
-define("UCSLAN_4", "Vaše oprávnění byla aktualizována na");
-define("UCSLAN_5", "Nyní máte přístup k následující oblasti");
-define("UCSLAN_6", "Nastavit třídu pro uživatele");
-define("UCSLAN_7", "Nastavit třídy");
-define("UCSLAN_9", "Aktualizované třídy");
-define("UCSLAN_10", "Pozdravy");
-define("UCSLAN_11", "Členství třídy pro ID uživatele [x] změněno na [y]");
-define("UCSLAN_12", "Pouze oprávnění člena");
-define("USFLAN_1", "Zadaná adresa IP nebyla nalezena - nejsou žádné informace.");
-define("USFLAN_3", "Zpráva odeslaná z této adresy IP");
-define("USFLAN_4", "Server");
-define("USFLAN_5", "Kliknutím zde přeneste adresu IP na stránku s blokováním");
-define("USFLAN_6", "ID uživatele");
-define("USFLAN_7", "Informace o uživateli");
-define("USRLAN_AS_1", "Přihlášení jako [x]");
-define("USRLAN_AS_2", "Odhlásit se z účtu [x]");
-define("USRLAN_AS_3", "Již jste přihlášeni jako jiný uživatel. Nejdříve se odhlašte.");
+return [
+    'USRLAN_1' => "Nastavení uloženo.",
+    'USRLAN_3' => "je nyní administrátorem - pro nastavení oprávnění pokračujte na",
+    'USRLAN_4' => "Administrátorské stránky",
+    'USRLAN_5' => "Hlavnímu adminovi nemůže být odebrán status administrátora",
+    'USRLAN_6' => "byl status administrátora odebrán.",
+    'USRLAN_7' => "Hlavnímu administrátorovi nemůže být udělen zákaz",
+    'USRLAN_8' => "Uživateli byl udělen zakázán.",
+    'USRLAN_9' => "Uživateli byl odebrán zákaz.",
+    'USRLAN_10' => "Uživatel smazán.",
+    'USRLAN_11' => "Smazání zrušeno.",
+    'USRLAN_12' => "Hlavní administrátor nemůže být smazán.",
+    'USRLAN_13' => "Potvrďte smazání tohoto uživatele",
+    'USRLAN_16' => "Potvrdit smazání",
+    'USRLAN_17' => "Potvrzením bude uživatel smazán",
+    'USRLAN_30' => "Udělit zákaz",
+    'USRLAN_32' => "Aktivovat",
+    'USRLAN_33' => "Odstranit zákaz",
+    'USRLAN_34' => "Odebrat status administrátora",
+    'USRLAN_35' => "Udělit status administrátora",
+    'USRLAN_36' => "Nastavit třídu",
+    'USRLAN_44' => "Povolit uživatelům nahrávat obrázek (avatar)?",
+    'USRLAN_47' => "Maximální šířka obrázku (v pixelech)",
+    'USRLAN_48' => "standardně 120px",
+    'USRLAN_49' => "Maximální výška (v pixelech)",
+    'USRLAN_50' => "standardně 100px",
+    'USRLAN_51' => "Uložit nastavení",
+    'USRLAN_52' => "Nastavení uživatelů",
+    'USRLAN_53' => "Povolit uživatelům nahrávat fotografii?",
+    'USRLAN_54' => "Kliknutím zde smažete všechny neaktivované uživatele",
+    'USRLAN_55' => "Pročistit",
+    'USRLAN_56' => "Smazáno",
+    'USRLAN_57' => "Smazání neaktivovaných uživatelů ...",
+    'USRLAN_58' => "nahrávání souborů je vypnuto v php.ini",
+    'USRLAN_59' => "Rychlé vytvoření uživatele",
+    'USRLAN_60' => "Vytvořit",
+    'USRLAN_61' => "Uživatelské jméno",
+    'USRLAN_63' => "Potvrzení hesla",
+    'USRLAN_64' => "E-mailová adresa",
+    'USRLAN_65' => "Toto uživatelské jméno nemůže být použité, vyberte si prosím jiné",
+    'USRLAN_66' => "Toto uživatelské heslo již existuje, vyberte si prosím jiné",
+    'USRLAN_67' => "Vaše hesla se neshodují",
+    'USRLAN_68' => "Některé povinné údaje nebyly vyplněny",
+    'USRLAN_69' => "E-mailová adresa je neplatná",
+    'USRLAN_78' => "Uživatelské jméno",
+    'USRLAN_79' => "Status",
+    'USRLAN_80' => "Informace",
+    'USRLAN_84' => "Je zde",
+    'USRLAN_85' => "uživatelů, kteří si neaktivovali své účty - kliknutím níže, je smažete.",
+    'USRLAN_86' => "Ověřený uživatel",
+    'USRLAN_87' => "Nastavení uživatele změněno",
+    'USRLAN_88' => "Nastavení skupiny uživatele, změněno",
+    'USRLAN_90' => "Hledat/Obnovit",
+    'USRLAN_91' => "Třída",
+    'USRLAN_92' => "Neplatné znaky v uživatelském jméně",
+    'USRLAN_93' => "Smazat neověřené účty",
+    'USRLAN_94' => "Smazat uživatelské účty, které nebyly ověřeny do doby - zadáním nuly službu vypnete <br />Toto nastavení ignorujte, pokud Administrátor uživatele moderuje sám.",
+    'USRLAN_95' => "minut",
+    'USRLAN_112' => "Přeposlat e-mail",
+    'USRLAN_113' => "Registrační informace od",
+    'USRLAN_114' => "Vážený/á",
+    'USRLAN_115' => "Děkujeme vám, za vaši registraci.",
+    'USRLAN_116' => "Potvrďte, že si přejete přeposílat e-maily:",
+    'USRLAN_117' => "Kliknutím otestujete e-mail:",
+    'USRLAN_118' => "Test e-mailu",
+    'USRLAN_119' => "Test [x]",
+    'USRLAN_120' => "Nastavení uživatelských tříd",
+    'USRLAN_121' => "Mailing",
+    'USRLAN_122' => "Vítejte v",
+    'USRLAN_123' => "Registrace byla přijata a vytvořena.",
+    'USRLAN_124' => "Váš účet je v tuto chvíli neaktivovaný. Následujícím odkazem účet aktivujte.",
+    'USRLAN_125' => "Od",
+    'USRLAN_126' => "Povolit uživatelům hodnotit ostatní uživatele",
+    'USRLAN_127' => "Povolit komentovat uživatelův profil",
+    'USRLAN_128' => "Přihlašovací jméno",
+    'USRLAN_129' => "Skutečné jméno",
+    'USRLAN_130' => "Povolit sledování přihlášených uživatelů",
+    'USRLAN_131' => "povolením umožníte sledování stavu na online.php, online menu a také na fóru.",
+    'USRLAN_133' => "Donutit uživatele doplnit požadované údaje",
+    'USRLAN_134' => "zapnutím volby pošlete uživatele do nastavení účtů pro doplnění vyžadovaných údajů.",
+    'USRLAN_135' => "Informace i uživatelově IP adrese nebyly nalezeny; IP nelze zakázat",
+    'USRLAN_136' => "Více uživatelů se stejnou IP adresou {IP}; IP nelze zakázat.",
+    'USRLAN_137' => "Uživatelova IP adresa {IP} byla zakázána. Byl udělen zákaz.",
+    'USRLAN_138' => "Neověření uživatelé",
+    'USRLAN_139' => "Váš účet byl aktivován.\n\nNa stránkách {SITEURL} se nyní můžete přihlásit pomocí přihlašovacích údajů, které jste uvedenl při registraci.",
+    'USRLAN_140' => "Přeposlaný e-mail",
+    'USRLAN_141' => "Selhání přeposílání e-mailu",
+    'USRLAN_142' => "s tímto aktivačním odkazem",
+    'USRLAN_143' => "Kontrola odrazů",
+    'USRLAN_144' => "Všem přeposlat potvrzovací e-mail",
+    'USRLAN_145' => "Odražení uživatelé",
+    'USRLAN_146' => "Uživatelské informace jsou dostupné pro",
+    'USRLAN_147' => "E-mailová adresa je již použita zakázaným uživatelem.",
+    'USRLAN_148' => "E-mailová adresa je zakázána",
+    'USRLAN_149' => "Smazat přečtené e-maily",
+    'USRLAN_150' => "Smazat všechny e-maily",
+    'USRLAN_151' => "Zrušení blokování s vyžádáním aktivace",
+    'USRLAN_152' => "Zrušení blokování a následná aktivace",
+    'USRLAN_153' => "Smazat nevyhozené e-maily",
+    'USRLAN_154' => "Odstranit e-maily k přečtení",
+    'USRLAN_155' => "Bylo nalezeno celkem [w] e-mailů. Z toho bylo [x] dle nastavení smazáno.[br] [y] uživatelů označených jako 'zakázaný' (out of [z] emails)",
+    'USRLAN_156' => "E-mailová adresa je již použita",
+    'USRLAN_161' => "ID uživatele [x] jméno [y] zakázáno",
+    'USRLAN_162' => "ID uživatele [x] jméno [y] zakázáno",
+    'USRLAN_164' => "ID uživatele [x] jméno [y] ([z]) z adminu",
+    'USRLAN_165' => "Uživatelské jméno [x] jméno [y] admin zrušeno",
+    'USRLAN_166' => "ID uživatele [x] jméno [y] schváleno",
+    'USRLAN_167' => "ID ověřovacího e-mailu [x] odkázat na [y] na [z]",
+    'USRLAN_169' => "Celkem [x] odstraněné emaily byly smazány",
+    'USRLAN_170' => "Náhodné uživatelské jméno",
+    'USRLAN_171' => "Náhodné heslo",
+    'USRLAN_172' => "Uživatelský účet byl vytvořen s následujícím:",
+    'USRLAN_179' => "Zákaz uživatele:",
+    'USRLAN_180' => "adresa IP {IP} se objeví na whitelistu, IP není zakázána.",
+    'USRLAN_181' => "Zvolit možnost pro stav uživatele a odeslání potvrzujícího e-mailu uživateli",
+    'USRLAN_182' => "Neplatné znaky v přihlašovací jméno",
+    'USRLAN_183' => "Přihlašovací jméno již používáno",
+    'USRLAN_184' => "Délka přihlašovacího jména mimo mezní hodnoty",
+    'USRLAN_185' => "Uživatelský účet byl vytvořen pro vás na adrese {SITEURL} s následujícím přihlašováním: <br /> <br /> <b> Jméno přihlášení: </ b> {LOGINNAME} b> Heslo: </ b> {PASSWORD} <br/> <b> Aktivační odkaz: </ b> {ACTIVATION_LINK} <br /> <br />",
+    'USRLAN_186' => "Přejděte prosím na stránky co nejdříve a přihlaste se, změňte heslo pomocí možnosti \"Nastavení\". <br /> <br /> Můžete také změnit jiné nastavení ve stejném čas. <br /> <br /> Pamatujte, že heslo nemůžete obnovit, pokud ji ztratíte.",
+    'USRLAN_187' => "Přístup k webu:",
+    'USRLAN_188' => "E-mail byl úspěšně odeslán",
+    'USRLAN_189' => "Chyba při odesílání e-mailu",
+    'USRLAN_190' => "Zkušební doba nových uživatelů (dny)",
+    'USRLAN_191' => "(administrátor může omezit používání některých funkcí v zadané zkušební době)",
+    'USRLAN_192' => "",
+    'USRLAN_193' => "Nic se nezměnilo - nebylo uloženo",
+    'USRLAN_194' => "Podpis může být změněn",
+    'USRLAN_195' => "Poslední příspěvek",
+    'USRLAN_198' => "Název pole",
+    'USRLAN_199' => "Operace",
+    'USRLAN_200' => "Hodnota",
+    'USRLAN_201' => "Počet komentářů",
+    'USRLAN_202' => "Počet návštěv stránek",
+    'USRLAN_203' => "Počet dnů členů",
+    'USRLAN_204' => "Jádro",
+    'USRLAN_206' => "Aktuální výpočet",
+    'USRLAN_207' => "Typ",
+    'USRLAN_208' => "Hodnocení jméno",
+    'USRLAN_209' => "Dolní mez",
+    'USRLAN_210' => "Předpona jazyka (Prefix)",
+    'USRLAN_211' => "Pozice obrazu",
+    'USRLAN_212' => "Hodnost uživatele",
+    'USRLAN_214' => "Přidat novou hodnost",
+    'USRLAN_216' => "--vybrat obrázek--",
+    'USRLAN_219' => "Starší než 30 dní",
+    'LAN_MAINADMIN' => "Hlavní administrátor",
+    'LAN_NOTVERIFIED' => "Neověřený",
+    'LAN_BANNED' => "Blokován",
+    'LAN_BOUNCED' => "Odražený",
+    'LAN_UI_1_HOUR' => "1 hodina",
+    'LAN_UI_3_HOURS' => "3 hodiny",
+    'LAN_UI_6_HOURS' => "6 hodin",
+    'LAN_UI_12_HOURS' => "12 hodin",
+    'LAN_UI_24_HOURS' => "24 hodin",
+    'LAN_UI_48_HOURS' => "48 hodin",
+    'LAN_UI_3_DAYS' => "3 dny",
+    'USRLAN_220' => "Všechny uživatelské třídy",
+    'USRLAN_221' => "Upravit oprávnení admin",
+    'USRLAN_222' => "Chystáte se smazat [x] ([y]) s ID # [z]. Jste si jisti?",
+    'USRLAN_223' => "Uživatel nebyl nalezen.",
+    'USRLAN_224' => "E-mail odeslán:",
+    'USRLAN_225' => "Nepodařilo se odeslat e-mail:",
+    'USRLAN_226' => "Nemáte k tomu dostatek oprávnění.",
+    'USRLAN_227' => "Neznámá chyba. Akce se nezdařila.",
+    'USRLAN_228' => "Chystáte se vytvořit uživatele [b] [x] [/b]: [b] [y] [/b] ([z]) administrátora.",
+    'USRLAN_229' => "Nastavit oprávnění a kliknutím na tlačítko [b] Aktualizovat [/b] pokračovat nebo [b] Zpět [/b].",
+    'USRLAN_230' => "Správce aktualizace [x] ([y])",
+    'USRLAN_231' => "Nedostatečná oprávnění, přerušení provozu.",
+    'USRLAN_232' => "Chybí aktivační klíč.",
+    'USRLAN_233' => "Platné",
+    'USRLAN_234' => "Neplatný",
+    'USRLAN_235' => "Uživatel musí ověřit.",
+    'USRLAN_236' => "Akce selhala.",
+    'USRLAN_237' => "Uživatelské jméno a zobrazované jméno nesmí být jiné (na základě konfigurace webu). Zobrazovaný název je nastaven na [b] [x] [/b].",
+    'USRLAN_238' => "Váš aktuální stav je [b] Aktivní [/b]",
+    'USRLAN_239' => "Oznámení a stav uživatele",
+    'USRLAN_240' => "Aktivovat, neoznamovat",
+    'USRLAN_241' => "Aktivovat, oznámit (heslo)",
+    'USRLAN_242' => "Vyžadovat aktivaci, oznámit (heslo a aktivační odkaz)",
+    'USRLAN_243' => "Nastavit oprávnění",
+    'USRLAN_244' => "Porušení zabezpečení (nedostatečné oprávnění) - Administrátor [x] ([y], [z] ) se pokusil odebrat stav administrátora z adresy [u] ([v], [w])",
+    'USRLAN_245' => "Porušení zabezpečení (nedostatečná oprávnění) - Administrátor [x] ([y], [z]) se pokusil vytvořit [u] ([v], [w]) systému admin",
+    'USRLAN_246' => "(Není požadováno)",
+    'USRLAN_247' => "Us",
+    'USRLAN_248' => "Us",
+    'USRLAN_249' => "Us",
+    'USRLAN_250' => "Us",
+    'USRLAN_251' => "Ponechat prázdné bez změny",
+    'USRLAN_252' => "Znovu odeslat aktivační e-mail účtu neaktivovaným uživatelům.",
+    'USRLAN_253' => "starší než",
+    'USRLAN_254' => "Resetovat všechna hesla",
+    'USRLAN_255' => "Upozornit uživatele",
+    'USRLAN_256' => "Vážení",
+    'USRLAN_257' => "Povolit uživatelům smazat svůj účet?",
+    'UCSLAN_1' => "Odesílat oznámení s upozorněním",
+    'UCSLAN_2' => "Aktualizované oprávnění",
+    'UCSLAN_4' => "Vaše oprávnění byla aktualizována na",
+    'UCSLAN_5' => "Nyní máte přístup k následující oblasti",
+    'UCSLAN_6' => "Nastavit třídu pro uživatele",
+    'UCSLAN_7' => "Nastavit třídy",
+    'UCSLAN_9' => "Aktualizované třídy",
+    'UCSLAN_10' => "Pozdravy",
+    'UCSLAN_11' => "Členství třídy pro ID uživatele [x] změněno na [y]",
+    'UCSLAN_12' => "Pouze oprávnění člena",
+    'USFLAN_1' => "Zadaná adresa IP nebyla nalezena - nejsou žádné informace.",
+    'USFLAN_3' => "Zpráva odeslaná z této adresy IP",
+    'USFLAN_4' => "Server",
+    'USFLAN_5' => "Kliknutím zde přeneste adresu IP na stránku s blokováním",
+    'USFLAN_6' => "ID uživatele",
+    'USFLAN_7' => "Informace o uživateli",
+    'USRLAN_AS_1' => "Přihlášení jako [x]",
+    'USRLAN_AS_2' => "Odhlásit se z účtu [x]",
+    'USRLAN_AS_3' => "Již jste přihlášeni jako jiný uživatel. Nejdříve se odhlašte.",
+    'USRLAN_EMU_1' => "Emulate permissions of [x] (admin area)",
+    'USRLAN_REFUSED_TOKEN_MISSING' => "That action was not carried out, because the link carried no security token. Start it from the user list rather than from a bookmark or a link on another site.",
+];

@@ -4,29 +4,32 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:13:22
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LANUPLOAD_1", "Formát souboru");
-define("LANUPLOAD_2", "není povolen a proto byl smazán.");
-define("LANUPLOAD_3", "Soubor byl úspěšně nahrán.");
-define("LANUPLOAD_4", "Cílová složka nebyla nalezena, nebo nemá práva pro zápis. (CHMOD 777)");
-define("LANUPLOAD_5", "Nahrávaný soubor překračuje příkaz upload_max_filesize ze souboru php.ini.");
-define("LANUPLOAD_6", "Nahrávaný soubor překračuje příkaz MAX_FILE_SIZE, který je nastaven v html formuláři.");
-define("LANUPLOAD_7", "Nahrávání souboru bylo přerušeno.");
-define("LANUPLOAD_8", "Soubor nebyl nahrán.");
-define("LANUPLOAD_9", "Nahraný soubor neobsahuje žádná data.");
-define("LANUPLOAD_10", "Nahrávání souboru selhalo [shodný název] - soubor s tímto názvem už existuje.");
-define("LANUPLOAD_11", "Soubor nebyl nahrán. Název souboru:");
-define("LANUPLOAD_13", "Chybí dočasná složka");
-define("LANUPLOAD_14", "Zápis souboru selhal");
-define("LANUPLOAD_15", "Nahrávání souborů není povoleno");
-define("LANUPLOAD_16", "Chyba: neznámá");
-define("LANUPLOAD_17", "Nepovolený název nahrávaného souboru");
-define("LANUPLOAD_18", "Nahrávaný soubor překračuje přípustné limity.");
-define("LANUPLOAD_19", "Bylo nahráno příliš mnoho souborů - nadbytek byl smazán.");
+return [
+    'LANUPLOAD_1' => "Formát souboru",
+    'LANUPLOAD_2' => "není povolen a proto byl smazán.",
+    'LANUPLOAD_3' => "Soubor byl úspěšně nahrán.",
+    'LANUPLOAD_4' => "Cílová složka nebyla nalezena, nebo nemá práva pro zápis. (CHMOD 777)",
+    'LANUPLOAD_5' => "Nahrávaný soubor překračuje příkaz upload_max_filesize ze souboru php.ini.",
+    'LANUPLOAD_6' => "Nahrávaný soubor překračuje příkaz MAX_FILE_SIZE, který je nastaven v html formuláři.",
+    'LANUPLOAD_7' => "Nahrávání souboru bylo přerušeno.",
+    'LANUPLOAD_8' => "Soubor nebyl nahrán.",
+    'LANUPLOAD_9' => "Nahraný soubor neobsahuje žádná data.",
+    'LANUPLOAD_10' => "Nahrávání souboru selhalo [shodný název] - soubor s tímto názvem už existuje.",
+    'LANUPLOAD_11' => "Soubor nebyl nahrán. Název souboru:",
+    'LANUPLOAD_13' => "Chybí dočasná složka",
+    'LANUPLOAD_14' => "Zápis souboru selhal",
+    'LANUPLOAD_15' => "Nahrávání souborů není povoleno",
+    'LANUPLOAD_16' => "Chyba: neznámá",
+    'LANUPLOAD_17' => "Nepovolený název nahrávaného souboru",
+    'LANUPLOAD_18' => "Nahrávaný soubor překračuje přípustné limity.",
+    'LANUPLOAD_19' => "Bylo nahráno příliš mnoho souborů - nadbytek byl smazán.",
+    'LANUPLOAD_REFUSED_TOKEN_MISSING' => "Nothing was uploaded, because the request carried no security token. Upload from the Media Manager rather than from a bookmark or a link on another site.",
+];

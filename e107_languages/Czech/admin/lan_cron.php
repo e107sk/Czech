@@ -4,79 +4,114 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:37:00
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-if (!defined("PAGE_NAME")) { define("PAGE_NAME", "Plánování úkolů"); }
 
-define("LAN_CRON_M_02", "Obnovit");
-define("LAN_CRON_2", "Funkce");
-define("LAN_CRON_3", "Info");
-define("LAN_CRON_4", "Poslední akce");
-define("LAN_CRON_01_1", "Testovací email");
-define("LAN_CRON_01_2", "Poslat zkušební email na [eml].");
-define("LAN_CRON_01_3", "Doporučujeme otestovat plánovací systém.");
-define("LAN_CRON_02_1", "Fronta zpráv");
-define("LAN_CRON_02_2", "Zpracování zpráv ve frontě");
-define("LAN_CRON_03_1", "Kontrola odražené pošty");
-define("LAN_CRON_03_2", "Zkontrolujte odrážené emaily.");
-define("LAN_CRON_04_1", "Zakázané kontroly restartu");
-define("LAN_CRON_04_2", "Postup zpětného restartování");
-define("LAN_CRON_04_3", "Požadováno pouze v případě, že je povoleno restartování");
-define("LAN_CRON_05_1", "Záloha databáze");
-define("LAN_CRON_05_2", "Zálohujte systémovou databázi do");
-define("LAN_CRON_06_1", "Zpracovat zákaz spouštění");
-define("LAN_CRON_6", "Nelze importovat předvolby");
-define("LAN_CRON_7", "Nelze importovat nastavení času");
-define("LAN_CRON_8", "Nastavení importovaného času pro toto nastavení");
-define("LAN_CRON_9", "[x] minut, [y] sekund.");
-define("LAN_CRON_10", "před [y] vteřinami.");
-define("LAN_CRON_11", "Aktivní úkoly");
-define("LAN_CRON_12", "Poslední obnovení jádra");
-define("LAN_CRON_13", "Ujistěte se, že cron.php je spustitelný.");
-define("LAN_CRON_14", "Prosím CHMOD /cron.php na 755.");
-define("LAN_CRON_15", "Použijte následující příkaz jádra");
-define("LAN_CRON_16", "Pomocí ovládacího panelu serveru (např. CPanel, DirectAdmin, Plesk atd.) Vytvořte crontab pro spuštění tohoto příkazu na vašem serveru každou minutu.");
-define("LAN_CRON_20_1", "Zkontrolujte aktualizaci e107");
-define("LAN_CRON_20_2", "Zkontrolujte e107.org pro základní aktualizace");
-define("LAN_CRON_20_3", "Doporučujeme aktualizovat systém.");
-define("LAN_CRON_20_4", "Aktualizace z úložiště Git");
-define("LAN_CRON_20_5", "Aktualizujte e107 s nejnovějšími soubory z github");
-define("LAN_CRON_20_6", "Doporučeno pouze pro vývojáře");
-define("LAN_CRON_20_8", "Může to způsobit nestabilitu systému!");
-define("LAN_CRON_30", "Každou minutu");
-define("LAN_CRON_31", "Každou druhou minutu");
-define("LAN_CRON_32", "Každých 5 minut");
-define("LAN_CRON_33", "Každých 10 minut");
-define("LAN_CRON_34", "Každých 15 minut");
-define("LAN_CRON_35", "Každých 30 minut");
-define("LAN_CRON_36", "Každou hodinu");
-define("LAN_CRON_37", "Každou druhou hodinu");
-define("LAN_CRON_38", "Každé 3 hodiny");
-define("LAN_CRON_39", "Každých 6 hodin");
-define("LAN_CRON_40", "Každý den");
-define("LAN_CRON_41", "Každý měsíc");
-define("LAN_CRON_42", "Každý den");
-define("LAN_CRON_50", "Minuta");
-define("LAN_CRON_51", "Hodina");
-define("LAN_CRON_52", "Den");
-define("LAN_CRON_53", "Mšsíc");
-define("LAN_CRON_54", "Všední den");
-define("LAN_CRON_55", "Zálohování databáze se nezdařilo");
-define("LAN_CRON_56", "Zálohování databáze dokončeno");
-define("LAN_CRON_60", "Přejít na cPanel");
-define("LAN_CRON_61", "Vytvořit nové heslo jádra");
-define("LAN_CRON_62", "Spusťte funkci Konfigurace: [b][x][/b]");
-define("LAN_CRON_63", "Funkce konfigurace [b][x][/b] NENÍ nalezena.");
-define("LAN_CRON_64", "Správce může automatizovat úlohy pomocí nástroje e107 Plánování úloh. [br]Na kartě Správa můžete upravovat, odstraňovat a spouštět úlohy. [br]Při úpravě úlohy můžete nastavit minuty, hodiny, dny, měsíc nebo den v týdnu, kdy se má úloha spustit. Pro spuštění pro každé období použijte *. Vlastnost Aktivní slouží k povolení úlohy [br].Poznámka: Doporučujeme neodstraňovat standardní úlohy[br].");
-define("LAN_CRON_BACKUP", "Zálohování");
-define("LAN_CRON_LOGGING", "Protokolování");
-define("LAN_CRON_RUNNING", "Běžící");
-define("LAN_CRON_65", "Aktualizovat git repozitář témat");
-define("LAN_CRON_66", "Nebyl nalezen žádný git repozitář");
-define("LAN_CRON_67", "Ve složce vzhledu nebylo nalezen žádné git repozitář");
+return [
+    'PAGE_NAME'	=>  "Plánování úkolů",
+    'LAN_CRON_M_02' => "Obnovit",
+    'LAN_CRON_M_SETUP' => "Setup",
+    'LAN_CRON_2' => "Funkce",
+    'LAN_CRON_3' => "Info",
+    'LAN_CRON_4' => "Poslední akce",
+    'LAN_CRON_01_1' => "Testovací email",
+    'LAN_CRON_01_2' => "Poslat zkušební email na [eml].",
+    'LAN_CRON_01_3' => "Doporučujeme otestovat plánovací systém.",
+    'LAN_CRON_02_1' => "Fronta zpráv",
+    'LAN_CRON_02_2' => "Zpracování zpráv ve frontě",
+    'LAN_CRON_03_1' => "Kontrola odražené pošty",
+    'LAN_CRON_03_2' => "Zkontrolujte odrážené emaily.",
+    'LAN_CRON_04_1' => "Zakázané kontroly restartu",
+    'LAN_CRON_04_2' => "Postup zpětného restartování",
+    'LAN_CRON_04_3' => "Požadováno pouze v případě, že je povoleno restartování",
+    'LAN_CRON_05_1' => "Záloha databáze",
+    'LAN_CRON_05_2' => "Zálohujte systémovou databázi do",
+    'LAN_CRON_06_1' => "Zpracovat zákaz spouštění",
+    'LAN_CRON_6' => "Nelze importovat předvolby",
+    'LAN_CRON_7' => "Nelze importovat nastavení času",
+    'LAN_CRON_8' => "Nastavení importovaného času pro toto nastavení",
+    'LAN_CRON_9' => "[x] minut, [y] sekund.",
+    'LAN_CRON_10' => "před [y] vteřinami.",
+    'LAN_CRON_11' => "Aktivní úkoly",
+    'LAN_CRON_12' => "Poslední obnovení jádra",
+    'LAN_CRON_20_1' => "Zkontrolujte aktualizaci e107",
+    'LAN_CRON_20_2' => "Zkontrolujte e107.org pro základní aktualizace",
+    'LAN_CRON_20_3' => "Doporučujeme aktualizovat systém.",
+    'LAN_CRON_20_4' => "Aktualizace z úložiště Git",
+    'LAN_CRON_20_5' => "Aktualizujte e107 s nejnovějšími soubory z github",
+    'LAN_CRON_20_6' => "Doporučeno pouze pro vývojáře",
+    'LAN_CRON_20_8' => "Může to způsobit nestabilitu systému!",
+    'LAN_CRON_30' => "Každou minutu",
+    'LAN_CRON_31' => "Každou druhou minutu",
+    'LAN_CRON_32' => "Každých 5 minut",
+    'LAN_CRON_33' => "Každých 10 minut",
+    'LAN_CRON_34' => "Každých 15 minut",
+    'LAN_CRON_35' => "Každých 30 minut",
+    'LAN_CRON_36' => "Každou hodinu",
+    'LAN_CRON_37' => "Každou druhou hodinu",
+    'LAN_CRON_38' => "Každé 3 hodiny",
+    'LAN_CRON_39' => "Každých 6 hodin",
+    'LAN_CRON_40' => "Každý den",
+    'LAN_CRON_41' => "Každý měsíc",
+    'LAN_CRON_42' => "Každý den",
+    'LAN_CRON_50' => "Minuta",
+    'LAN_CRON_51' => "Hodina",
+    'LAN_CRON_52' => "Den",
+    'LAN_CRON_53' => "Mšsíc",
+    'LAN_CRON_54' => "Všední den",
+    'LAN_CRON_55' => "Zálohování databáze se nezdařilo",
+    'LAN_CRON_56' => "Zálohování databáze dokončeno",
+    'LAN_CRON_61' => "Vytvořit nové heslo jádra",
+    'LAN_CRON_62' => "Spusťte funkci Konfigurace: [b][x][/b]",
+    'LAN_CRON_63' => "Funkce konfigurace [b][x][/b] NENÍ nalezena.",
+    'LAN_CRON_64' => "Správce může automatizovat úlohy pomocí nástroje e107 Plánování úloh. [br]Na kartě Správa můžete upravovat, odstraňovat a spouštět úlohy. [br]Při úpravě úlohy můžete nastavit minuty, hodiny, dny, měsíc nebo den v týdnu, kdy se má úloha spustit. Pro spuštění pro každé období použijte *. Vlastnost Aktivní slouží k povolení úlohy [br].Poznámka: Doporučujeme neodstraňovat standardní úlohy[br].",
+    'LAN_CRON_BACKUP' => "Zálohování",
+    'LAN_CRON_LOGGING' => "Protokolování",
+    'LAN_CRON_RUNNING' => "Běžící",
+    'LAN_CRON_65' => "Aktualizovat git repozitář témat",
+    'LAN_CRON_66' => "Nebyl nalezen žádný git repozitář",
+    'LAN_CRON_67' => "Ve složce vzhledu nebylo nalezen žádné git repozitář",
+    'LAN_CRON_SETUP_INTRO' => "Your server has to call [b]cron.php[/b] once a minute for scheduled tasks to run. Pick one of the options below, copy what it shows into your server's scheduler, and use one option only, or tasks that are due will run twice.",
+    'LAN_CRON_SETUP_HTTP_TITLE' => "Web request",
+    'LAN_CRON_SETUP_HTTP_WHY' => "Your scheduler fetches a URL every minute. It runs under the PHP version selected for this site, needs no file permissions, and works with control-panel cron jobs and external cron services alike.",
+    'LAN_CRON_SETUP_CLI_TITLE' => "PHP command line",
+    'LAN_CRON_SETUP_CLI_WHY' => "Your scheduler runs the PHP interpreter on cron.php. It runs under whichever PHP binary the command names, so keep the command in step with the site's PHP version.",
+    'LAN_CRON_SETUP_SHEBANG_TITLE' => "Shell script",
+    'LAN_CRON_SETUP_SHEBANG_WHY' => "Your scheduler runs cron.php directly and its first line picks whichever php is on the PATH. The file has to be executable, and cron's PATH is short, so it may find no php or the wrong one.",
+    'LAN_CRON_SETUP_COMMAND_LABEL' => "Command (paste into your control panel's cron job)",
+    'LAN_CRON_SETUP_CRONTAB_LABEL' => "Crontab line (runs every minute)",
+    'LAN_CRON_SETUP_URL_LABEL' => "URL (for external cron services such as cron-job.org or EasyCron)",
+    'LAN_CRON_SETUP_WINDOWS_COMMAND_LABEL' => "Command (for a Windows Task Scheduler action)",
+    'LAN_CRON_SETUP_SCHTASKS_LABEL' => "Create the task in one go (administrator command prompt)",
+    'LAN_CRON_SETUP_RECOMMENDED' => "Recommended",
+    'LAN_CRON_SETUP_PANEL_HOWTO' => "In cPanel, DirectAdmin or Plesk, open the cron jobs page and add a job that runs every minute with this command. Without a control panel, run [b]crontab -e[/b] and add the crontab line.",
+    'LAN_CRON_SETUP_WGET_LABEL' => "With wget instead of curl",
+    'LAN_CRON_SETUP_HTTP_FALLBACK_NOTE' => "If your server cannot fetch its own site URL (some hosts block that), use the PHP command line option instead.",
+    'LAN_CRON_SETUP_PHP_FOUND' => "PHP was found at [x].",
+    'LAN_CRON_SETUP_PHP_NOT_FOUND' => "No PHP binary could be verified, so the command assumes [b]php[/b] is on the PATH. Ask your host for the path to the PHP [x] command-line binary if it is not.",
+    'LAN_CRON_SETUP_OPEN_BASEDIR_NOTE' => "open_basedir prevented checking for PHP binaries.",
+    'LAN_CRON_SETUP_EXECUTABLE' => "cron.php is executable.",
+    'LAN_CRON_SETUP_NOT_EXECUTABLE' => "cron.php is not executable. Make it executable first:",
+    'LAN_CRON_SETUP_REGENERATE_WARNING' => "Generating a new token invalidates the command you have already set up. Copy the new one into your scheduler afterwards.",
+    'LAN_CRON_REFUSED_SUMMARY' => "[x] request(s) to cron.php have been refused since [y], the last at [z].",
+    'LAN_CRON_REFUSED_LAST_FROM' => "The last one came from [x].",
+    'LAN_CRON_REFUSED_TOKEN_INCORRECT' => "They carried a token that does not match.",
+    'LAN_CRON_REFUSED_TOKEN_MISSING' => "They carried no token.",
+    'LAN_CRON_REFUSED_COPY_AGAIN' => "Copy the command again from the [x] tab.",
+    'LAN_CRON_NEVER_REPORTED' => "No scheduled task has reported in yet. Follow the [x] tab to schedule cron.php on your server.",
+    'LAN_CRON_LASTRUN_HTTP' => "over HTTP",
+    'LAN_CRON_LASTRUN_HTTP_FROM' => "over HTTP from [x]",
+    'LAN_CRON_LASTRUN_CLI' => "from the command line",
+    'LAN_CRON_SETUP_DETECTED_ENVIRONMENT' => "Detected environment: [x]",
+    'LAN_CRON_SETUP_OPEN_PANEL' => "Open [x]",
+    'LAN_CRON_SETUP_CONTROL_PANEL' => "Control panel",
+    'LAN_CRON_SETUP_SCHTASKS_ACCOUNT_NOTE' => "Task Scheduler runs the command as the account you choose; use one that can read the site's files.",
+    'LAN_CRON_SETUP_CURL_EXE_NOTE' => "curl.exe ships with Windows 10 and later; on older systems use the PHP command line option.",
+    'LAN_CRON_TOKEN_REGENERATED' => "A new cron token has been generated. Update the command in your server's scheduler.",
+];

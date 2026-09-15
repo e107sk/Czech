@@ -4,33 +4,39 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/12/03 09:49:58
+|        Last Modified: 2026/09/15 11:11:56
 |
-|        $URL: https://github.com/e107translations/Czech $
-|        $Revision: 2.3.1 $
+|        $URL: https://github.com/e107sk/Czech $
+|        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
 */
 
-define("LAN_VALIDATE_0", "Neznámá chyba");
-define("LAN_VALIDATE_101", "Chybějící hodnota");
-define("LAN_VALIDATE_102", "Neočekávaná hodnota");
-define("LAN_VALIDATE_103", "Nalezeny neplatné znaky");
-define("LAN_VALIDATE_104", "Neplatná e-mailová adresa");
-define("LAN_VALIDATE_105", "Pole se neschodují");
-define("LAN_VALIDATE_131", "Příliš krátký řetězec");
-define("LAN_VALIDATE_132", "Příliš dlouhý řetězec");
-define("LAN_VALIDATE_133", "Číslo je příliš nízké");
-define("LAN_VALIDATE_134", "Číslo je příliš vysoké");
-define("LAN_VALIDATE_135", "Číslo bloku příliš nízké");
-define("LAN_VALIDATE_136", "Číslo bloku je příliš vysoké");
-define("LAN_VALIDATE_151", "Celé požadované číslo");
-define("LAN_VALIDATE_152", "Počet očekávaných typů");
-define("LAN_VALIDATE_153", "Požadovaný typ kopie");
-define("LAN_VALIDATE_154", "Požadovaný typ pole");
-define("LAN_VALIDATE_191", "Prázdná hodnota");
-define("LAN_VALIDATE_201", "Soubor neexistuje");
-define("LAN_VALIDATE_202", "Soubor nelze zapsat");
-define("LAN_VALIDATE_203", "Soubor překročil povolenou velikost souboru");
-define("LAN_VALIDATE_204", "Velikost souboru je menší než povolená minimální velikost souboru");
-define("LAN_VALIDATE_FAILMSG", "[x] chyba ověřování: [y] [z].");
+/*
+ * Default error messages by Error code number
+ */ 
+
+return [
+    'LAN_VALIDATE_0' => "Neznámá chyba",
+    'LAN_VALIDATE_101' => "Chybějící hodnota",
+    'LAN_VALIDATE_102' => "Neočekávaná hodnota",
+    'LAN_VALIDATE_103' => "Nalezeny neplatné znaky",
+    'LAN_VALIDATE_104' => "Neplatná e-mailová adresa",
+    'LAN_VALIDATE_105' => "Pole se neschodují",
+    'LAN_VALIDATE_131' => "Příliš krátký řetězec",
+    'LAN_VALIDATE_132' => "Příliš dlouhý řetězec",
+    'LAN_VALIDATE_133' => "Číslo je příliš nízké",
+    'LAN_VALIDATE_134' => "Číslo je příliš vysoké",
+    'LAN_VALIDATE_135' => "Číslo bloku příliš nízké",
+    'LAN_VALIDATE_136' => "Číslo bloku je příliš vysoké",
+    'LAN_VALIDATE_151' => "Celé požadované číslo",
+    'LAN_VALIDATE_152' => "Počet očekávaných typů",
+    'LAN_VALIDATE_153' => "Požadovaný typ kopie",
+    'LAN_VALIDATE_154' => "Požadovaný typ pole",
+    'LAN_VALIDATE_191' => "Prázdná hodnota",
+    'LAN_VALIDATE_201' => "Soubor neexistuje",
+    'LAN_VALIDATE_202' => "Soubor nelze zapsat",
+    'LAN_VALIDATE_203' => "Soubor překročil povolenou velikost souboru",
+    'LAN_VALIDATE_204' => "Velikost souboru je menší než povolená minimální velikost souboru",
+    'LAN_VALIDATE_FAILMSG' => "[x] chyba ověřování: [y] [z].",
+];
