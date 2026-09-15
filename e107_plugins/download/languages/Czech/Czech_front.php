@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -50,5 +50,5 @@ return [
     'LAN_dl_77' => "Počet stažení",
     'LAN_dl_78' => "Tento soubor byl vyřazen nebo přesunut. Pokračujte prosím do sekce [downloads area] a vyhledejte aktuální verzi.",
     'LAN_dl_79' => "Nemáte oprávnění k odeslání oznámení.",
-	'LAN_dl_80' => "Back to [x]",
+	'LAN_dl_80' => "Zpět na [x]",
 ];

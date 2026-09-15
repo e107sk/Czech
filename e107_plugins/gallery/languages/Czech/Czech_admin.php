@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -20,7 +20,7 @@ return [
     'LAN_GALLERY_ADMIN_05' => "Obrázky budou automaticky zmenšeny, pokud jsou větší než zde zadaná šířka",
     'LAN_GALLERY_ADMIN_06' => "Maximální výška obrázku",
     'LAN_GALLERY_ADMIN_07' => "Obrázky budou automaticky zmenšeny, pokud jsou větší než zde zadaná výška",
-    'LAN_GALLERY_ADMIN_08' => "Zobrazit odkaz \"ke stažení\"",
+    'LAN_GALLERY_ADMIN_08' => "Zobrazit odkaz 'ke stažení'",
     'LAN_GALLERY_ADMIN_09' => "Odkaz ke stažení bude zobrazen vedle pop-up titulku",
     'LAN_GALLERY_ADMIN_10' => "Slideshow kategorie",
     'LAN_GALLERY_ADMIN_11' => "Obrázky z této kategorie budou použity v posuvném menu.",
@@ -56,7 +56,7 @@ return [
     'LAN_GALLERY_ADMIN_41' => "Výchozí šířka",
     'LAN_GALLERY_ADMIN_42' => "Výchozí výška",
     'LAN_GALLERY_ADMIN_43' => "Jaké lomítko v počítadle obrázků",
-    'LAN_GALLERY_ADMIN_44' => "Vloží lomítko nebo písmeno mezi počítadlem galerií např. 1 \"z\" 2 nebo 1/2",
+    'LAN_GALLERY_ADMIN_44' => "Oddělovač počítadla galerie, např. 1 'z' 2",
     'LAN_GALLERY_ADMIN_46' => "Horizontální odsazení",
     'LAN_GALLERY_ADMIN_47' => "Odsazení na každé straně obrázku.",
     'LAN_GALLERY_ADMIN_48' => "Skrýt blesk",
@@ -83,11 +83,11 @@ return [
     'LAN_GALLERY_ADMIN_69' => "Facebook",
     'LAN_GALLERY_ADMIN_70' => "Načítat prettyPhoto globálně",
     'LAN_GALLERY_ADMIN_71' => "atribut prettyPhoto (hook)",
-    'LAN_GALLERY_ADMIN_72' => "Order categories by",
-    'LAN_GALLERY_ADMIN_73' => "Category ID ASC",
-    'LAN_GALLERY_ADMIN_74' => "Category ID DESC",
-    'LAN_GALLERY_ADMIN_75' => "Category Name ASC",
-    'LAN_GALLERY_ADMIN_76' => "Category Name DESC",
-    'LAN_GALLERY_ADMIN_77' => "Category Order ASC",
-    'LAN_GALLERY_ADMIN_78' => "Category Order DESC",
+    'LAN_GALLERY_ADMIN_72' => "Řadit kategorie podle",
+    'LAN_GALLERY_ADMIN_73' => "ID kategorie vzestupně",
+    'LAN_GALLERY_ADMIN_74' => "ID kategorie sestupně",
+    'LAN_GALLERY_ADMIN_75' => "Název kategorie vzestupně",
+    'LAN_GALLERY_ADMIN_76' => "Název kategorie sestupně",
+    'LAN_GALLERY_ADMIN_77' => "Pořadí kategorií vzestupně",
+    'LAN_GALLERY_ADMIN_78' => "Pořadí kategorií sestupně",
 ];

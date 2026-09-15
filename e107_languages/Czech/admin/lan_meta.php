@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -22,6 +22,6 @@ return [
     'METLAN_5' => "Vlastní značky (po [x])",
     'METLAN_6' => "Vlastní značky (před [x])",
     'METLAN_7' => "Veškerá metadata nebo vlastní značky HTML zde zadané (například značky <script> nebo analytický kód Google) budou zahrnuty na každou stránku webu v zvolených oblastech.",
-    'METLAN_8' => "SEO Title Character Limit",
-    'METLAN_9' => "SEO Description Character Limit",
+    'METLAN_8' => "Limit znaků SEO titulku",
+    'METLAN_9' => "Limit znaků SEO popisu",
 ];

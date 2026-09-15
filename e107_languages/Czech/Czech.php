@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -89,7 +89,7 @@ return [
     "LAN_DESCRIPTION" => "Popis",
     // Also in admin/lan_admin.php, which a front-end page never loads.
     // submitnews.php renders a field with it: see #5912.
-    "LAN_META_DESCRIPTION" => "Meta Description",
+    "LAN_META_DESCRIPTION" => "Meta popis",
     "LAN_CANCEL" => "Zrušit",
     "LAN_DATE" => "Datum",
     "LAN_DATE_POSTED" => "Datum vložení",
@@ -105,7 +105,7 @@ return [
     "LAN_PREVIOUS" => "Předchozí",
     "LAN_LOGIN" => "Přihlásit se",
     "LAN_LOGOUT" => "Odhlásit se",
-    "LAN_LOGOUT_REFUSED_TOKEN_MISSING" => "You have not been logged out, because that link carried no security token. Use the logout link in this site's own menu rather than a bookmark or a link on another site.",
+    "LAN_LOGOUT_REFUSED_TOKEN_MISSING" => "Nebyli jste odhlášeni, protože odkaz neobsahoval bezpečnostní token. Použijte odkaz pro odhlášení v menu tohoto webu, nikoli záložku v prohlížeči nebo odkaz z jiného webu.",
     "LAN_VERIFY" => "Ověřit",
     "LAN_SETTINGS" => "Nastavení",
     "LAN_PASSWORD" => "Heslo",
@@ -113,8 +113,8 @@ return [
     "LAN_TYPE" => "Typ",
     "LAN_SCREENSHOT" => "Náhled",
     "LAN_FILE" => "Soubor",
-    "LAN_YOUTUBE_VIDEO" => "Youtube Video",
-    "LAN_YOUTUBE_PLAYLIST" => "Youtube Playlist",
+    "LAN_YOUTUBE_VIDEO" => "Video z YouTube",
+    "LAN_YOUTUBE_PLAYLIST" => "Playlist z YouTube",
     "LAN_FILETYPES" => "Typy souborů",
     "LAN_FILE_NOT_FOUND" => "Soubor nebyl nalezen",
     "LAN_FILES" => "Soubory",

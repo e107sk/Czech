@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: Oxigen $
 +---------------------------------------------------------------+
@@ -24,8 +24,8 @@
 return [
     'LDAPLAN_1' => "Adresa serveru",
     'LDAPLAN_2' => "Základní DN nebo doména<br>LDAP - zadejte Dn_databáze<br>AD - zadejte úplný název domény např ad.mydomain.co.uk",
-    'LDAPLAN_3' => "LDAP procházím uživatele<br />Kompletní kontext uživatele, který je schopen procházet složku.",
-    'LDAPLAN_4' => "LDAP procházím heslo<br />Heslo pro LDAP procházení uživatele.",
+    'LDAPLAN_3' => "Uživatel pro procházení LDAP<br />Úplný kontext uživatele, který může prohledávat adresář.",
+    'LDAPLAN_4' => "Heslo pro procházení LDAP<br />Heslo uživatele pro procházení LDAP.",
     'LDAPLAN_5' => "LDAP verze",
     'LDAPLAN_6' => "Nastavit LDAP autentizaci",
     'LDAPLAN_7' => "eDirectory filtr hledání:",

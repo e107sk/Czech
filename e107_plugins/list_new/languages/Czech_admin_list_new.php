@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -22,7 +22,7 @@
 
 
 return [
-    'PAGE_NAME' => "List New Items",
+    'PAGE_NAME' => "Přehled nových položek",
     'LIST_PLUGIN_3' => "Nastavení hlavního menu",
     'LIST_PLUGIN_4' => "Doplněk přehled aktualit je nyní připraven k použití.",
     'LIST_PLUGIN_6' => "Tento doplněk není nainstalován.",

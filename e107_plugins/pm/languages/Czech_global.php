@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -29,6 +29,6 @@ return [
     'LAN_PLUGIN_PM_DEL' => "Smazat soukromou zpráva",
     'LAN_PLUGIN_PM_ATTACHMENT' => "Příloha",
     'LAN_PLUGIN_PM_SIZE' => "Velikost",
-	'LAN_PLUGIN_PM_NAV' => "Private messages",  // Accessible name for the toggle (the link otherwise exposes only an icon + number to screen readers).
-	'LAN_PLUGIN_PM_UNREAD' => "unread",
+	'LAN_PLUGIN_PM_NAV' => "Soukromé zprávy",  // Accessible name for the toggle (the link otherwise exposes only an icon + number to screen readers).
+	'LAN_PLUGIN_PM_UNREAD' => "nepřečtené",
 ];

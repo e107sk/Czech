@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -56,5 +56,5 @@ return [
     'LAN_UPDATE_CAPTION_PLUGIN' => "Doplňky aktualizovány",
     'LAN_UPDATE_CAPTION_CORE' => "Jádro systému aktualizováno",
     'LAN_UPDATE_58' => "Důrazně se doporučuje spustit program [Průzkumník souborů] po dokončení všech aktualizací, aby bylo možné zjistit všechny zastaralé soubory, které je třeba odstranit.",
-    'LAN_UPDATE_REFUSED_TOKEN_MISSING' => "That operation was not started, because the link carried no security token. Start the system update from the link e107 shows you in the administration area rather than from a bookmark or a link on another site.",
+    'LAN_UPDATE_REFUSED_TOKEN_MISSING' => "Operace nebyla spuštěna, protože odkaz neobsahoval bezpečnostní token. Spusťte aktualizaci systému z odkazu, který vám e107 zobrazí v administraci, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

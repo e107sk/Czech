@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -58,9 +58,9 @@ return [
     'CUSLAN_80' => "Podnadpis",
     'CUSLAN_81' => "Metaobrázek",
     'CUSLAN_82' => "Volitelné. Používá se v sociálních médiích při sdílení této stránky.",
-    'CUSLAN_83' => "Will be listed in the Menu-Manager under this name or may be called using {CMENU=name} in your theme. Must use ASCII characters only and be all lowercase.",
-    'CUSLAN_84' => "Caption displayed on the menu item.",
-    'CUSLAN_85' => "Leave blank to use the default",
-    'CUSLAN_86' => "Leave blank to use the corresponding page",
-    'CUSLAN_87' => "Page Count",
+    'CUSLAN_83' => "Pod tímto názvem bude uvedeno ve Správci menu, případně jej lze ve vašem tématu vložit pomocí {CMENU=name}. Používejte pouze znaky ASCII a malá písmena.",
+    'CUSLAN_84' => "Nadpis zobrazený u položky menu.",
+    'CUSLAN_85' => "Ponechte prázdné pro použití výchozí hodnoty",
+    'CUSLAN_86' => "Ponechte prázdné pro použití odpovídající stránky",
+    'CUSLAN_87' => "Počet stránek",
 ];

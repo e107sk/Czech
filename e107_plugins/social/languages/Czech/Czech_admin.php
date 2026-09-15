@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -57,13 +57,13 @@ return [
     'LAN_SOCIAL_ADMIN_42' => "Vlastní obrázek",
     'LAN_SOCIAL_ADMIN_43' => "Pro pokračování v používání tohoto doplňku je vyžadována [aktualizace databáze].",
     'LAN_SOCIAL_ADMIN_44' => "Přidat nového poskytovatele",
-    'LAN_SOCIAL_ADMIN_45' => "Tito poskytovatelé sociálního přihlášení jsou aktuálně nakonfigurováni.\nPokud je zapnut hlavní přepínač [b] Sociální registrace / přihlášení [/b], může být každý poskytovatel v této tabulce, který je také zapnut, použit pro registraci uživatelů a přihlášení. Pokud zde vyprázdníte pole poskytovatele a uložíte, přesune se do části [b] Přidat nového poskytovatele [/b].",
+    'LAN_SOCIAL_ADMIN_45' => "Tito poskytovatelé sociálního přihlášení jsou aktuálně nakonfigurováni.\nPokud je zapnutý hlavní přepínač [b]Sociální registrace/přihlášení[/b], lze každého poskytovatele v této tabulce, který je také zapnutý, použít pro registraci a přihlášení uživatelů. Pokud zde vyprázdníte pole poskytovatele a uložíte, přesune se do sekce [b]Přidat nového poskytovatele[/b].",
     'LAN_SOCIAL_ADMIN_46' => "Toto jsou dostupní poskytovatelé sociálního přihlášení, kteří nebyli nakonfigurováni. Jakmile zde nakonfigurujete a uložíte poskytovatele, přejde do části [b] Sociální registrace/přihlášení [/b].",
     'LAN_SOCIAL_ADMIN_47' => "Nefunkční nakonfigurovaní poskytovatelé",
     'LAN_SOCIAL_ADMIN_48' => "Tito poskytovatelé sociálních přihlášení byli konfigurováni v minulosti, ale již nemají adaptér, který je může podporovat. [br] Může to být způsobeno tím, že již neexistují nebo jsou nahrazováni jiným poskytovatelem.",
     'LAN_SOCIAL_ADMIN_49' => "Testovací stránka",
     'LAN_SOCIAL_ADMIN_50' => "Povolit nebo zakázat testovací stránku sociálního přihlášení",
-    'LAN_SOCIAL_ADMIN_08' => "Poznámka: Ve většině případů budete muset od poskytovatelů sociálního přihlášení získat ID aplikace a tajný klíč. \n Pokud je jméno poskytovatele odkazem, tento odkaz by vás měl přenést do konfigurační dokumentace přihlašovací aplikace. \n\n Můžete vyzkoušet svou konfigurace s následující URL po povolení volby na [b] Testovací stránce [/b]:",
+    'LAN_SOCIAL_ADMIN_08' => "Poznámka: Ve většině případů musíte od poskytovatelů sociálního přihlášení získat ID aplikace a tajný klíč.\nPokud je název poskytovatele odkazem, tento odkaz vede na dokumentaci ke konfiguraci přihlašovací aplikace.\n\nPo zapnutí volby [b]Testovací stránka[/b] můžete svou konfiguraci otestovat na následující URL adrese:",
     'LAN_SOCIAL_ADMIN_09' => "URL adresa zpětného volání je:",
     'LAN_SOCIAL_ADMIN_51' => "Systém sociálního přihlášení",
 ];

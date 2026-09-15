@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -40,12 +40,12 @@ return [
     'UPLAN_IS' => "zde",
     'UPLAN_ARE' => "zde",
     'UPLAN_COPYTODLS' => "Kopírovat do správce stahování",
-    'UPLLAN_48' => "For security reasons allowed file types has been moved out of the database into a
-flatfile located in your admin directory. To use, rename the file e107_admin/filetypes_.php to e107_admin/filetypes.php 
+    'UPLLAN_48' => "Z bezpečnostních důvodů byly povolené typy souborů přesunuty z databáze do
+souboru ve vašem administrátorském adresáři. Pro použití přejmenujte soubor e107_admin/filetypes_.php na e107_admin/filetypes.php 
 
-and add a comma delimited list of file type extensions to it. You should not allow the upload of .html, .txt, etc., as an attacker may upload a file of this type which includes malicious javascript. You should also, of course, not allow 
+a vložte do něj čárkami oddělený seznam přípon souborů. Neměli byste povolit nahrávání souborů .html, .txt apod., protože útočník může nahrát soubor tohoto typu obsahující škodlivý javascript. Samozřejmě byste také neměli povolit 
 
-the upload of .php files or any other type of executable script.",
+nahrávání souborů .php ani jiných typů spustitelných skriptů.",
     'UPLLAN_51' => "Seznam nahraných souborů",
     'UPLLAN_52' => "Na této stránce máte možnost spravovat typy souborů, které bude moct nahrávat na server. Soubor je uložen jako [x], a musí být nejdříve zkopírován do [y],jinak bude neaktivní .",
     'UPLLAN_54' => "Přípony souboru",

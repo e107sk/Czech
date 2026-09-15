@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: Oxigen $
 +---------------------------------------------------------------+
@@ -85,9 +85,9 @@ return [
     'LAN_ALT_63' => "Popis",
     'LAN_ALT_64' => "Typ",
     'LAN_ALT_65' => "Alternativní ověřování",
-    'LAN_ALT_66' => "Tento modul umožňuje alternativní metodu ověřování.",
+    'LAN_ALT_66' => "Tento doplněk umožňuje alternativní metody ověřování.",
     'LAN_ALT_67' => "Konfigurovat Alt auth",
-    'LAN_ALT_68' => "ALT auth služba je nyní nainstalována.  Teď budete muset nakonfigurovat upřednostňovaným způsobem.",
+    'LAN_ALT_68' => "Služba alternativního ověřování je nyní nastavena. Nyní musíte nakonfigurovat preferovanou metodu.",
     'LAN_ALT_69' => "",
     'LAN_ALT_70' => "nezapisovat",
     'LAN_ALT_71' => "PRAVDA/NEPRAVDA",
@@ -114,8 +114,14 @@ return [
     'LAN_ALT_FAIL' => "Neúspěšné přihlášení",
     'LAN_ALT_UPDATESET' => "Uložit nastavení",
     'LAN_ALT_UPDATED' => "Nastavení aktualizováno",
-    'LAN_ALT_AUTH_HELP' => "Tyto jsou nastavení, které jsou společné pro všechny metody ověřování a určují akce, které mají být odebrány<br><br>Extended pole uživateli výběr určuje, které <i>může</i> být přidáno/aktualizováno když se přihlašuje uživatel - další konfigurace je vyžadována pro konkrétní ověřovací metodu.",
-    'LAN_ALT_VALIDATE_HELP' => "Nastavení můžete zkontrolovat pomocí \'Test Database Access\' sekce vyzkoušet a ověřit uživatele - používá přesně stejným způsobem jako když uživatel se pokusí přihlásit a potvrdí, zda je správné nastavení aplikace.<br>Pokud jste nakonfigurovali některé parametry, které mají být zkopírovány do tabulky uživatelů na úspěšné přihlášení, jsou také uvedeny.",
+    'LAN_ALT_AUTH_HELP' => "Toto jsou nastavení společná pro všechny metody ověřování, která určují akce, jež se mají provést<br /><br />
+	Výběr rozšířených uživatelských polí určuje, která <i>mohou</i> být přidána/aktualizována při přihlášení uživatele - pro konkrétní metodu ověřování
+
+je nutná další konfigurace.",
+    'LAN_ALT_VALIDATE_HELP' => "Nastavení můžete zkontrolovat v sekci 'Test přístupu k databázi', kde se pokusíte ověřit uživatele - použije se přesně
+	stejný postup jako při přihlášení uživatele a potvrdí se, zda je nastavení správné.<br />
+
+	Pokud jste nakonfigurovali některé parametry, které se mají při úspěšném přihlášení zkopírovat do tabulky uživatelů, zobrazí se také.",
     'LAN_ALT_COPY_HELP' => "Můžete vybrat pole Kopírovat ze vzdálené databáze do databáze uživatelů zadáním příslušných názvů.<br><br>",
     'LAN_ALT_CONVERSION_HELP' => "Pro některá pole rozevíracího seznamu napravo od pole položka pole vybere konverze, které může být použito na hodnotu čtení ze vzdálené databáze; Pokud \'none\' je vybrána, hodnota je zkopírována jako přijaté. Převody jsou:<br>
 	<b>TRUE/FALSE</b> - slova \'TRUE\' a \'FALSE\' (a jejich nižší/smíšené případ ekvivalenty) jsou převedeny na pravdivostní hodnoty 1 a 0.<br>

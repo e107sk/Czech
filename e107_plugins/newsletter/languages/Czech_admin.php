@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -51,5 +51,5 @@ return [
     'NLLAN_64' => "Návrat na úvodní stránku zpravodaje",
     'NLLAN_65' => "Přehled předplatitelů zpravodaje ID",
     'NLLAN_66' => "Váš seznam odběratelů zpravodaje byl vyčištěn.",
-    'NLLAN_REFUSED_TOKEN_MISSING' => "The subscriber was not removed, because the link carried no security token. Use the delete button on the subscribers list rather than a bookmark or a link on another site.",
+    'NLLAN_REFUSED_TOKEN_MISSING' => "Odběratel nebyl odebrán, protože odkaz neobsahoval bezpečnostní token. Použijte tlačítko pro smazání v seznamu odběratelů, nikoli záložku v prohlížeči nebo odkaz na jiném webu.",
 ];

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -49,5 +49,5 @@ return [
     'LAN_420' => "pole jsou povinná a musí být vyplněna.",
     'LAN_UL_039' => "Odeslat a nahrát",
     'LAN_UL_040' => "Nahrávání souborů",
-    'LAN_UL_041' => "Absolute maximum file size:", // LAN_418
+    'LAN_UL_041' => "Absolutní maximální velikost souboru:", // LAN_418
 ];

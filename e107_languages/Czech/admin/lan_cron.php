@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -16,7 +16,7 @@
 return [
     'PAGE_NAME'	=>  "Plánování úkolů",
     'LAN_CRON_M_02' => "Obnovit",
-    'LAN_CRON_M_SETUP' => "Setup",
+    'LAN_CRON_M_SETUP' => "Nastavení",
     'LAN_CRON_2' => "Funkce",
     'LAN_CRON_3' => "Info",
     'LAN_CRON_4' => "Poslední akce",
@@ -67,51 +67,58 @@ return [
     'LAN_CRON_54' => "Všední den",
     'LAN_CRON_55' => "Zálohování databáze se nezdařilo",
     'LAN_CRON_56' => "Zálohování databáze dokončeno",
-    'LAN_CRON_61' => "Vytvořit nové heslo jádra",
+    'LAN_CRON_61' => "Vygenerovat nový token pro cron",
     'LAN_CRON_62' => "Spusťte funkci Konfigurace: [b][x][/b]",
     'LAN_CRON_63' => "Funkce konfigurace [b][x][/b] NENÍ nalezena.",
-    'LAN_CRON_64' => "Správce může automatizovat úlohy pomocí nástroje e107 Plánování úloh. [br]Na kartě Správa můžete upravovat, odstraňovat a spouštět úlohy. [br]Při úpravě úlohy můžete nastavit minuty, hodiny, dny, měsíc nebo den v týdnu, kdy se má úloha spustit. Pro spuštění pro každé období použijte *. Vlastnost Aktivní slouží k povolení úlohy [br].Poznámka: Doporučujeme neodstraňovat standardní úlohy[br].",
+    'LAN_CRON_64' => "Administrátor může automatizovat úlohy pomocí nástroje e107 Plánování úkolů.[br]
+Nic z toho se nespustí, dokud váš server nebude jednou za minutu volat [b]cron.php[/b]. Karta Nastavení ukazuje, jak to zařídit, a nabízí příkaz ke zkopírování.[br]
+
+Na kartě Správa můžete úlohy upravovat, mazat a spouštět.[br]
+
+Při úpravě úlohy můžete nastavit minuty, hodiny, dny, měsíc nebo den v týdnu, kdy se má spouštět. Znak * znamená každé období, vlastnost Aktivní úlohu zapíná.[br]
+
+Poznámka: Nedoporučujeme mazat standardní úlohy.[br]",
     'LAN_CRON_BACKUP' => "Zálohování",
     'LAN_CRON_LOGGING' => "Protokolování",
     'LAN_CRON_RUNNING' => "Běžící",
     'LAN_CRON_65' => "Aktualizovat git repozitář témat",
     'LAN_CRON_66' => "Nebyl nalezen žádný git repozitář",
     'LAN_CRON_67' => "Ve složce vzhledu nebylo nalezen žádné git repozitář",
-    'LAN_CRON_SETUP_INTRO' => "Your server has to call [b]cron.php[/b] once a minute for scheduled tasks to run. Pick one of the options below, copy what it shows into your server's scheduler, and use one option only, or tasks that are due will run twice.",
-    'LAN_CRON_SETUP_HTTP_TITLE' => "Web request",
-    'LAN_CRON_SETUP_HTTP_WHY' => "Your scheduler fetches a URL every minute. It runs under the PHP version selected for this site, needs no file permissions, and works with control-panel cron jobs and external cron services alike.",
-    'LAN_CRON_SETUP_CLI_TITLE' => "PHP command line",
-    'LAN_CRON_SETUP_CLI_WHY' => "Your scheduler runs the PHP interpreter on cron.php. It runs under whichever PHP binary the command names, so keep the command in step with the site's PHP version.",
-    'LAN_CRON_SETUP_SHEBANG_TITLE' => "Shell script",
-    'LAN_CRON_SETUP_SHEBANG_WHY' => "Your scheduler runs cron.php directly and its first line picks whichever php is on the PATH. The file has to be executable, and cron's PATH is short, so it may find no php or the wrong one.",
-    'LAN_CRON_SETUP_COMMAND_LABEL' => "Command (paste into your control panel's cron job)",
-    'LAN_CRON_SETUP_CRONTAB_LABEL' => "Crontab line (runs every minute)",
-    'LAN_CRON_SETUP_URL_LABEL' => "URL (for external cron services such as cron-job.org or EasyCron)",
-    'LAN_CRON_SETUP_WINDOWS_COMMAND_LABEL' => "Command (for a Windows Task Scheduler action)",
-    'LAN_CRON_SETUP_SCHTASKS_LABEL' => "Create the task in one go (administrator command prompt)",
-    'LAN_CRON_SETUP_RECOMMENDED' => "Recommended",
-    'LAN_CRON_SETUP_PANEL_HOWTO' => "In cPanel, DirectAdmin or Plesk, open the cron jobs page and add a job that runs every minute with this command. Without a control panel, run [b]crontab -e[/b] and add the crontab line.",
-    'LAN_CRON_SETUP_WGET_LABEL' => "With wget instead of curl",
-    'LAN_CRON_SETUP_HTTP_FALLBACK_NOTE' => "If your server cannot fetch its own site URL (some hosts block that), use the PHP command line option instead.",
-    'LAN_CRON_SETUP_PHP_FOUND' => "PHP was found at [x].",
-    'LAN_CRON_SETUP_PHP_NOT_FOUND' => "No PHP binary could be verified, so the command assumes [b]php[/b] is on the PATH. Ask your host for the path to the PHP [x] command-line binary if it is not.",
-    'LAN_CRON_SETUP_OPEN_BASEDIR_NOTE' => "open_basedir prevented checking for PHP binaries.",
-    'LAN_CRON_SETUP_EXECUTABLE' => "cron.php is executable.",
-    'LAN_CRON_SETUP_NOT_EXECUTABLE' => "cron.php is not executable. Make it executable first:",
-    'LAN_CRON_SETUP_REGENERATE_WARNING' => "Generating a new token invalidates the command you have already set up. Copy the new one into your scheduler afterwards.",
-    'LAN_CRON_REFUSED_SUMMARY' => "[x] request(s) to cron.php have been refused since [y], the last at [z].",
-    'LAN_CRON_REFUSED_LAST_FROM' => "The last one came from [x].",
-    'LAN_CRON_REFUSED_TOKEN_INCORRECT' => "They carried a token that does not match.",
-    'LAN_CRON_REFUSED_TOKEN_MISSING' => "They carried no token.",
-    'LAN_CRON_REFUSED_COPY_AGAIN' => "Copy the command again from the [x] tab.",
-    'LAN_CRON_NEVER_REPORTED' => "No scheduled task has reported in yet. Follow the [x] tab to schedule cron.php on your server.",
-    'LAN_CRON_LASTRUN_HTTP' => "over HTTP",
-    'LAN_CRON_LASTRUN_HTTP_FROM' => "over HTTP from [x]",
-    'LAN_CRON_LASTRUN_CLI' => "from the command line",
-    'LAN_CRON_SETUP_DETECTED_ENVIRONMENT' => "Detected environment: [x]",
-    'LAN_CRON_SETUP_OPEN_PANEL' => "Open [x]",
-    'LAN_CRON_SETUP_CONTROL_PANEL' => "Control panel",
-    'LAN_CRON_SETUP_SCHTASKS_ACCOUNT_NOTE' => "Task Scheduler runs the command as the account you choose; use one that can read the site's files.",
-    'LAN_CRON_SETUP_CURL_EXE_NOTE' => "curl.exe ships with Windows 10 and later; on older systems use the PHP command line option.",
-    'LAN_CRON_TOKEN_REGENERATED' => "A new cron token has been generated. Update the command in your server's scheduler.",
+    'LAN_CRON_SETUP_INTRO' => "Aby se naplánované úlohy spouštěly, musí váš server jednou za minutu volat [b]cron.php[/b]. Vyberte jednu z možností níže, zkopírujte zobrazený údaj do plánovače na serveru a použijte pouze jednu možnost, jinak se úlohy, které jsou na řadě, spustí dvakrát.",
+    'LAN_CRON_SETUP_HTTP_TITLE' => "Webový požadavek",
+    'LAN_CRON_SETUP_HTTP_WHY' => "Plánovač každou minutu načte URL adresu. Běží pod verzí PHP zvolenou pro tento web, nepotřebuje žádná oprávnění k souborům a funguje s úlohami cron v ovládacím panelu i s externími cron službami.",
+    'LAN_CRON_SETUP_CLI_TITLE' => "Příkazový řádek PHP",
+    'LAN_CRON_SETUP_CLI_WHY' => "Plánovač spouští interpret PHP se souborem cron.php. Běží pod tou binárkou PHP, kterou příkaz uvádí, proto udržujte příkaz v souladu s verzí PHP webu.",
+    'LAN_CRON_SETUP_SHEBANG_TITLE' => "Shellový skript",
+    'LAN_CRON_SETUP_SHEBANG_WHY' => "Plánovač spouští cron.php přímo a jeho první řádek použije to php, které je v PATH. Soubor musí být spustitelný a PATH v cronu je krátká, takže nemusí najít žádné php, nebo najde nesprávné.",
+    'LAN_CRON_SETUP_COMMAND_LABEL' => "Příkaz (vložte do úlohy cron v ovládacím panelu)",
+    'LAN_CRON_SETUP_CRONTAB_LABEL' => "Řádek pro crontab (spouští se každou minutu)",
+    'LAN_CRON_SETUP_URL_LABEL' => "URL adresa (pro externí cron služby, např. cron-job.org nebo EasyCron)",
+    'LAN_CRON_SETUP_WINDOWS_COMMAND_LABEL' => "Příkaz (pro akci Plánovače úloh ve Windows)",
+    'LAN_CRON_SETUP_SCHTASKS_LABEL' => "Vytvořit úlohu najednou (příkazový řádek správce)",
+    'LAN_CRON_SETUP_RECOMMENDED' => "Doporučeno",
+    'LAN_CRON_SETUP_PANEL_HOWTO' => "V cPanelu, DirectAdminu nebo Plesku otevřete stránku úloh cron a přidejte úlohu, která se s tímto příkazem spouští každou minutu. Bez ovládacího panelu spusťte [b]crontab -e[/b] a přidejte řádek pro crontab.",
+    'LAN_CRON_SETUP_WGET_LABEL' => "S wget místo curl",
+    'LAN_CRON_SETUP_HTTP_FALLBACK_NOTE' => "Pokud váš server nedokáže načíst URL adresu vlastního webu (některé hostingy to blokují), použijte místo toho možnost Příkazový řádek PHP.",
+    'LAN_CRON_SETUP_PHP_FOUND' => "PHP bylo nalezeno v [x].",
+    'LAN_CRON_SETUP_PHP_NOT_FOUND' => "Nepodařilo se ověřit žádnou binárku PHP, proto příkaz předpokládá, že [b]php[/b] je v PATH. Pokud tomu tak není, zeptejte se svého poskytovatele hostingu na cestu k binárce PHP [x] pro příkazový řádek.",
+    'LAN_CRON_SETUP_OPEN_BASEDIR_NOTE' => "open_basedir zabránilo vyhledání binárek PHP.",
+    'LAN_CRON_SETUP_EXECUTABLE' => "Soubor cron.php je spustitelný.",
+    'LAN_CRON_SETUP_NOT_EXECUTABLE' => "Soubor cron.php není spustitelný. Nejprve jej nastavte jako spustitelný:",
+    'LAN_CRON_SETUP_REGENERATE_WARNING' => "Vygenerováním nového tokenu přestane platit příkaz, který již máte nastavený. Poté nový příkaz zkopírujte do plánovače.",
+    'LAN_CRON_REFUSED_SUMMARY' => "Počet odmítnutých požadavků na cron.php od [y]: [x], poslední v [z].",
+    'LAN_CRON_REFUSED_LAST_FROM' => "Poslední přišel z [x].",
+    'LAN_CRON_REFUSED_TOKEN_INCORRECT' => "Obsahovaly token, který nesouhlasí.",
+    'LAN_CRON_REFUSED_TOKEN_MISSING' => "Neobsahovaly žádný token.",
+    'LAN_CRON_REFUSED_COPY_AGAIN' => "Zkopírujte příkaz znovu z karty [x].",
+    'LAN_CRON_NEVER_REPORTED' => "Zatím se neohlásila žádná naplánovaná úloha. Podle karty [x] naplánujte spouštění cron.php na svém serveru.",
+    'LAN_CRON_LASTRUN_HTTP' => "přes HTTP",
+    'LAN_CRON_LASTRUN_HTTP_FROM' => "přes HTTP z [x]",
+    'LAN_CRON_LASTRUN_CLI' => "z příkazového řádku",
+    'LAN_CRON_SETUP_DETECTED_ENVIRONMENT' => "Zjištěné prostředí: [x]",
+    'LAN_CRON_SETUP_OPEN_PANEL' => "Otevřít [x]",
+    'LAN_CRON_SETUP_CONTROL_PANEL' => "Ovládací panel",
+    'LAN_CRON_SETUP_SCHTASKS_ACCOUNT_NOTE' => "Plánovač úloh spouští příkaz pod účtem, který zvolíte; použijte účet, který může číst soubory webu.",
+    'LAN_CRON_SETUP_CURL_EXE_NOTE' => "curl.exe je součástí Windows 10 a novějších; na starších systémech použijte možnost Příkazový řádek PHP.",
+    'LAN_CRON_TOKEN_REGENERATED' => "Byl vygenerován nový token pro cron. Aktualizujte příkaz v plánovači na serveru.",
 ];

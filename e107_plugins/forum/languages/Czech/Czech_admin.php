@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -242,5 +242,5 @@ return [
     'FORLAN_221' => "Který editor by měl být použit k vytváření / úpravě příspěvků?",
     'FORLAN_222' => "Editor rychlých odpovědí",
     'FORLAN_223' => "Používejte pouze prostý text (bez bbcode nebo html!).",
-    'FORLAN_REFUSED_TOKEN_MISSING' => "The forum upgrade did nothing, because the request carried no security token. Start it from the forum's administration menu rather than from a bookmark or a link on another site.",
+    'FORLAN_REFUSED_TOKEN_MISSING' => "Aktualizace fóra neprovedla nic, protože požadavek neobsahoval bezpečnostní token. Spusťte ji z administrace fóra, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

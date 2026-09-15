@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -47,5 +47,5 @@ return [
     'LAN_FPW_100' => "Zapomněli jste heslo?",
     'LAN_FPW_101' => "Není se čeho bát. Jednoduše vložte svoji e-mailovou adresu a my vám zašleme e-mail s instrukcemi na obnovení hesla.",
     'LAN_FPW_102' => "Obnovit heslo",
-    'LAN_FPW_MISCONFIGURED' => "Password reset is currently unavailable due to a site configuration issue. Please contact the site administrator.",
+    'LAN_FPW_MISCONFIGURED' => "Obnovení hesla je momentálně nedostupné kvůli chybě v nastavení webu. Kontaktujte prosím administrátora webu.",
 ];

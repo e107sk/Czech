@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -263,7 +263,7 @@ return [
     'LAN_NOPERMISSION' => "žádná oprávnění",
     'LAN_NO_ADMIN_PERMISSION' => "Nemáte oprávnění administrátora pro [x]",
     'LAN_CREDITS' => "Titulky",
-    'LAN_NEWVERSION' => "K dispozici e107 verze [x]",
+    'LAN_NEWVERSION' => "e107 v[x] je k dispozici ke stažení.",
     'LAN_CHECKALL' => "Označit vše",
     'LAN_UNCHECKALL' => "Odznačit vše",
     'LAN_DELCHECKED' => "Smazat označené",
@@ -320,7 +320,7 @@ return [
     'LAN_UI_404_BODY_ERROR' => "Požadovaná stránka nebyla nalezena!",
     'LAN_UI_404_TITLE_ERROR' => "Stránka nenalezena",
     'LAN_UI_404_METHOD_ERROR' => "Akce [x] nebyla nalezena!",
-    'LAN_UI_INVALID_TOKEN_ERROR' => "Unauthorized access - invalid or missing security token.",
+    'LAN_UI_INVALID_TOKEN_ERROR' => "Neoprávněný přístup – neplatný nebo chybějící bezpečnostní token.",
     'LAN_UI_403_BODY_ERROR' => "Přístup na požadovanou stránku je zamítnut.",
     'LAN_UI_403_TITLE_ERROR' => "Přístup byl odepřen",
     'LAN_UI_FORM_METHOD_ERROR' => "FATÁLNÍ CHYBA: Název pole [x] je zakázán. Prosím přejmenujte klíč [x] na něco jiného v poli tabulky databáze (je-li to nutné).",
@@ -425,22 +425,22 @@ return [
     'LAN_RELATIONSHIP_HELP' => "Volitelný atribut 'rel'. Odděleno čárkou.",
     'LAN_NO_SCRIPT_ACCESS' => "Nemáte oprávnění používat značky [script].",
     'LAN_NO_SCRIPT_ACCESS_ASK' => "Pokud se domníváte, že se jedná o chybu, požádejte prosím hlavního správce, aby vám udělil přístup ke skriptu prostřednictvím [b]Předvolby > Filtry obsahu[/b].",
-    'LAN_UI_FILTER_TODAY' => "Today",
-    'LAN_UI_FILTER_THIS_WEEK' => "This Week",
-    'LAN_UI_FILTER_THIS_MONTH' => "This Month",
-    'LAN_UI_FILTER_THIS_YEAR' => "This Year",
-    'LAN_SEARCH_ENGINES_X_LIMIT' => "Read by search engines. Maximum [x] characters.",
-    'LAN_META_TITLE' => "Meta Title",
-    'LAN_META_DESCRIPTION' => "Meta Description",
-    'LAN_SYSTEM_NOTIFICATIONS_X' => "[x] System Notification(s)",
-    'LAN_PHP_OUTDATED' => "Your website is currently running an [outdated version of PHP], which may pose a security risk. If your plugins will allow it, we recommend upgrading to [x] to ensure that your website is secure and up-to-date.",
-    'LAN_DATABASE_UPDATE' => "An update is available for your database. We recommend [running this update] as soon as possible to ensure that your database is secure and up-to-date.",
-    'LAN_HISTORY' => "History",
-    'LAN_EMULATION_MODE' => "Permission Emulation Mode",
-    'LAN_EMULATION_EMULATING' => "Emulating:",
-    'LAN_EMULATION_USERCLASSES' => "User Classes:",
-    'LAN_EMULATION_ADMINPERMS' => "Admin Permissions:",
-    'LAN_EMULATION_TEMPORARY' => "Permission emulation is temporary. Your identity is unchanged, and emulation ends when you log out.",
-    'LAN_EMULATION_STOP' => "Stop Emulating",
-    'ADLAN_REFUSED_TOKEN_MISSING' => "That request was not carried out, because it carried no security token. Use the dashboard's own controls rather than a bookmark or a link on another site.",
+    'LAN_UI_FILTER_TODAY' => "Dnes",
+    'LAN_UI_FILTER_THIS_WEEK' => "Tento týden",
+    'LAN_UI_FILTER_THIS_MONTH' => "Tento měsíc",
+    'LAN_UI_FILTER_THIS_YEAR' => "Tento rok",
+    'LAN_SEARCH_ENGINES_X_LIMIT' => "Čtou vyhledávače. Maximálně [x] znaků.",
+    'LAN_META_TITLE' => "Meta titulek",
+    'LAN_META_DESCRIPTION' => "Meta popis",
+    'LAN_SYSTEM_NOTIFICATIONS_X' => "Systémová oznámení: [x]",
+    'LAN_PHP_OUTDATED' => "Váš web aktuálně běží na [zastaralé verzi PHP], což může představovat bezpečnostní riziko. Pokud to vaše doplňky dovolí, doporučujeme přejít na verzi [x], aby byl váš web bezpečný a aktuální.",
+    'LAN_DATABASE_UPDATE' => "Pro vaši databázi je k dispozici aktualizace. Doporučujeme [spustit tuto aktualizaci] co nejdříve, aby byla vaše databáze bezpečná a aktuální.",
+    'LAN_HISTORY' => "Historie",
+    'LAN_EMULATION_MODE' => "Režim emulace oprávnění",
+    'LAN_EMULATION_EMULATING' => "Emulováno:",
+    'LAN_EMULATION_USERCLASSES' => "Uživatelské třídy:",
+    'LAN_EMULATION_ADMINPERMS' => "Oprávnění administrátora:",
+    'LAN_EMULATION_TEMPORARY' => "Emulace oprávnění je dočasná. Vaše identita se nemění a emulace skončí, jakmile se odhlásíte.",
+    'LAN_EMULATION_STOP' => "Ukončit emulaci",
+    'ADLAN_REFUSED_TOKEN_MISSING' => "Požadavek nebyl proveden, protože neobsahoval bezpečnostní token. Použijte ovládací prvky na nástěnce administrace, nikoli záložku v prohlížeči nebo odkaz z jiného webu.",
 ];

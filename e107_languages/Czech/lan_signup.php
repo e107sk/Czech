@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -14,8 +14,8 @@
 
 return [
     'PAGE_NAME' => "Registrace",
-    'LAN_108' => "Registration complete",
-    'LAN_185' => "You left required field(s) blank",
+    'LAN_108' => "Registrace dokončena",
+    'LAN_185' => "Nevyplnili jste povinná pole",
     'LAN_EMAIL_01' => "Vážený",
     'LAN_EMAIL_04' => "Informace obsažené v tomto e-mailu uchovejte pouze pro vlastní potřebu.",
     'LAN_EMAIL_05' => "Heslo bylo zakódováno a nelze jej zpětně nijak zjistit. Můžete však kdykoliv požadat o nastavení nového hesla správce webu.",
@@ -121,5 +121,5 @@ return [
     'LAN_SIGNUP_123' => "Pravidly a podmínkami",
     'LAN_SIGNUP_124' => "Registrací souhlasíte s našimi [x] a našimi [y].",
     'LAN_SIGNUP_125' => "Min. [x] znaků.",
-    'LAN_SIGNUP_REFUSED_TOKEN_MISSING' => "No test activation email was sent, because the link carried no security token. Use the button on the signup page rather than a bookmark or a link on another site.",
+    'LAN_SIGNUP_REFUSED_TOKEN_MISSING' => "Testovací aktivační email nebyl odeslán, protože odkaz neobsahoval bezpečnostní token. Použijte tlačítko na registrační stránce, nikoli záložku v prohlížeči nebo odkaz na jiném webu.",
 ];

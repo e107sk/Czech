@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -28,8 +28,8 @@ return [
     'DBVLAN_14' => "Vyberte si tabulku(y) k ověření",
     'DBVLAN_15' => "Začít kontrolu",
     'DBVLAN_16' => "Kontrola SQL",
-    'DBVLAN_17' => "Storage engine should be [x] but is [y]",
-    'DBVLAN_18' => "Character set should be [x] but is [y]",
+    'DBVLAN_17' => "Úložiště (storage engine) by mělo být [x], ale je [y]",
+    'DBVLAN_18' => "Znaková sada by měla být [x], ale je [y]",
     'DBVLAN_19' => "Pokusit se o opravu",
     'DBVLAN_21' => "Opravit vybrané položky",
     'DBVLAN_22' => "[x] nelze přečíst",
@@ -37,9 +37,9 @@ return [
     'DBVLAN_24' => "Prosím vyberte akci.",
     'DBVLAN_25' => "Chybí index!",
     'DBVLAN_26' => "[x] tabulek hlásí problém!",
-    'DBVLAN_27' => "Table inconsistency",
-    'DBVLAN_28' => "Not applicable",
-    'DBVLAN_RESULT_INCOMPLETE' => "Some tables could not be checked, so this result is incomplete. Enable debug mode for the reason.",
-    'DBVLAN_INDEX_REDUNDANT' => "Redundant index",
-    'DBVLAN_INDEX_REDUNDANT_NOTE' => "Duplicates the FULLTEXT index [x]; the schema declares that one, so this one can be removed.",
+    'DBVLAN_27' => "Nekonzistence tabulky",
+    'DBVLAN_28' => "Nelze použít",
+    'DBVLAN_RESULT_INCOMPLETE' => "Některé tabulky nebylo možné zkontrolovat, proto je tento výsledek neúplný. Důvod zjistíte po zapnutí režimu ladění.",
+    'DBVLAN_INDEX_REDUNDANT' => "Nadbytečný index",
+    'DBVLAN_INDEX_REDUNDANT_NOTE' => "Duplikuje FULLTEXT index [x]; schéma deklaruje ten, takže tento lze odstranit.",
 ];

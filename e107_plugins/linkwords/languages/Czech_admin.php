@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -53,6 +53,43 @@ return [
     'LAN_LW_HELP_15' => "Maximální množství stejných klíčových slov. Musí to být kladné číslo. Používá se, když je stejné slovo nalezeno v textu několikrát.",
     'LAN_LW_HELP_16' => "Toto definuje volitelné číselné ID, které se použije při zpracování Ajaxu. Musí to být kladné číslo.",
     'LAN_LW_HELP_17' => "Po zapnutí se odkaz otevře na nové kartě / okně prohlížeče",
-    'LAN_LW_HELP_01' => "Mnoho oblastí textu má přidružený „kontext“ a slovní odkazy se zobrazí pouze v oblastech odpovídajících tomuto kontextu.",
-    'LAN_LW_HELP_02' => "Popisy mohou pomocí Ajax získat informace pro zobrazení. To obvykle vyžaduje nějaké vlastní kódování.",
+    'LAN_LW_HELP_01' => "<b>Oblasti, kde zapnout</b><br />
+
+  mnoho oblastí textu má přidružený „kontext“ a slovní odkazy se zobrazí pouze v oblastech, které tomuto kontextu odpovídají.<br /><br />
+
+  <b>Vypnutí slovních odkazů</b><br />
+
+  Slovní odkazy lze vypnout na konkrétních stránkách nebo na stránkách odpovídajících vzoru. Zadejte je zde (stejná syntaxe jako u menu), jeden vzor na řádek. 
+
+  Pokud vzor končí znakem „!“, znamená to „konec dotazu“ a obvykle jde o přesnou shodu. Jinak vyhoví jakákoli URL adresa obsahující zadaný řetězec.<br />
+
+  Slovní odkazy se v administraci <i>nikdy</i> nezobrazují.<br /><br />
+
+  <b>Zapnout funkce Ajax</b><br />
+
+  Popisky mohou pomocí Ajaxu načítat informace k zobrazení. Obvykle to vyžaduje vlastní programování.<br /><br />
+
+  <b>Potlačit odkaz na aktuální stránce</b><br />
+
+  Obvykle nemá smysl, aby uživatel mohl kliknout na odkaz, pokud se již na dané stránce nachází. Zaškrtnutím této volby tuto možnost odstraníte.<br />",
+    'LAN_LW_HELP_02' => "Zde definujte slova, která se stanou odkazy nebo po najetí myší zobrazí text<br /><br />
+  <b><u>Slovo pro odkaz</u></b><br />
+
+  Nerozlišují se velká a malá písmena. Pokud má více slov vést na stejné odkazy a popisky, oddělte je čárkami (bez mezer)<br /><br />
+
+  <b><u>Odkaz</u></b><br />
+
+  Zde definujte odkaz, na který lze kliknout. Pokud jde o externí odkaz, [i]musí[/i] začínat „http://“. Pokud jde o odkaz v rámci tohoto webu, lze použít běžné konstanty {e_XXX}.<br /><br />
+
+  <b><u>Popisek</u></b><br />
+
+  Určuje text, který se zobrazí, když uživatel přejede myší přes slovo.<br /><br />
+
+  <b><u>LW ID (ID popisku)</u></b><br /><br />
+
+  Určuje volitelné číselné ID pro zpracování pomocí Ajaxu. Pokud je prázdné, použije se číslo záznamu v databázi.<br /><br />
+
+  <b><u>Aktivovat?</u></b><br />
+
+  Určuje, které možnosti jsou aktivní.",
 ];

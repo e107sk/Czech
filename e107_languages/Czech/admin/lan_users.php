@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -79,7 +79,7 @@ return [
     'USRLAN_118' => "Test e-mailu",
     'USRLAN_119' => "Test [x]",
     'USRLAN_120' => "Nastavení uživatelských tříd",
-    'USRLAN_121' => "Mailing",
+    'USRLAN_121' => "Rozesílání",
     'USRLAN_122' => "Vítejte v",
     'USRLAN_123' => "Registrace byla přijata a vytvořena.",
     'USRLAN_124' => "Váš účet je v tuto chvíli neaktivovaný. Následujícím odkazem účet aktivujte.",
@@ -96,7 +96,7 @@ return [
     'USRLAN_136' => "Více uživatelů se stejnou IP adresou {IP}; IP nelze zakázat.",
     'USRLAN_137' => "Uživatelova IP adresa {IP} byla zakázána. Byl udělen zákaz.",
     'USRLAN_138' => "Neověření uživatelé",
-    'USRLAN_139' => "Váš účet byl aktivován.\n\nNa stránkách {SITEURL} se nyní můžete přihlásit pomocí přihlašovacích údajů, které jste uvedenl při registraci.",
+    'USRLAN_139' => "Váš účet byl aktivován.\\n\\nNyní můžete navštívit {SITEURL} a přihlásit se pomocí přihlašovacích údajů, které jste uvedli.",
     'USRLAN_140' => "Přeposlaný e-mail",
     'USRLAN_141' => "Selhání přeposílání e-mailu",
     'USRLAN_142' => "s tímto aktivačním odkazem",
@@ -116,7 +116,7 @@ return [
     'USRLAN_156' => "E-mailová adresa je již použita",
     'USRLAN_161' => "ID uživatele [x] jméno [y] zakázáno",
     'USRLAN_162' => "ID uživatele [x] jméno [y] zakázáno",
-    'USRLAN_164' => "ID uživatele [x] jméno [y] ([z]) z adminu",
+    'USRLAN_164' => "Uživatel ID [x] jméno [y] ([z]) se stal administrátorem",
     'USRLAN_165' => "Uživatelské jméno [x] jméno [y] admin zrušeno",
     'USRLAN_166' => "ID uživatele [x] jméno [y] schváleno",
     'USRLAN_167' => "ID ověřovacího e-mailu [x] odkázat na [y] na [z]",
@@ -131,7 +131,7 @@ return [
     'USRLAN_183' => "Přihlašovací jméno již používáno",
     'USRLAN_184' => "Délka přihlašovacího jména mimo mezní hodnoty",
     'USRLAN_185' => "Uživatelský účet byl vytvořen pro vás na adrese {SITEURL} s následujícím přihlašováním: <br /> <br /> <b> Jméno přihlášení: </ b> {LOGINNAME} b> Heslo: </ b> {PASSWORD} <br/> <b> Aktivační odkaz: </ b> {ACTIVATION_LINK} <br /> <br />",
-    'USRLAN_186' => "Přejděte prosím na stránky co nejdříve a přihlaste se, změňte heslo pomocí možnosti \"Nastavení\". <br /> <br /> Můžete také změnit jiné nastavení ve stejném čas. <br /> <br /> Pamatujte, že heslo nemůžete obnovit, pokud ji ztratíte.",
+    'USRLAN_186' => "Co nejdříve prosím přejděte na web, přihlaste se a změňte si heslo pomocí volby \\\"Nastavení\\\".<br /><br />Zároveň můžete změnit i další nastavení.<br /><br />Pamatujte, že pokud heslo zapomenete, nelze jej obnovit.",
     'USRLAN_187' => "Přístup k webu:",
     'USRLAN_188' => "E-mail byl úspěšně odeslán",
     'USRLAN_189' => "Chyba při odesílání e-mailu",
@@ -226,6 +226,6 @@ return [
     'USRLAN_AS_1' => "Přihlášení jako [x]",
     'USRLAN_AS_2' => "Odhlásit se z účtu [x]",
     'USRLAN_AS_3' => "Již jste přihlášeni jako jiný uživatel. Nejdříve se odhlašte.",
-    'USRLAN_EMU_1' => "Emulate permissions of [x] (admin area)",
-    'USRLAN_REFUSED_TOKEN_MISSING' => "That action was not carried out, because the link carried no security token. Start it from the user list rather than from a bookmark or a link on another site.",
+    'USRLAN_EMU_1' => "Emulovat oprávnění uživatele [x] (administrace)",
+    'USRLAN_REFUSED_TOKEN_MISSING' => "Akce nebyla provedena, protože odkaz neobsahoval bezpečnostní token. Spusťte ji ze seznamu uživatelů, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

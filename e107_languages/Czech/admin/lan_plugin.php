@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -268,10 +268,10 @@ return [
     'LAN_INSTALL_FAIL' => "Instalace selhala",
     'LAN_UNINSTALL_FAIL' => "Nelze odinstalovat!",
     'LAN_PLUGIN_IS_USED' => "[x] doplněk je používán:",
-    'EPL_ADLAN_254' => "Takto se zkontroluje jazykové soubory doplňky pro chyby a běžné nebo duplicitní definice souborů LAN.",
+    'EPL_ADLAN_254' => "Zkontroluje jazykové soubory doplňku, zda neobsahují chyby a běžné nebo duplicitní definice LAN.",
     'EPL_ADLAN_255' => "Přepsat soubory",
     'EPL_ADLAN_256' => "Přeskočeno [x] (již existuje)",
     'EPL_ADLAN_257' => "Pouze pro čtení",
-    'EPL_ADLAN_REFUSED_PULL_TOKEN_MISSING' => "The plugin was not updated from its Git repository, because the link carried no security token. Start it from the Plugin Manager rather than from a bookmark or a link on another site.",
-    'EPL_ADLAN_REFUSED_BUILD_TOKEN_MISSING' => "No table definition file was written, because the link carried no security token. Start the plugin builder from the Plugins menu rather than from a bookmark or a link on another site.",
+    'EPL_ADLAN_REFUSED_PULL_TOKEN_MISSING' => "Doplněk nebyl aktualizován ze svého Git repozitáře, protože odkaz neobsahoval bezpečnostní token. Spusťte aktualizaci ze Správce doplňků, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
+    'EPL_ADLAN_REFUSED_BUILD_TOKEN_MISSING' => "Soubor s definicí tabulek nebyl zapsán, protože odkaz neobsahoval bezpečnostní token. Spusťte tvůrce doplňků z menu Doplňky, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

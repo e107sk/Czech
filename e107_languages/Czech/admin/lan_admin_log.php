@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -35,7 +35,7 @@ return [
     'RL_LAN_028' => "Aktualizovat filtr",
     'RL_LAN_029' => "Filtr typu události",
     'RL_LAN_030' => "Administrátorské",
-    'RL_LAN_031' => "Akce podle protokolu",
+    'RL_LAN_031' => "Akce auditu uživatelů, které se mají zaznamenávat",
     'RL_LAN_032' => "Pri",
     'RL_LAN_033' => "Další informace",
     'RL_LAN_044' => "Počet zobrazených událostí na jednu stránku.",
@@ -106,5 +106,5 @@ return [
     'RL_LAN_133' => "Oznámení",
     'RL_LAN_134' => "Varování",
     'RL_LAN_135' => "Kritické",
-    'RL_LAN_136' => "User navigation trail",
+    'RL_LAN_136' => "Navigační stopa uživatele",
 ];

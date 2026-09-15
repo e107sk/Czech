@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -47,9 +47,9 @@ return [
     'FBLAN_34' => "Nepřiřazeno",
     'FBLAN_35' => "Kolotoč",
     'FBLAN_36' => "Záložky",
-    'LAN_FEATUREBOX_SEF' => "Shortcode name",
-    'LAN_FEATUREBOX_SEF_HELP' => "How a layout addresses this category, as {FEATUREBOX|my-category}. Letters, numbers, - and _ only; anything else is converted.",
-    'LAN_FEATUREBOX_SEF_EMPTY' => "Please give this category a shortcode name containing letters, numbers, - or _.",
-    'LAN_FEATUREBOX_SEF_TAKEN' => "Another category already uses that shortcode name. Please choose a different one.",
-    'LAN_FEATUREBOX_LAYOUT_RESERVED' => "The Unassigned layout belongs to the system category. Please choose a different layout.",
+    'LAN_FEATUREBOX_SEF' => "Název shortcode",
+    'LAN_FEATUREBOX_SEF_HELP' => "Jak se na tuto kategorii odkazuje rozvržení, ve tvaru {FEATUREBOX|my-category}. Pouze písmena, číslice, - a _; ostatní znaky budou převedeny.",
+    'LAN_FEATUREBOX_SEF_EMPTY' => "Zadejte prosím pro tuto kategorii název shortcode obsahující písmena, číslice, - nebo _.",
+    'LAN_FEATUREBOX_SEF_TAKEN' => "Tento název shortcode již používá jiná kategorie. Zvolte prosím jiný.",
+    'LAN_FEATUREBOX_LAYOUT_RESERVED' => "Rozvržení Nepřiřazeno patří systémové kategorii. Zvolte prosím jiné rozvržení.",
 ];

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -88,7 +88,7 @@ return [
     'LAN_USER_69' => "Příspěvků ve fóru",
     'LAN_USER_71' => "Podpis:",
     'LAN_USER_72' => "Avatar:",
-    'LAN_USER_73' => "choice of Content/Mail-lists",
+    'LAN_USER_73' => "výběr obsahu/seznamů rozesílání",
     'LAN_USER_74' => "Vlastní název",
     'LAN_USER_75' => "Váš [x] je vyžadován",
     'LAN_USER_76' => "Jste přihlášeni k odběru",
@@ -114,31 +114,31 @@ return [
     'LAN_XUP_ERRM_10' => "Otestování registrace/přihlášení s [x]",
     'LAN_XUP_ERRM_11' => "Přihlášen:",
     'LAN_XUP_ERRM_12' => "Test odhlášení",
-    'LAN_XUP_REFUSED_TOKEN_MISSING' => "That sign-in was not started, because the link carried no security token. Start it from a sign-in button on this site rather than from a bookmark or a link on another site.",
-    'LAN_XUP_REFUSED_NOT_A_NAVIGATION' => "That sign-in was not started, because another site asked for it in the background rather than sending you here. Start it from a sign-in button on this site.",
+    'LAN_XUP_REFUSED_TOKEN_MISSING' => "Přihlášení nebylo zahájeno, protože odkaz neobsahoval bezpečnostní token. Zahajte jej tlačítkem pro přihlášení na tomto webu, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
+    'LAN_XUP_REFUSED_NOT_A_NAVIGATION' => "Přihlášení nebylo zahájeno, protože o něj na pozadí požádal jiný web, místo aby vás sem přesměroval. Zahajte jej tlačítkem pro přihlášení na tomto webu.",
 
     // Used in validator_class for error handling
-    'USER_ERR_01' => "Missing value",
-    'USER_ERR_02' => "Unexpected value",
-    'USER_ERR_03' => "Value contains invalid characters",
-    'USER_ERR_04' => "Value too short",
-    'USER_ERR_05' => "Value too long",
-    'USER_ERR_06' => "Duplicate value",
-    'USER_ERR_07' => "Value not allowed",
-    'USER_ERR_08' => "Entry disabled",
-    'USER_ERR_09' => "Invalid word",
-    'USER_ERR_10' => "Password fields different",
-    'USER_ERR_11' => "Banned email address",
-    'USER_ERR_12' => "Invalid format for email address",
-    'USER_ERR_13' => "Data error",
-    'USER_ERR_14' => "Banned user",
-    'USER_ERR_15' => "User name and display name cannot be different",
-    'USER_ERR_16' => "Software error",
-    'USER_ERR_17' => "Value too low",
-    'USER_ERR_18' => "Value too high",
-    'USER_ERR_19' => "General error",
-    'USER_ERR_20' => "Image too wide",
-    'USER_ERR_21' => "Image too high",
-    'USER_ERR_22' => "Unspecified error",
-    'USER_ERR_23' => "Disallowed value (exact match)",
+    'USER_ERR_01' => "Chybějící hodnota",
+    'USER_ERR_02' => "Neočekávaná hodnota",
+    'USER_ERR_03' => "Hodnota obsahuje neplatné znaky",
+    'USER_ERR_04' => "Hodnota je příliš krátká",
+    'USER_ERR_05' => "Hodnota je příliš dlouhá",
+    'USER_ERR_06' => "Duplicitní hodnota",
+    'USER_ERR_07' => "Hodnota není povolena",
+    'USER_ERR_08' => "Položka je zakázána",
+    'USER_ERR_09' => "Neplatné slovo",
+    'USER_ERR_10' => "Hesla se neshodují",
+    'USER_ERR_11' => "Zakázaná emailová adresa",
+    'USER_ERR_12' => "Neplatný formát emailové adresy",
+    'USER_ERR_13' => "Chyba dat",
+    'USER_ERR_14' => "Zablokovaný uživatel",
+    'USER_ERR_15' => "Uživatelské jméno a zobrazované jméno se nesmí lišit",
+    'USER_ERR_16' => "Chyba softwaru",
+    'USER_ERR_17' => "Hodnota je příliš nízká",
+    'USER_ERR_18' => "Hodnota je příliš vysoká",
+    'USER_ERR_19' => "Obecná chyba",
+    'USER_ERR_20' => "Obrázek je příliš široký",
+    'USER_ERR_21' => "Obrázek je příliš vysoký",
+    'USER_ERR_22' => "Blíže neurčená chyba",
+    'USER_ERR_23' => "Nepovolená hodnota (přesná shoda)",
 ];

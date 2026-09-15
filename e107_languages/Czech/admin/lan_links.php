@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -54,9 +54,9 @@ return [
     'LINKLAN_8' => "Kategorie novinek",
     'LINKLAN_9' => "Kategorie downloadů",
     'LINKLAN_10' => "Krátké kódy tématu",
-    'LAN_LINKS_PRESET' => "Predefined link",
-    'LAN_LINKS_PRESET_HELP' => "Fills in the URL, name and user class for a link e107 knows how to build. Change any of them afterwards.",
-    'LAN_LINKS_PRESET_OVERWRITE' => "This will replace the URL and name already entered.",
-    'LAN_LINKS_URL_HELP' => "A path from the site root such as news.php, or a full address. {E_TOKEN} is replaced with each visitor's own security token; index.php?logout needs it.",
-    'LAN_LINKS_URL_REQUIRED' => "Type a URL or choose a predefined link.",
+    'LAN_LINKS_PRESET' => "Předdefinovaný odkaz",
+    'LAN_LINKS_PRESET_HELP' => "Vyplní URL adresu, název a uživatelskou třídu pro odkaz, který e107 umí sestavit. Kterýkoli z údajů můžete poté změnit.",
+    'LAN_LINKS_PRESET_OVERWRITE' => "Tímto se nahradí již zadaná URL adresa a název.",
+    'LAN_LINKS_URL_HELP' => "Cesta od kořene webu, např. news.php, nebo úplná adresa. {E_TOKEN} se nahradí vlastním bezpečnostním tokenem každého návštěvníka; index.php?logout jej potřebuje.",
+    'LAN_LINKS_URL_REQUIRED' => "Zadejte URL adresu nebo vyberte předdefinovaný odkaz.",
 ];

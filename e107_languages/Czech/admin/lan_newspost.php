@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -74,7 +74,7 @@ return [
     'NWSLAN_100' => "Povolit nahrávání obrázků u uživatelských novinek?",
     'NWSLAN_101' => "Automatická změna velikosti nahrávaného obrázku",
     'NWSLAN_102' => "zadejte šířku v pixelech<br /> nebo ponechte prázdné, čímž tuto funkci vypnete",
-    'NWSLAN_103' => "re-post",
+    'NWSLAN_103' => "znovu odeslat",
     'NWSLAN_104' => "napsal",
     'NWSLAN_105' => "Zaškrtě pole pro aktualizaci času vložení na aktuální čas.",
     'NWSLAN_106' => "Uživatelské novinky může vkládat:",
@@ -145,6 +145,6 @@ return [
     'LAN_NEWS_110' => "Časový limit mezipaměti novinek",
     'LAN_NEWS_111' => "Čas v minutách. Platí pouze tehdy, když je povolena mezipaměť systému.",
     'LAN_NEWS_112' => "Vyberte formát adresy URL. Buď počet záznamů (např. strana=20, strana=40, strana=60 atd.), nebo číslo stránky (např. strana=1, strana=2, strana=3 atd.). Upozornění: V případě úpravy bude nutné, aby vyhledávače znovu zaindexovaly některé adresy URL zpráv.",
-    'LAN_NEWS_113' => "Limit to self-authored news posts only",
-    'LAN_NEWS_114' => "Enable this preference to restrict group members from viewing and editing news posts authored by other administrators.",
+    'LAN_NEWS_113' => "Omezit pouze na vlastní novinky",
+    'LAN_NEWS_114' => "Zapnutím této volby zakážete členům skupiny zobrazovat a upravovat novinky, jejichž autory jsou jiní administrátoři.",
 ];

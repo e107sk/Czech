@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -97,6 +97,6 @@ return [
     'LAN_PM_113' => "Přečíst zprávu",
     'LAN_PM_114' => "Nemáte oprávnění odesílat zprávy tomuto uživateli.",
     'LAN_PM_115' => "Uživatel nenalezen",
-    'LAN_PM_116' => "Attachments cannot be stored privately on this site - nothing was attached. Please tell the site administrator.",
-    'LAN_PM_REFUSED_TOKEN_MISSING' => "Nothing was changed, because the link carried no security token. Use the buttons on your private messages pages rather than a bookmark or a link on another site.",
+    'LAN_PM_116' => "Přílohy nelze na tomto webu ukládat soukromě - nic nebylo přiloženo. Informujte prosím administrátora webu.",
+    'LAN_PM_REFUSED_TOKEN_MISSING' => "Nic nebylo změněno, protože odkaz neobsahoval bezpečnostní token. Použijte tlačítka na stránkách soukromých zpráv, nikoli záložku v prohlížeči nebo odkaz na jiném webu.",
 ];

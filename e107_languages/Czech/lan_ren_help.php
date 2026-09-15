@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -35,19 +35,19 @@ return [
     'LANHELP_20' => "Obrovské",
     'LANHELP_21' => "Kliknutím zde otevřete dialog pro volbu barvy ...",
     'LANHELP_22' => "Kliknutím zde otevřete dialog pro volbu velikosti ...",
-    'LANHELP_23' => "Vložte odkaz takto: [link]http://mujweb.cz[/link] nebo takto:  [link=http://mujweb.cz]Navštivte můj web[/link]",
-    'LANHELP_24' => "Tučný text: [b]Tento text bude zobrazen tučně[/b]",
-    'LANHELP_25' => "Kurzíva: [i]Tento text bude zobrazen kurzívou[/i]",
-    'LANHELP_26' => "Podtržený text: [u]Tento text bude podtržený[/u]",
-    'LANHELP_27' => "Vložení obrázku: [img]mujobrazek.jpg[/img]",
-    'LANHELP_28' => "Zarovnání na střed: [center]Tento text bude vycentrován[/center]",
-    'LANHELP_29' => "Zarovnání vlevo: [left]Tento text bude zarovnán vlevo[/left]",
-    'LANHELP_30' => "Zarovnání vpravo: [right]Tento text bude zarovnán vpravo[/right]",
+    'LANHELP_23' => "Vložení odkazu:\\n[link]https://mujweb.cz[/link] nebo  [link=https://mujweb.cz]Navštivte můj web[/link]",
+    'LANHELP_24' => "Tučný text:\\n[b]Tento text bude zobrazen tučně[/b]",
+    'LANHELP_25' => "Kurzíva:\\n[i]Tento text bude zobrazen kurzívou[/i]",
+    'LANHELP_26' => "Podtržený text:\\n[u]Tento text bude podtržený[/u]",
+    'LANHELP_27' => "Vložení obrázku:\\n[img]mujobrazek.jpg[/img]",
+    'LANHELP_28' => "Zarovnání na střed:\\n[center]Tento text bude zarovnán na střed[/center]",
+    'LANHELP_29' => "Zarovnání vlevo:\\n[left]Tento text bude zarovnán vlevo[/left]",
+    'LANHELP_30' => "Zarovnání vpravo:\\n[right]Tento text bude zarovnán vpravo[/right]",
     'LANHELP_31' => "Citace: [blockquote]Tento text bude zobrazen jako citace (odsazen)[/blockquote]",
     'LANHELP_32' => "Kód - předformátovaný text: [code]\$foo = bah;[/code]",
     'LANHELP_33' => "HTML - odstraňuje z textu odřádkování: [html]<table><tr><td> etc[/html]",
     'LANHELP_34' => "[newpage] nebo [newpage=title] Vloží značku pro novou stranu, rozdělí článek na více než jednu stranu",
-    'LANHELP_35' => "hyperlink url",
+    'LANHELP_35' => "URL adresa odkazu",
     'LANHELP_36' => "Neuspořádaný seznam: [list]řádek1*řádek2*řádek3[/list] Uspořádaný: [list=typ]řádek1*řádek2*řádek3[/list]",
     'LANHELP_37' => "Vloží obrázek z adresáře e107_images/newpost_images/",
     'LANHELP_38' => "odkaz na nezmenšený obrázek bude automaticky vygenerován",
@@ -59,13 +59,13 @@ return [
     'LANHELP_44' => "Kliknutím zde otevřete/zavřete dialog pro vkládání smajlíků ...",
     'LANHELP_45' => "Vložit obrázek z adresáře:",
     'LANHELP_46' => "* Žádné soubory nenalezeny v:",
-    'LANHELP_47' => "Vložit flash: [flash=šířka,výška]http://www.priklad.com/soubor.swf[/flash]",
+    'LANHELP_47' => "Vložení flashe: [flash=šířka,výška]https://www.priklad.cz/soubor.swf[/flash]",
     'LANHELP_48' => "YouTube video: [youtube = malé | malé | střední | velké | obrovský | šířka, výška] 6kYjxJmk0wc [/youtube]",
     'LANHELP_49' => "Odstavec: [justify] Tento text se zobrazí v bloku nastavení [/justify]",
     'LANHELP_50' => "Hlavička: pro H2 [h]Hlavička[/h] nebo [h=2]Hlavička[/h]",
     'LANHELP_51' => "Zakázat HTML: [nobr]text[/nobr]",
     'LANHELP_52' => "Nový řádek (HTML): [br]",
-    'LANHELP_53' => "Zarovnání do bloku: \n[justify]Tento text bude zarovnán[/justify",
+    'LANHELP_53' => "Zarovnání do bloku:\\n[justify]Tento text bude zarovnán do bloku[/justify]",
     'LANHELP_54' => "HTML block (div tag): [block]Váš článek[/block]",
     'LANHELP_55' => "Formát",
     'LANHELP_56' => "Vložit tabulku",

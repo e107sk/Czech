@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -31,5 +31,5 @@ return [
     'RATELAN_GOOD' => "Dobrý",
     'RATELAN_VERYGOOD' => "Velice dobrý",
     'RATELAN_EXCELLENT' => "Vynikající",
-    'RATELAN_REFUSED_TOKEN_MISSING' => "Your vote was not counted, because the link carried no security token. Vote from the rating box on the page itself rather than from a bookmark or a link on another site.",
+    'RATELAN_REFUSED_TOKEN_MISSING' => "Váš hlas nebyl započítán, protože odkaz neobsahoval bezpečnostní token. Hlasujte v hodnoticím poli přímo na stránce, nikoli pomocí záložky v prohlížeči nebo odkazu na jiném webu.",
 ];

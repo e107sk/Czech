@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -134,13 +134,13 @@ return [
     'LAN_MAILOUT_132' => "Odeslání dokončeno",
     'LAN_MAILOUT_134' => "Priorita",
     'LAN_MAILOUT_136' => "Stav odchozí pošty",
-    'LAN_MAILOUT_137' => "Mail Ref",
+    'LAN_MAILOUT_137' => "Ref. zprávy",
     'LAN_MAILOUT_138' => "Stav e-mailu",
     'LAN_MAILOUT_139' => "Datum aktivace",
     'LAN_MAILOUT_140' => "E-mail příjemce",
     'LAN_MAILOUT_141' => "Jméno příjemce",
     'LAN_MAILOUT_142' => "ID uživatele příjemce",
-    'LAN_MAILOUT_143' => "Recipient ref.",
+    'LAN_MAILOUT_143' => "Ref. příjemce",
     'LAN_MAILOUT_144' => "Odražený",
     'LAN_MAILOUT_145' => "Nový e-mail uložen",
     'LAN_MAILOUT_146' => "Chyba při ukládání e-mailu",
@@ -191,7 +191,7 @@ return [
     'LAN_MAILOUT_191' => "Uložené e-maily",
     'LAN_MAILOUT_192' => "Dokončené Mailshots",
     'LAN_MAILOUT_193' => "Nevyžádaná pošta",
-    'LAN_MAILOUT_194' => "Held Mailshots",
+    'LAN_MAILOUT_194' => "Pozdržené hromadné zprávy",
     'LAN_MAILOUT_200' => "Není zadán žádný předmět",
     'LAN_MAILOUT_201' => "Žádné významné údaje pro e-mail",
     'LAN_MAILOUT_202' => "žádný text v těle e-mailu",
@@ -224,7 +224,7 @@ return [
     'LAN_MAILOUT_231' => "Odrazené e-maily - způsob zpracování",
     'LAN_MAILOUT_232' => "Žádný",
     'LAN_MAILOUT_233' => "Skript pro automatické zpracování",
-    'LAN_MAILOUT_234' => "Mail account",
+    'LAN_MAILOUT_234' => "Poštovní účet",
     'LAN_MAILOUT_235' => "(Váš server musí předat nebo pipetovat z výše uvedené e-mailové adresy do výše uvedené cesty skriptu.)",
     'LAN_MAILOUT_236' => "Poslední zpracované odmítnutí",
     'LAN_MAILOUT_237' => "Souhrnné čítače byly aktualizovány na [x] e-maily",
@@ -257,11 +257,11 @@ return [
     'LAN_MAILOUT_263' => "Celkový počet příjemců",
     'LAN_MAILOUT_264' => "Vložit média",
     'LAN_MAILOUT_265' => "Čekající",
-    'LAN_MAILOUT_266' => "Max Active",
+    'LAN_MAILOUT_266' => "Max. aktivních",
     'LAN_MAILOUT_267' => "Generovat veřejné / soukromé klíče",
     'LAN_MAILOUT_268' => "Pouze vývojářský režim",
     'LAN_MAILOUT_269' => "Odeslat později",
     'LAN_MAILOUT_270' => "Test SMTP připojení",
     'LAN_MAILOUT_271' => "Autentizace se nezdařila s uživatelským jménem ([x]) a heslem ([y]):",
-    'LAN_MAILOUT_REFUSED_TOKEN_MISSING' => "That mail operation was not started, because the link carried no security token. Start it from the Mailout menu rather than from a bookmark or a link on another site.",
+    'LAN_MAILOUT_REFUSED_TOKEN_MISSING' => "Operace s poštou nebyla spuštěna, protože odkaz neobsahoval bezpečnostní token. Spusťte ji z menu Rozesílání pošty, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

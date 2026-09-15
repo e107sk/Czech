@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -46,11 +46,11 @@ return [
     'LANG_LAN_117' => "Před přidáním jazykového balíčku byste měli odstranit zbývající chyby.",
     'LANG_LAN_119' => "Zkontrolujte, zda hodnoty CORE_LC a CORE_LC2 obsahují hodnoty  [x] a zkuste to znovu.",
     'LANG_LAN_120' => "Ujistěte se, že používáte výchozí názvy složek v e107_config.php (např. e107_languages/, e107_plugins/ atd.) a zkuste to znovu.",
-    'LANG_LAN_156' => "[x] missing file(s)",
-    'LANG_LAN_157' => "[x] missing/invalid phrase(s)",
-    'LANG_LAN_158' => "[x] file(s) with BOM/illegal characters",
-    'LANG_LAN_159' => "[x] non-UTF8 phrase(s)",
-    'LANG_LAN_160' => "Tip: open the [x] tab to see the affected files/keys. Enable [y] in [z] to bypass this check and generate the pack anyway.",
+    'LANG_LAN_156' => "Chybějící soubory: [x]",
+    'LANG_LAN_157' => "Chybějící nebo neplatné fráze: [x]",
+    'LANG_LAN_158' => "Soubory s BOM nebo nepovolenými znaky: [x]",
+    'LANG_LAN_159' => "Fráze mimo UTF-8: [x]",
+    'LANG_LAN_160' => "Tip: na kartě [x] uvidíte dotčené soubory a klíče. Pokud chcete tuto kontrolu přeskočit a balíček přesto vygenerovat, zapněte [y] v [z].",
     'LANG_LAN_AGR' => "Upozornění: Pomocí těchto nástrojů souhlasíte s tím, že sdílíte své jazykové balíčky s komunitou e107.",
-    'LANG_LAN_REFUSED_TOKEN_MISSING' => "That language check was not run, because the link carried no security token. Start it from the Language Packs list rather than from a bookmark or a link on another site.",
+    'LANG_LAN_REFUSED_TOKEN_MISSING' => "Kontrola jazyka nebyla spuštěna, protože odkaz neobsahoval bezpečnostní token. Spusťte ji ze seznamu jazykových balíčků, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

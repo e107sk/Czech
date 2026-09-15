@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -16,7 +16,7 @@
 return [
     'CHATBOX_L1' => "Nemohu odeslat příspěvek, protože jméno je již registrované - pokud je vaše, přihlaste se prosím.",
     'CHATBOX_L3' => "Musíte být přihlášení, abyste zde mohli odesílat příspěvky - přihlaste se buď v přihlašovacím okně, nebo [here].",
-    'CHATBOX_L3b' => "Pokud nejste zaregistrováni, klikněte zde [here] pro registraci.",
+    'CHATBOX_L3b' => "Pokud nejste zaregistrováni, klikněte [zde] a zaregistrujte se.",
     'CHATBOX_L4' => "Odeslat novou zprávu",
     'CHATBOX_L5' => "Vyčistit",
     'CHATBOX_L6' => "[blokováno adminem]",

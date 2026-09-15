@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -36,18 +36,30 @@ return [
     'NFLAN_21' => "V menu i na stránce RSS novinek",
     'NFLAN_26' => "Aktualizační interval",
     'NFLAN_43' => "Pomoc pro RSS novinky",
-    'NFLAN_42' => "	[h=4]Název RSS:[/h]
- Identifikačním názvem RSS může být cokoliv. 
- [h=4]URL k RSS novince:[/h] 
- Adresa RSS novinky 
- [h=4]Cesta k obrázku:[/h]  
- Když má RSS definovaný obrázek, pro používání vložte 'přednastavené'. Pro použití vlastního obrázku, vložte plnou cestu k obrázku. A nakonec, nechte prázdné, pokud nechcete použít obrázek. 
- [h=4]Popis[/h] 
- Vložte krátký popis dodávky nebo 'přednastavené' pro použití popisu, který je definovaný v RSS (pokud tam nějaký je). 
- [h=4]Aktualizační interval v sekundách:[/h] 
- Počet sekund, které mají uběhnout předtím, než je RSS aktualizovaná, např.: 1800 pro 30 minut, 3600 pro 1 hodinu. 
- [h=4]Aktivace:[/h] 
- Kde chcete zobrazit výsledky RSS? Aby jste viděli menu RSS, budete potřebovat aktivovat menu [b]RSS novinek[/b] v [link=\".e_ADMIN.\"menus.php]Správci menu[/link]",
+    'NFLAN_42' => "[h=4]Název kanálu novinek[/h]
+	Zadejte název, podle kterého kanál novinek jednoznačně rozpoznáte.
+
+	[h=4]URL adresa RSS kanálu[/h]
+
+	Poskytovatel RSS vám sdělí webovou adresu (URL) kanálu novinek.
+
+	[h=4]Cesta k obrázku[/h]
+
+	Pokud poskytovatel určuje obrázek, zadejte 'default' pro jeho použití, nebo použijte vlastní obrázek zadáním jeho adresy. Pokud nechcete použít žádný obrázek, ponechte prázdné.
+
+	[h=4]Popis[/h]
+
+	Zadejte krátký popis kanálu nebo 'default' pro použití popisu definovaného v kanálu (pokud nějaký je).
+
+	[h=4]Interval aktualizace[/h]
+
+	Zadejte počet sekund, po kterých se kanál aktualizuje. 
+
+	Například 1800 = 30 minut, 3600 = 1 hodina, 86400 = 1 den.
+
+	[h=4]Aktivace[/h]
+
+	Kanály novinek lze zobrazit pouze v menu nebo na stránce kanálů novinek. Zadejte, kde se mají kanály zobrazovat. Chcete-li kanály novinek zobrazit v menu e107, musíte aktivovat [b]Menu kanálů novinek[/b] ve [link=\".e_ADMIN.\"menus.php]Správci menu[/link].",
     'NFLAN_45' => "Počet položek, které se zobrazí v menu",
     'NFLAN_46' => "Počet položek, které se zobrazí na hlavní stránce",
 ];

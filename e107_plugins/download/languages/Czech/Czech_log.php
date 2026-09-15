@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -23,19 +23,19 @@
  */
 
 return [
-    'LAN_AL_DOWNL_01' => "Soubory ke stažení - možnosti stahování byly změněny",
-    'LAN_AL_DOWNL_02' => "Soubory ke stažení - možnosti nahrávání byly změněny",
-    'LAN_AL_DOWNL_03' => "Soubory ke stažení - přidáno omezení",
-    'LAN_AL_DOWNL_04' => "Soubory ke stažení - log 04",
-    'LAN_AL_DOWNL_05' => "Soubory ke stažení - log 05",
-    'LAN_AL_DOWNL_06' => "Soubory ke stažení - log 06",
-    'LAN_AL_DOWNL_07' => "Soubory ke stažení - log 07",
-    'LAN_AL_DOWNL_08' => "Soubory ke stažení - log 08",
-    'LAN_AL_DOWNL_09' => "Soubory ke stažení - log 09",
-    'LAN_AL_DOWNL_10' => "Soubory ke stažení - limity aktualizovány",
-    'LAN_AL_DOWNL_11' => "Soubory ke stažení - limity odstraněny",
-    'LAN_AL_DOWNL_12' => "Download mirror added",
-    'LAN_AL_DOWNL_13' => "Download mirror updated",
-    'LAN_AL_DOWNL_14' => "Download mirror deleted",
+    'LAN_AL_DOWNL_01' => "Možnosti stahování změněny",
+    'LAN_AL_DOWNL_02' => "Kategorie souborů ke stažení vytvořena",
+    'LAN_AL_DOWNL_03' => "Kategorie souborů ke stažení aktualizována",
+    'LAN_AL_DOWNL_04' => "Kategorie souborů ke stažení smazána",
+    'LAN_AL_DOWNL_05' => "Soubor ke stažení vytvořen",
+    'LAN_AL_DOWNL_06' => "Soubor ke stažení aktualizován",
+    'LAN_AL_DOWNL_07' => "Soubor ke stažení smazán",
+    'LAN_AL_DOWNL_08' => "Pořadí kategorií souborů ke stažení aktualizováno",
+    'LAN_AL_DOWNL_09' => "Limit stahování přidán",
+    'LAN_AL_DOWNL_10' => "Limit stahování upraven",
+    'LAN_AL_DOWNL_11' => "Limit stahování smazán",
+    'LAN_AL_DOWNL_12' => "Zrcadlo pro stahování přidáno",
+    'LAN_AL_DOWNL_13' => "Zrcadlo pro stahování aktualizováno",
+    'LAN_AL_DOWNL_14' => "Zrcadlo pro stahování smazáno",
     'LAN_AL_DOWNL_15' => "",
 ];

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: Jimako $
 +---------------------------------------------------------------+
@@ -14,15 +14,15 @@
 
 
 return [
-	'LAN_SIGNIN_USERNAME'    => "Username:",
+	'LAN_SIGNIN_USERNAME'    => "Uživatelské jméno:",
 	'LAN_SIGNIN_EMAIL'       => "Email:",
-	'LAN_SIGNIN_USEREMAIL'   => "Username or Email:",
-	'LAN_SIGNIN_SIGNIN'      => "Sign In",
-	'LAN_SIGNIN_SIGNUP'      => "Sign up",
-	'LAN_SIGNIN_REMEMBER'    => "Remember me",
-	'LAN_SIGNIN_FPW'         => "Forgot password?",
-	'LAN_SIGNIN_RESEND'      => "Resend Activation Email",
-	'LAN_SIGNIN_PROFILE'     => "Profile",
-	'LAN_SIGNIN_ADMIN'       => "Admin Area",
-	'LAN_SIGNIN_MAINTENANCE' => "The maintenance flag is true - this means normal visitors are being redirected to sitedown.php. To reset the flag go to admin/maintenance.",
+	'LAN_SIGNIN_USEREMAIL'   => "Uživatelské jméno nebo email:",
+	'LAN_SIGNIN_SIGNIN'      => "Přihlásit se",
+	'LAN_SIGNIN_SIGNUP'      => "Registrovat se",
+	'LAN_SIGNIN_REMEMBER'    => "Zapamatovat si mě",
+	'LAN_SIGNIN_FPW'         => "Zapomněli jste heslo?",
+	'LAN_SIGNIN_RESEND'      => "Znovu odeslat aktivační email",
+	'LAN_SIGNIN_PROFILE'     => "Profil",
+	'LAN_SIGNIN_ADMIN'       => "Administrace",
+	'LAN_SIGNIN_MAINTENANCE' => "Příznak údržby je zapnutý - běžní návštěvníci jsou přesměrováni na sitedown.php. Příznak zrušíte v administraci v části Údržba.",
 ];

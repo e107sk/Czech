@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -37,7 +37,7 @@ return [
     'LAN_ERROR_25' => "[1]: Nelze načíst nastavení jádra z databáze - Data existují ale nemohou být použita. Pokouším se obnovit zálohu jádra...",
     'LAN_ERROR_26' => "[2]:  Nelze načíst nastavení jádra z databáze - Data neexistují.",
     'LAN_ERROR_27' => "[3]: Nastavení jádra uloženo - záloha aktivována.",
-    'LAN_ERROR_28' => "[4]: Záloha jádra nenalezena. Zkontrolujte, zda má databáze správný obsah.",
+    'LAN_ERROR_28' => "[4]: Záloha jádra nenalezena. Zkontrolujte, zda databáze obsahuje platná data.",
     'LAN_ERROR_29' => "[5]: Některá pole nebyla vyplněna. Prosím vyplňte všechna požadovaná pole a odešlete formulář znovu.",
     'LAN_ERROR_30' => "[6]: Nelze se spojit s databází. Zkontrolujte, zda soubor e107_config.php obsahuje správné informace.",
     'LAN_ERROR_31' => "[7]: SQL server běží, ale nelze se připojit k databázi [x].<br />Zkontrolujte, zda databáze funguje a zda soubor e107_config.php obsahuje správné informace.",

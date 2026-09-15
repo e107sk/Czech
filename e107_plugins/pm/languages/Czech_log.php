@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -24,6 +24,6 @@ return [
     'LAN_AL_PM_ADM_08' => "SZ: Chyba při vytváření omezení dat",
     'LAN_AL_PM_ADM_09' => "SZ: Chyba při aktualizaci limitu dat",
     'LAN_AL_PM_ADM_10' => "SZ: Chyba při odstraňování omezení dat",
-    'LAN_AL_PM_ADM_11' => "PM: Stored attachments could not be protected from direct download",
-    'LAN_AL_PM_ADM_12' => "PM: Attachment refused, its directory could not be protected from direct download",
+    'LAN_AL_PM_ADM_11' => "SZ: Uložené přílohy nelze ochránit proti přímému stažení",
+    'LAN_AL_PM_ADM_12' => "SZ: Příloha odmítnuta, její adresář nelze ochránit proti přímému stažení",
 ];

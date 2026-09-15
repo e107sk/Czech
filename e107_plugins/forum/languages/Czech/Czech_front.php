@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -189,7 +189,7 @@ return [
     'LAN_FORUM_2044' => "E-mail", // FORLAN_101",
     'LAN_FORUM_2045' => "Tisk", // FORLAN_102",
     'LAN_FORUM_2046' => "Zpráva", // LAN_413",
-    'LAN_FORUM_2047' => "You have reported something very recently. Please wait a moment before sending another report.", // new",
+    'LAN_FORUM_2047' => "Nedávno jste již něco nahlásili. Před odesláním dalšího hlášení prosím chvíli počkejte.", // new",
 
 
 
@@ -264,7 +264,7 @@ return [
     'LAN_FORUM_OPEN' => "Znovu otevřít vlákno.",
     'LAN_FORUM_STICK' => "Vlákno je přišpendleno.",
     'LAN_FORUM_UNSTICK' => "Vlákno nepřišpedlené.",
-    'LAN_FORUM_ATTACHMENT_REFUSED_UNPROTECTED' => "Attachment refused: its directory could not be protected from direct download. Please tell the site administrator.",
+    'LAN_FORUM_ATTACHMENT_REFUSED_UNPROTECTED' => "Příloha odmítnuta: její adresář nelze ochránit proti přímému stažení. Informujte prosím administrátora webu.",
 
 
 
@@ -355,7 +355,7 @@ return [
     'LAN_FORUM_8029' => "Nové téma vytvořeno!",
     'LAN_FORUM_8030' => "Příspěvek nelze odstranit (je třeba oprávnění moderátora)",
 
-    'LAN_FORUM_REFUSED_TOKEN_MISSING' => "Nothing was marked as read, because the link carried no security token. Use the new-posts marker on the forum list rather than a bookmark or a link on another site.",
+    'LAN_FORUM_REFUSED_TOKEN_MISSING' => "Nic nebylo označeno jako přečtené, protože odkaz neobsahoval bezpečnostní token. Použijte označení nových příspěvků v seznamu fór, nikoli záložku v prohlížeči nebo odkaz na jiném webu.",
 
 /*  THIS WILL BE DELETED ONCE THE REWRITE IS DONE
 ==================================================

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -48,7 +48,7 @@ return [
     'LAN_AUDIT_LOG_022' => "Zakázání uživatele",
     'LAN_AUDIT_LOG_023' => "Odražení uživatelé reset",
     'LAN_AUDIT_LOG_024' => "Uživatel dočasný status",
-    'LAN_AUDIT_LOG_025' => "User navigation trail",
+    'LAN_AUDIT_LOG_025' => "Navigační stopa uživatele",
     'LAN_AL_ADLOG_01' => "Admin. záznam - preference aktualizovány",
     'LAN_AL_ADLOG_02' => "Admin. záznam - smazání starých dat",
     'LAN_AL_ADLOG_03' => "Uživatelské protokoly - starší data smazána",
@@ -166,7 +166,7 @@ return [
     'LAN_AL_BANNER_06' => "",
     'LAN_AL_IMALAN_00' => "Neznámá zpráva související s obrazem",
     'LAN_AL_IMALAN_01' => "Avatar byl smazán",
-    'LAN_AL_IMALAN_02' => "All avatars and photos deleted",
+    'LAN_AL_IMALAN_02' => "Všechny avatary a fotografie smazány",
     'LAN_AL_IMALAN_03' => "Avatar odstraněn",
     'LAN_AL_IMALAN_04' => "Nastavení aktualizováno",
     'LAN_AL_IMALAN_05' => "",
@@ -257,7 +257,7 @@ return [
     'LAN_AL_MEDIA_01' => "Nahrávání médií",
     'LAN_AL_USET_100' => "Administrátor je přihlášen jako jiný uživatel",
     'LAN_AL_USET_101' => "Administrátor byl odhlášen jako jiný uživatel",
-    'LAN_AL_USET_102' => "Admin started permission emulation of another user",
-    'LAN_AL_USET_103' => "Admin stopped permission emulation of another user",
-    'LAN_AL_CSRF_01' => "POST request carried no security token",
+    'LAN_AL_USET_102' => "Administrátor zahájil emulaci oprávnění jiného uživatele",
+    'LAN_AL_USET_103' => "Administrátor ukončil emulaci oprávnění jiného uživatele",
+    'LAN_AL_CSRF_01' => "POST požadavek neobsahoval bezpečnostní token",
 ];

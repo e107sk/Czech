@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -115,7 +115,7 @@ return [
     'TPVLAN_92' => "Nová složka tématu",
     'TPVLAN_93' => "Výběr",
     'TPVLAN_94' => "Téma webu změněno na [x].",
-    'TPVLAN_95' => "Skin",
+    'TPVLAN_95' => "Skin (vzhled)",
     'TPVLAN_96' => "Nastavte adresy URL / cesty skriptů, které by toto rozvržení měly používat automaticky. Jeden na řádek.",
     'TPVLANHELP_01' => "Správce vzhledů umožňuje nastavit veřejné téma stránek a téma oblasti administrace.",
     'TPVLANHELP_02' => "Další podrobnosti naleznete v popisech (jsou-li k dispozici).",
@@ -124,6 +124,6 @@ return [
     'TPVLANHELP_05' => "Koncové řádky s [b]$[/b] přesně odpovídají konci skriptu.",
     'TPVLANHELP_06' => "Začněte řádky s [b]: [/b], aby se částečně nebo úplně shodovaly s konstantou e_ROUTE.",
     'TPVLAN_97' => "Toto téma vyžaduje novější verzi e107.",
-    'LAN_THEME_OPTIONS_NOT_SAVED' => "Theme options were not saved.",
-    'TPVLAN_REFUSED_TOKEN_MISSING' => "The theme was not copied, because the link carried no security token. Start it from the Theme Manager's create form rather than from a bookmark or a link on another site.",
+    'LAN_THEME_OPTIONS_NOT_SAVED' => "Možnosti tématu nebyly uloženy.",
+    'TPVLAN_REFUSED_TOKEN_MISSING' => "Téma nebylo zkopírováno, protože odkaz neobsahoval bezpečnostní token. Spusťte kopírování z formuláře pro vytvoření ve Správci témat, nikoli ze záložky v prohlížeči nebo z odkazu na jiném webu.",
 ];

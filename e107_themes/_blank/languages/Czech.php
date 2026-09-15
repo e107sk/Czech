@@ -4,23 +4,23 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: Jimako $
 +---------------------------------------------------------------+
 */
 
 return [
-    'EMESSLAN_TITLE_INFO' => "System Information",
-    'EMESSLAN_TITLE_SUCCESS' => "Success",
-    'EMESSLAN_TITLE_WARNING' => "Warning",
-    'EMESSLAN_TITLE_DEBUG' => "System Debug",
-    'LAN_THEME_1' => "Comments are turned off for this item",
-    'LAN_THEME_2' => "Read/Post Comment: ",
-    'LAN_THEME_3' => "Read the rest...",
+    'EMESSLAN_TITLE_INFO' => "Systémové informace",
+    'EMESSLAN_TITLE_SUCCESS' => "Úspěch",
+    'EMESSLAN_TITLE_WARNING' => "Upozornění",
+    'EMESSLAN_TITLE_DEBUG' => "Ladění systému",
+    'LAN_THEME_1' => "Komentáře jsou u této položky vypnuty",
+    'LAN_THEME_2' => "Číst/přidat komentář: ",
+    'LAN_THEME_3' => "Číst dále...",
 // 'LAN_THEME_4' => "Trackbacks: ",
-    'LAN_THEME_5' => "Posted by ",
-    'LAN_THEME_6' => "on ",
+    'LAN_THEME_5' => "Napsal ",
+    'LAN_THEME_6' => "dne ",
 ];

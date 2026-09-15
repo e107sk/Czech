@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: Jimako $
 +---------------------------------------------------------------+
@@ -45,7 +45,7 @@ return [
     'LANA_FAQ_PREF_21' => "Sestupně podle data",
     'LANA_FAQ_PREF_22' => "Správa dotazů",
     'LANA_FAQ_PREF_23' => "Správa kategorií",
-    'LANA_FAQ_PREF_24' => "Ask a Question: character min length",
+    'LANA_FAQ_PREF_24' => "Položit otázku: minimální délka ve znacích",
     'LANA_FAQ_PREF_HELP_1' => "0 = žádný limit",
     'LANA_FAQ_PREF_HELP_2' => "Chcete-li použít výchozí, ponechte prázdné",
     'LANA_FAQ_CRON_1' => "Nezodpovězené otázky",

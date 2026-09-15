@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -79,23 +79,23 @@ return [
     'DOWLAN_113' => "Třída uživatelů",
     'DOWLAN_114' => "Přidat nový limit",
     'DOWLAN_115' => "Upravit limity",
-    'DOWLAN_116' => "Limit for that userclass already exists",
-    'DOWLAN_117' => "Limit successfully added",
-    'DOWLAN_118' => "Limit not added - unknown error",
-    'DOWLAN_119' => "Limit successfully removed",
-    'DOWLAN_120' => "Limit not removed - unknown error",
-    'DOWLAN_121' => "Limit successfully updated",
+    'DOWLAN_116' => "Limit pro tuto uživatelskou třídu již existuje",
+    'DOWLAN_117' => "Limit byl úspěšně přidán",
+    'DOWLAN_118' => "Limit nebyl přidán - neznámá chyba",
+    'DOWLAN_119' => "Limit byl úspěšně odstraněn",
+    'DOWLAN_120' => "Limit nebyl odstraněn - neznámá chyba",
+    'DOWLAN_121' => "Limit byl úspěšně aktualizován",
     'DOWLAN_122' => "Neaktivní",
     'DOWLAN_123' => "Aktivní - na soubor jsou limity pro stahování",
     'DOWLAN_124' => "Aktivní - soubor není omezen limity ke stažení",
     'DOWLAN_125' => "Limity k stahování jsou aktivní",
-    'DOWLAN_126' => "Activation status updated",
+    'DOWLAN_126' => "Stav aktivace byl aktualizován",
     'DOWLAN_128' => "Zrcadlové servery",
     'DOWLAN_129' => "nechte prázdné, pokud nechcete použít zrcadlové servery",
     'DOWLAN_130' => "Přidat další zrcadlo",
     'DOWLAN_131' => "Vybrat lokální soubor",
-    'DOWLAN_LOCAL_PATH' => "Or a path inside the downloads directory",
-    'DOWLAN_LOCAL_PATH_NOT_FOUND' => "No file of that name is in the downloads directory, so nothing was saved. Check the path against the downloads directory and submit the download again.",
+    'DOWLAN_LOCAL_PATH' => "Nebo cesta uvnitř adresáře souborů ke stažení",
+    'DOWLAN_LOCAL_PATH_NOT_FOUND' => "V adresáři souborů ke stažení není žádný soubor s tímto názvem, proto nebylo nic uloženo. Zkontrolujte cestu vůči adresáři souborů ke stažení a odešlete soubor ke stažení znovu.",
     'DOWLAN_132' => "Prosím přibližte zrcadlový server, který se má použít a adresu souboru ke stažení",
     'DOWLAN_133' => "Nastavení zrcadlového serveru bylo v databázi aktualizováno",
     'DOWLAN_134' => "Nastavení zrcadlového serveru bylo vytvořeno v databázi",
@@ -168,7 +168,7 @@ return [
     'LAN_DL_SECURITY_MODE_NONE' => "Žádný (výchozí)",
     'LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5' => "NGINX secure_link_md5",
     'LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE' => "Klepněte na tlačítko pro přepnutí seznamu proměnných podporovaných Nginx",
-    'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION' => "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>",
+    'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION' => "[Výraz NGINX secure_link_md5]",
     'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP' => "Stejný výraz jako nakonfigurován na serveru",
     'LAN_DL_SECURITY_LINK_EXPIRY' => "Doba platnosti v sekundách",
     'LAN_DL_SECURITY_LINK_EXPIRY_HELP' => "Počet sekund, po který má odkaz na stahování vydat po vygenerování. Efektivní pouze, pokud výraz podporuje čas pro  vypršení platnosti. Pokud je toto pole prázdné, je ve výchozím nastavení velmi dlouhé.",

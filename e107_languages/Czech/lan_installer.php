@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -40,10 +40,10 @@ return [
     'LANINS_027' => "MySQL Databáze:",
     'LANINS_028' => "Vytvořit Databázi?",
     'LANINS_029' => "Prefix pro tabulky:",
-    'LANINS_030' => "Server MySQL, který chcete použít pro e107. Může obsahovat i číslo portu, např. hostname:port nebo cestu k lokální zásuvce (socket), např. \":/path/to/socket\", v případě lokálního nastavení (localhost).",
+    'LANINS_030' => "Server MySQL, který má e107 používat. Může obsahovat i číslo portu, např. 'hostname:port', nebo cestu k lokálnímu socketu, např. \\\":/path/to/socket\\\" pro localhost.",
     'LANINS_031' => "Uživatelské jméno, které má e107 použít pro spojení se serverem MySQL",
     'LANINS_032' => "Heslo k tomuto uživatelskému jménu",
-    'LANINS_033' => "Databáze, do které se má e107 umístit/nainstalovat, někdy též označováno jako schema. Pokud má uživatel práva pro vytvoření databáze, můžete zvolit, aby byla databáze vytvořena automaticky (v případě, že ještě neexistuje).",
+    'LANINS_033' => "Databáze MySQL, do které se má e107 nainstalovat, někdy označovaná jako schéma. Pokud má uživatel oprávnění vytvářet databáze, můžete zvolit automatické vytvoření databáze, pokud ještě neexistuje.",
     'LANINS_034' => "Prefix, který má e107 používat při tvorbě tabulek databáze. To je užitečné hlavně pro vícero instalací e107 v rámci jedné databáze.",
     'LANINS_036' => "3",
     'LANINS_037' => "Ověření spojení s MySQL",
@@ -64,11 +64,15 @@ return [
     'LANINS_052' => "nenainstalováno",
     'LANINS_055' => "Potvrzení instalace",
     'LANINS_056' => "6",
-    'LANINS_057' => "  e107 má nyní k dispozici všechny informace nezbytné pro instalaci. Klikněte prosím na tlačítko. Bude vytvořena databáze a uložena všechna nastavení.",
+    'LANINS_057' => "e107 má nyní všechny informace potřebné k dokončení instalace.
+Kliknutím na tlačítko vytvoříte databázové tabulky a uložíte všechna nastavení.",
     'LANINS_058' => "7",
     'LANINS_060' => "Není možné přečíst soubor s daty pro sql.Ujistěte se, že soubor [b]core_sql.php[/b] existuje adresáři [b]/e107_core/sql[/b]  .",
     'LANINS_061' => "e107 se nezdařilo vytvořit všechny tabulky databáze. Před tím, než to zkusíte znovu, vyčistěte databázi a odstraňte všechny problémy.",
-    'LANINS_069' => "e107 byl úspěšně nainstalován! Z bezpečnostních důvodů je nutné nastavit přístupová práva pro soubor [b]e107_config.php[/b] zpět na 644. Po té co kliknete na tlačítko níže, smažte soubor install.php.",
+    'LANINS_069' => "e107 byl úspěšně nainstalován!
+Z bezpečnostních důvodů byste nyní měli nastavit oprávnění souboru [b]e107_config.php[/b] zpět na 644.
+
+Po kliknutí na tlačítko níže také smažte ze serveru soubor install.php.",
     'LANINS_070' => "Systému e107 se nezdařilo uložit hlavní konfiguraci na Váš server. Ujistěte se prosím, že soubor [b]e107_config.php[/b] má korektně nastavena práva.",
     'LANINS_071' => "Dokončuji instalaci",
     'LANINS_072' => "Uživatelské jméno administrátora",
@@ -118,7 +122,7 @@ return [
     'LANINS_145' => "e107 v2.x vyžaduje instalaci PHP [x]. Prosím, kontaktujte svého hostitele nebo si přečtěte informace v [y] před pokračováním.",
     'LANINS_146' => "Styl administrační oblasti",
     'LANINS_147' => "Administrace",
-    'LANINS_148' => "The MySQL connection details may not contain single quotes (') or semicolons (;).",
-    'LANINS_149' => "The table prefix may only contain letters, numbers and underscores (_).",
-    'LANINS_150' => "The version of MySQL installed on your server does not meet the minimum requirement of [x]. Please upgrade MySQL or contact your host.",
+    'LANINS_148' => "Údaje pro připojení k MySQL nesmí obsahovat apostrofy (') ani středníky (;).",
+    'LANINS_149' => "Prefix tabulek smí obsahovat pouze písmena, číslice a podtržítka (_).",
+    'LANINS_150' => "Verze MySQL nainstalovaná na vašem serveru nesplňuje minimální požadavek [x]. Aktualizujte prosím MySQL nebo kontaktujte svého poskytovatele hostingu.",
 ];

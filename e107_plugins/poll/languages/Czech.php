@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -43,6 +43,6 @@ return [
     'POLLAN_42' => "Tato anketa je určená jen pro adminy",
     'POLLAN_43' => "Nemáš oprávnění hlasovat v této anketě",
     'POLLAN_50' => "Aktivní od [x] do [y]",
-    'POLLAN_POST_POLL' => "Post Poll",
+    'POLLAN_POST_POLL' => "Odeslat anketu",
     'LAN_FORUM_3029' => "Pokud nechcete přidávat hlasování k vašemu tématu, ponechte pole prázdná.",
 ];

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -18,7 +18,7 @@
 // define("BANLAN_4", "Remove ban");
 
 return [
-    'BANLAN_5' => "Vložit IP, email nebo hostitele",
+    'BANLAN_5' => "Zadejte IP adresu, rozsah adres, emailovou adresu nebo vzor názvu hostitele",
     'BANLAN_7' => "Odůvodnění",
     'BANLAN_9' => "Zakázat návštěvu uživatele podle emailu, IP nebo hostitelské adresy",
     'BANLAN_10' => "IP / Email / Odůvodnění",
@@ -118,8 +118,8 @@ return [
     'BANLAN_125' => "Použití mé IP adresy",
     'BANLAN_126' => "IP / Email",
     'BANLAN_127' => "Smazat všechny neúspěšná přihlášení z databáze ( [x] )",
-    'BANLAN_ENTRY_FORMATS' => "An address (10.77.66.65, 2001:db8::1), a range (10.77.66.0/24, 10.77.66.1-10.77.66.100, 10.77.66.*, 2001:db8::/32), an email address (user@example.com, *@example.com) or a host name pattern (*.example.com)",
-    'BANLAN_ENTRY_INVALID' => "This entry is not an address, a range, an email address or a host name pattern, so nothing would enforce it. It was not saved. A CIDR block starts at its network address: 10.77.66.0/24, not 10.77.66.65/24.",
-    'BANLAN_ENTRY_COVERS_YOU' => "This range includes your own address, [x], so saving it would lock you out of this site. It was not saved. Add your address to the whitelist first if you mean it.",
-    'BANLAN_ENTRY_NOT_ENFORCED' => "Not enforced",
+    'BANLAN_ENTRY_FORMATS' => "Adresa (10.77.66.65, 2001:db8::1), rozsah (10.77.66.0/24, 10.77.66.1-10.77.66.100, 10.77.66.*, 2001:db8::/32), emailová adresa (user@example.com, *@example.com) nebo vzor názvu hostitele (*.example.com)",
+    'BANLAN_ENTRY_INVALID' => "Tento záznam není adresa, rozsah, emailová adresa ani vzor názvu hostitele, takže by jej nic nevynucovalo. Nebyl uložen. Blok CIDR začíná svou síťovou adresou: 10.77.66.0/24, nikoli 10.77.66.65/24.",
+    'BANLAN_ENTRY_COVERS_YOU' => "Tento rozsah zahrnuje i vaši vlastní adresu [x], takže jeho uložením byste si zablokovali přístup k tomuto webu. Nebyl uložen. Pokud to myslíte vážně, přidejte nejprve svou adresu na bílý seznam.",
+    'BANLAN_ENTRY_NOT_ENFORCED' => "Nevynucováno",
 ];

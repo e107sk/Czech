@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -34,8 +34,8 @@ return [
     'LAN_USET_18' => "Uživatelská data změněná administrátorem: [x], jméno: [y]",
     'LAN_USET_20' => "Musíte také změnit uživatelské heslo, pokud chcete změnit své přihlašovací jméno nebo e-mailovou adresu.",
     'LAN_USET_21' => "Prosím, potvrďte změny zadáním vašeho hesla:",
-    'LAN_USET_CONFIRM_PASSWORD_CHANGE' => "Please confirm the changes by entering your current password:",
-    'LAN_USET_CHANGE_NOT_COMPLETED' => "Your changes were not completed. Please try again.",
+    'LAN_USET_CONFIRM_PASSWORD_CHANGE' => "Potvrďte prosím změny zadáním svého současného hesla:",
+    'LAN_USET_CHANGE_NOT_COMPLETED' => "Vaše změny nebyly dokončeny. Zkuste to prosím znovu.",
     'LAN_USET_23' => "Ponechte prázdné, pokud chcete zachovat stávající heslo.",
     'LAN_USET_24' => "Nové heslo:",
     'LAN_USET_25' => "Znovu nové heslo:",
@@ -65,5 +65,5 @@ return [
     'LAN_USET_54' => "Potvrzovací e-mail odeslán",
     'LAN_USET_55' => "Kliknutím na následující odkaz dokončíte smazání účtu.",
     'LAN_USET_56' => "Váš účet byl smazán",
-    'LAN_USET_DELETE_LINK_INVALID' => "Your account has not been deleted, because that confirmation link is no longer valid. Ask for removal again below to receive a new one.",
+    'LAN_USET_DELETE_LINK_INVALID' => "Váš účet nebyl smazán, protože potvrzovací odkaz již není platný. Požádejte níže znovu o odstranění a obdržíte nový odkaz.",
 ];

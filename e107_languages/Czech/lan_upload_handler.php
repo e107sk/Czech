@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -31,5 +31,5 @@ return [
     'LANUPLOAD_17' => "Nepovolený název nahrávaného souboru",
     'LANUPLOAD_18' => "Nahrávaný soubor překračuje přípustné limity.",
     'LANUPLOAD_19' => "Bylo nahráno příliš mnoho souborů - nadbytek byl smazán.",
-    'LANUPLOAD_REFUSED_TOKEN_MISSING' => "Nothing was uploaded, because the request carried no security token. Upload from the Media Manager rather than from a bookmark or a link on another site.",
+    'LANUPLOAD_REFUSED_TOKEN_MISSING' => "Nic nebylo nahráno, protože požadavek neobsahoval bezpečnostní token. Nahrávejte ze Správce médií, nikoli pomocí záložky v prohlížeči nebo odkazu na jiném webu.",
 ];

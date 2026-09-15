@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -22,7 +22,7 @@ return [
     'LAN_VALIDATE_102' => "Neočekávaná hodnota",
     'LAN_VALIDATE_103' => "Nalezeny neplatné znaky",
     'LAN_VALIDATE_104' => "Neplatná e-mailová adresa",
-    'LAN_VALIDATE_105' => "Pole se neschodují",
+    'LAN_VALIDATE_105' => "Pole se neshodují",
     'LAN_VALIDATE_131' => "Příliš krátký řetězec",
     'LAN_VALIDATE_132' => "Příliš dlouhý řetězec",
     'LAN_VALIDATE_133' => "Číslo je příliš nízké",

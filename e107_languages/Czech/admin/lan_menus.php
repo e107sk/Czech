@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -63,5 +63,5 @@ return [
     'MENLAN_58' => "Správce menu umožňuje vložit a uspořádat vaše menu v šabloně. Umístěte kurzor myši nad oblast, chcete-li upravit již existující menu.",
     'MENLAN_59' => "Oblast [x]",
     'MENLAN_60' => "Toto téma používá zastaralé prvky. Všechny [x]HEADER a [x]FOOTER proměnné by měly být smazány ze souboru theme.php.",
-    'MENLAN_REFUSED_TOKEN_MISSING' => "The menu was not removed from the layout, because the link carried no security token. Remove it from the Menu Manager rather than from a bookmark or a link on another site.",
+    'MENLAN_REFUSED_TOKEN_MISSING' => "Menu nebylo odebráno z rozvržení, protože odkaz neobsahoval bezpečnostní token. Odeberte jej ve Správci menu, nikoli pomocí záložky v prohlížeči nebo odkazu na jiném webu.",
 ];

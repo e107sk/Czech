@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -20,8 +20,8 @@ return [
     'LAN_NEWS_1' => "Novinky pouze pro některé členy",
     'LAN_NEWS_2' => "K zobrazení této novinky nemáte oprávnění",
     'LAN_NEWS_9' => "Je zapnuta volba pouze název - <b>pouze název novinky bude zobrazen</b><br />",
-    'LAN_NEWS_10' => "Tato novinka je <b>neaktivní</b> (Nebude zobrazena na hlavní straně).",
-    'LAN_NEWS_11' => "Tato novinka je  <b>aktivní</b> (bude zobrazena na hlavní straně).",
+    'LAN_NEWS_10' => "Tato novinka je <b>neaktivní</b> (nebude zobrazena na úvodní stránce).",
+    'LAN_NEWS_11' => "Tato novinka je <b>aktivní</b> (bude zobrazena na úvodní stránce).",
     'LAN_NEWS_12' => "Komentáře jsou <b>zapnuty</b>.",
     'LAN_NEWS_13' => "Komentáře jsou <b>vypnuty</b>.",
     'LAN_NEWS_14' => "<br />Doba zobrazování:",

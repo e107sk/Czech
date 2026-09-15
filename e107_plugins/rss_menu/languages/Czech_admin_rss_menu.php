@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -67,7 +67,7 @@ return [
     'RSS_LAN_ADMIN_27' => "Zrušit zaškrtnutí všech",
     'RSS_LAN_ADMIN_31' => "omezením položky RSS aktualizován",
     'RSS_LAN_ADMIN_33' => "Zobrazit obrázek v News Feed?",
-    'RSS_LAN_ADMIN_34' => "Enable separate feeds for each news category?",
+    'RSS_LAN_ADMIN_34' => "Povolit samostatné kanály pro každou kategorii novinek?",
     'RSS_LAN_0' => "RSS",
     'RSS_LAN_2' => "@nospam.com",
     'RSS_LAN_3' => "noauthor@nospam.com",

@@ -4,9 +4,9 @@
 |        e107 website content management system Czech Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2026/09/15 11:11:56
+|        Last Modified: 2026/09/15 12:41:53
 |
-|        $URL: https://github.com/e107sk/Czech $
+|        $URL: https://github.com/e107translations/Czech $
 |        $Revision: 2.4.0 $
 |        $Author: OxigenO2 $
 +---------------------------------------------------------------+
@@ -48,7 +48,7 @@ return [
     'UCSLAN_32' => "Uživatelé v této třídě mohou přidat nebo odebrat z upravené třídy",
     'UCSLAN_33' => "Určuje, kdo může vidět tuto třídu v rozevíracím seznamu",
     'UCSLAN_36' => "Pokud nikdo není na vrcholu stromu, oprávnění budou nadále růst až na vrchol stromu <br /> Pokud je horní část stromu Everyone, potom se oprávnění zvýší se stromem klesá",
-    'UCSLAN_37' => "You must enter a name for the class",
+    'UCSLAN_37' => "Musíte zadat název třídy",
     'UCSLAN_38' => "Počáteční třída uživatel",
     'UCSLAN_39' => "Žádné třídy, které lze nastavit",
     'UCSLAN_40' => "Nastavit počáteční tříd",
@@ -84,7 +84,7 @@ return [
     'UCSLAN_82' => "Skupina sdružuje řadu jednotlivých tříd",
     'UCSLAN_83' => "Třídy ve skupině",
     'UCSLAN_85' => "Jsou přiděleny všechny dostupné třídy; prosím, přiřadit jednu, která se nepoužívá",
-    'UCSLAN_86' => "Některá nastavení nejsou povolena pro třídy administrátora - byly nastaveny na výchozí hodnoty.",
+    'UCSLAN_86' => "Některá nastavení nejsou pro administrátorské třídy povolena - byla nastavena na výchozí hodnoty.",
     'UCSLAN_87' => "Nedávno připojeni uživatelé",
     'UCSLAN_88' => "Identifikovaní vyhledávací boti",
     'UCSLAN_89' => "Označené třídy jsou členy skupiny",
